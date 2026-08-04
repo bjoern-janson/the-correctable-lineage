@@ -97,7 +97,11 @@ These are organizing hypotheses, not validated universal definitions or metrics.
 
 The current ontology is frozen as a candidate rather than extended with another conceptual layer.
 
-The immediate test is whether an agent can distinguish:
+The benchmark ladder now separates:
+
+### v0.1 — exposed interface failure
+
+Can an agent distinguish:
 
 \[
 M_t\rightarrow M_{t+1}
@@ -106,14 +110,28 @@ M_t\rightarrow M_{t+1}
 from:
 
 \[
-\mathcal I_t\rightarrow\mathcal I_{t+1}.
+\mathcal I_t\rightarrow\mathcal I_{t+1}
 \]
 
-`Interface Evolution Benchmark v0.1` asks whether a bounded interface revision restores a target-relevant distinction and improves held-out performance where model revision through the original interface cannot.
+when contradiction is already visible and a candidate sensor is supplied?
 
-The first executable run used 40 seeds per scenario-agent pair. All preregistered checks passed, including rejection of sufficient, useless, and uneconomic sensor revisions. The frozen negative ledger also records the main failure: a training-only correlation prevented pre-shift interface challenge, and the entire result remains compatible with ordinary active sensing, costly feature acquisition, and POMDP formulations.
+The first frozen result supports only the local diagnostic split. It remains compatible with active sensing, costly feature acquisition, and POMDP formulations.
 
-A positive result supports only the local model/interface diagnostic split. It does not validate the full corpus architecture or establish a distinct interface-evolution theory.
+### v0.2 — hidden interface fragility
+
+Can an agent pay to challenge an apparently successful interface before deployment, while avoiding maximum skepticism?
+
+The first frozen result supports only a cost-sensitive value-of-information claim: a supplied stress test can reveal hidden fragility when it breaks the training correlation.
+
+Its strongest negative result is:
+
+\[
+\boxed{
+\text{A blind challenge cannot reveal a blind interface.}
+}
+\]
+
+Neither benchmark establishes autonomous interface invention.
 
 ---
 
@@ -268,10 +286,9 @@ The corpus therefore converges on a stronger view of intelligence:
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
-- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — the frozen pre-run design separating model revision from bounded interface revision.
-- [benchmark/README.md](benchmark/README.md) — executable benchmark instructions and implementation boundary.
-- [benchmark/results/results-v0.1.md](benchmark/results/results-v0.1.md) — frozen aggregate results from the first executable run.
-- [benchmark/negative-result-ledger-v0.1.md](benchmark/negative-result-ledger-v0.1.md) — failed cases, negative controls, unresolved redundancy, and claim limits.
+- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — a minimal benchmark for exposed interface failure and bounded sensor acquisition.
+- [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — a benchmark for hidden fragility, costly interface challenge, and adaptive skepticism allocation.
+- [benchmark/README.md](benchmark/README.md) — executable benchmark instructions, frozen result artifacts, and interpretation boundaries.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
@@ -279,7 +296,7 @@ The corpus therefore converges on a stronger view of intelligence:
 
 ## Current scientific status
 
-This repository is an **interpretive synthesis**.
+This repository is an **interpretive synthesis** with two executable toy benchmarks.
 
 It does not convert the underlying repositories into one empirically validated unified theory.
 
@@ -299,7 +316,11 @@ The artifact types must remain distinct:
 \text{frozen result}.
 \]
 
-`Interface Evolution Benchmark v0.1` now has a toy implementation, automated tests, and a frozen simulated result ledger. This is not independent empirical evidence. The behavior remains compatible with active sensing, costly feature acquisition, and POMDP formulations, so no separate general interface-evolution mechanism has been established.
+`Interface Evolution Benchmark v0.1` supports a local distinction between model insufficiency and interface insufficiency under a declared collision and supplied sensor.
+
+`Interface Stress Benchmark v0.2` supports a local value-of-information distinction between maximum skepticism, no challenge, and cost-sensitive challenge under a supplied audit operator.
+
+Both remain compatible with existing active sensing, feature acquisition, experiment design, Bayesian decision, and partially observable control frameworks.
 
 Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, or a universal operator for comparing inherited history with possible futures.
 
@@ -329,7 +350,8 @@ Accordingly:
 - no candidate architecture has been evaluated or selected;
 - Interface Theory Gates 2–4 remain closed;
 - historical repository records are not modified by this synthesis;
-- broad corpus interpretations are not completed experimental claims.
+- broad corpus interpretations are not completed experimental claims;
+- neither benchmark authorizes a general theory of interface invention.
 
 ---
 
@@ -337,11 +359,11 @@ Accordingly:
 
 The long-range research object is a **correctable lineage**:
 
-> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism or interface becomes the unchallengeable judge of its own continued authority.
+> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism, interface, or challenge operator becomes the unchallengeable judge of its own continued authority.
 
 This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
 
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, or a validated method for choosing among civilizational futures.
+But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, autonomous challenge generation, or a validated method for choosing among civilizational futures.
 
 ---
 
@@ -350,6 +372,7 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 \[
 \boxed{
 \text{The corpus is a theory-engine for turning contradiction into lineage-level improvement.}
+}
 \]
 
 Its deepest object is not performance alone.
@@ -359,6 +382,7 @@ It is:
 \[
 \boxed{
 \text{the organized preservation of the ability to become less wrong.}
+}
 \]
 
 At the interface layer, that becomes:
@@ -366,6 +390,7 @@ At the interface layer, that becomes:
 \[
 \boxed{
 \text{construct better questions that reality can discriminate, then preserve the interfaces whose distinctions survive correction.}
+}
 \]
 
 Across time, that becomes:
@@ -373,4 +398,11 @@ Across time, that becomes:
 \[
 \boxed{
 \text{inherit selectively, generate prospectively, compare asymmetrically, and let reality repair the bridge.}
+\]
+
+At the current benchmark frontier:
+
+\[
+\boxed{
+\text{challenge successful interfaces when the expected value justifies it, then challenge the challenge itself.}
 \]
