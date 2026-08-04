@@ -57,6 +57,7 @@ The proposed downstream rule is:
 \[
 \boxed{
 \text{Authority may increase only over claims invariant under the remaining observational ambiguity.}
+}
 \]
 
 Identification is necessary for the exact claim, but not sufficient for epistemic or decision authority.
