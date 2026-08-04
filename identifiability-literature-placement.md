@@ -46,7 +46,7 @@ O(\theta)=P_\theta,
 q(\theta)=\text{target query}.
 \]
 
-Then target or query identifiability requires:
+Then point identification of the query requires:
 
 \[
 \boxed{
@@ -74,7 +74,7 @@ L=\widehat L\circ O.
 }
 \]
 
-This is best treated as a standard factorization criterion for target or functional identifiability, adapted to the corpus notation.
+This is best treated as a standard factorization criterion for point identification of a target or functional, adapted to the corpus notation.
 
 It should not carry novelty authority as a new general theorem of identifiability.
 
@@ -93,12 +93,14 @@ It should not carry novelty authority as a new general theorem of identifiabilit
 | hidden distinction | non-identified target dimension |
 | added sensor or environment | auxiliary variable, side information, additional experiment, observation refinement |
 | minimal interface | minimal identifying experiment or design |
-| Gate 1 | population-level identifiability |
+| Gate 1 | population-level identification |
 | Gate 2 | finite-sample estimation and uncertainty |
 | Gate 3 | predictive validation |
 | Gate 4 | causal or interventional validation |
 
-The word **interface** remains useful as a corpus-level intuition.
+The word **interface** remains useful as a corpus-level intuition:
+
+> The interface is the boundary through which reality becomes available to the observer.
 
 When communicating with statistics or machine-learning audiences, the technical object should usually be declared as an observation operator or experiment:
 
@@ -116,9 +118,9 @@ The following ideas belong to mature identifiability research rather than to a n
 
 ### Identifiability precedes estimation
 
-Identifiability is a property of the model and observation regime under population-level access.
+Identification is a property of the model and observation regime under population-level access.
 
-If two candidate systems induce the same observable distribution but differ on the target, no estimator can recover the target even with unlimited data.
+If two candidate systems induce the same observable distribution but differ on the target, no estimator can recover the exact target even with unlimited data.
 
 ### Recovery may be only up to equivalence
 
@@ -137,6 +139,47 @@ Therefore every recovery claim must state:
 \text{identified with respect to which query and modulo which ambiguity?}
 }
 \]
+
+### Partial identification and identified sets
+
+Evidence need not collapse a target to one point.
+
+Let the observational equivalence class of \(f\) be:
+
+\[
+[f]_O
+=
+\{g\in\mathcal F:O(g)=O(f)\}.
+\]
+
+For target \(L_k\), define the identified set:
+
+\[
+\boxed{
+\mathcal I_k(O(f))
+=
+\{L_k(g):g\in[f]_O\}.
+}
+\]
+
+The observation process may therefore identify:
+
+- a point value;
+- an interval or bound;
+- a sign or ordering;
+- an equivalence class;
+- a robust action ranking;
+- another invariant proposition.
+
+Point identification is the special case:
+
+\[
+|\mathcal I_k(O(f))|=1.
+\]
+
+A non-singleton identified set does not imply that nothing is known.
+
+It limits authority to statements valid over that set.
 
 ### Additional structure can break observational equivalence
 
@@ -187,9 +230,9 @@ W_{\mathrm{causal\ mechanism}}.
 
 ---
 
-## 4. Identification boundary to authority boundary
+## 4. Identified content to epistemic authority
 
-The corpus's remaining hypothesis begins downstream of identifiability.
+The corpus's remaining hypothesis begins downstream of identification.
 
 Identifiability theory asks:
 
@@ -203,38 +246,113 @@ Evidential Update Governance asks:
 
 \[
 \boxed{
-\text{Which downstream authorities may those identified distinctions legitimately change?}
+\text{Which epistemic authorities may that identified content legitimately change?}
 }
 \]
 
-Let \(L_k\) be one target dimension and \(W_k\) the corresponding authority component.
+Let \(C\) be a scientific claim and \(W(C)\) its epistemic authority.
 
-The bridge hypothesis is:
+For point-valued claims, the factorization rule is sufficient:
+
+\[
+O(f_a)=O(f_b)
+\Longrightarrow
+C(f_a)=C(f_b).
+\]
+
+For graded, bounded, or equivalence-class claims, use the more general condition:
 
 \[
 \boxed{
-\Delta W_k>0
-\text{ is permitted only when }
-L_k
-\text{ is identified under the declared observation process and test.}
+\Delta W(C)>0
+\Longrightarrow
+C=\phi(\mathcal I(O))
 }
 \]
 
-For example, if predictive performance is identified but causal mechanism is not:
+for a declared admissible claim mapping \(\phi\).
+
+An admissible \(\phi\) may return:
+
+- a point when the identified set is a singleton;
+- a bound when only bounds are identified;
+- an equivalence-class statement;
+- a sign or ordering;
+- an invariant proposition;
+- a robust decision relation.
+
+Not every mathematical function of \(\mathcal I(O)\) is evidentially admissible.
+
+In particular, \(\phi\) may not select one privileged element of a non-singleton identified set without additional declared assumptions or evidence.
+
+For example:
 
 \[
-\Delta W_{\mathrm{prediction}}>0
+\theta\in[0.2,0.5]
 \]
 
-may be justified while:
+may be identified while:
 
 \[
-\Delta W_{\mathrm{causal}}>0
+\theta=0.37
 \]
 
 is not.
 
-The governing transition is therefore:
+The strongest general rule is:
+
+\[
+\boxed{
+\text{Authority may increase only over claims whose content is invariant under the remaining observational ambiguity.}
+}
+\]
+
+### Identification is necessary but not sufficient
+
+The governance implication is asymmetric:
+
+\[
+\boxed{
+\text{not identified}
+\Longrightarrow
+\text{no authority for that exact claim},
+}
+\]
+
+but:
+
+\[
+\boxed{
+\text{identified}
+\not\Longrightarrow
+\text{epistemically authorized}.
+}
+\]
+
+Identification does not by itself establish:
+
+- finite-sample reliability;
+- measurement validity outside the declared model class;
+- robustness to misspecification;
+- transfer;
+- causal relevance;
+- stakeholder legitimacy;
+- acceptable risk;
+- action desirability.
+
+The transition is therefore:
+
+\[
+\boxed{
+\text{identified content}
+\rightarrow
+\text{eligible for evidential consideration}
+\rightarrow
+\text{governed epistemic authority update}.
+}
+\]
+
+The governing bridge remains:
 
 \[
 \boxed{
@@ -248,15 +366,194 @@ This is a proposed governance rule, not a result established by the two reviews.
 
 ---
 
-## 5. Revised claim boundary
+## 5. Epistemic authority and decision authority
+
+Belief authority and action authority are different objects.
+
+\[
+\boxed{
+W_{\mathrm{epistemic}}
+\neq
+W_{\mathrm{decision}}.
+}
+\]
+
+A mechanism may remain unidentified while one action is robustly preferred over another across every model still compatible with the evidence.
+
+Let \(\Theta(O)\) be the set of models consistent with the observation regime.
+
+If:
+
+\[
+\forall\theta\in\Theta(O):
+\mathbb E_\theta[\Lambda(A)]
+<
+\mathbb E_\theta[\Lambda(B)],
+\]
+
+then action \(A\) may receive decision authority relative to \(B\) even when the exact mechanism or parameter is not point identified.
+
+Thus:
+
+\[
+\boxed{
+\text{non-identification of mechanism}
+\not\Longrightarrow
+\text{action paralysis}.
+}
+\]
+
+But the robust decision does not identify the mechanism:
+
+\[
+\boxed{
+W_{\mathrm{action}}\uparrow
+\not\Rightarrow
+W_{\mathrm{mechanism}}\uparrow.
+}
+\]
+
+The resulting three-layer architecture is:
+
+### Layer 1 — Identification
+
+\[
+O
+\rightarrow
+\mathcal I(O).
+\]
+
+What point values, bounds, equivalence classes, orderings, or propositions survive observation?
+
+### Layer 2 — Epistemic authority
+
+\[
+\mathcal I(O)
+\rightarrow
+(W,\Sigma,\Pi,\mathcal R,\Gamma).
+\]
+
+Which claims may gain authority, over what scope, from which evidence paths, and under which reopening conditions?
+
+### Layer 3 — Decision authority
+
+\[
+(W,\Sigma,\Lambda)
+\rightarrow
+A.
+\]
+
+Which actions are justified under declared stakeholders, consequences, uncertainty, reversibility, monitoring, and rollback?
+
+The forbidden collapses are:
+
+\[
+\boxed{
+\text{observable}
+\neq
+\text{identified},
+}
+\]
+
+\[
+\boxed{
+\text{identified}
+\neq
+\text{epistemically authorized},
+}
+\]
+
+and:
+
+\[
+\boxed{
+\text{epistemically authorized}
+\neq
+\text{decision justified}.
+}
+\]
+
+---
+
+## 6. Concrete authority-transfer errors
+
+The bridge makes several benchmarkable errors explicit.
+
+### Pointification
+
+Convert an identified set into an unsupported point:
+
+\[
+\theta\in[0.2,0.5]
+\quad\Longrightarrow\quad
+\theta=0.37.
+\]
+
+### Mechanism laundering
+
+Convert predictive or associational success into causal authority:
+
+\[
+W_{\mathrm{prediction}}
+\rightarrow
+W_{\mathrm{mechanism}}.
+\]
+
+### Transport laundering
+
+Convert local validity into general validity:
+
+\[
+W_{\mathrm{environment\ A}}
+\rightarrow
+W_{\mathrm{transfer}}.
+\]
+
+### Generator laundering
+
+Convert result validity into authority over an opaque generator:
+
+\[
+W_{\mathrm{result}}
+\rightarrow
+W_{\mathrm{generator}}.
+\]
+
+### Capability laundering
+
+Convert task performance into governance legitimacy:
+
+\[
+W_{\mathrm{capability}}
+\rightarrow
+W_{\mathrm{authority}}.
+\]
+
+### Decision-story laundering
+
+Convert a robust action preference into an identified explanatory story:
+
+\[
+W_{\mathrm{action}}
+\rightarrow
+W_{\mathrm{mechanism}}.
+\]
+
+These are candidate empirical targets for Pilot 0 and the comparative protocol.
+
+---
+
+## 7. Revised claim boundary
 
 The corpus should no longer claim novelty for:
 
 - the target-identifiability factorization criterion;
 - impossibility under observational equivalence;
-- identifiability before estimation;
+- identification before estimation;
+- partial identification and identified sets;
 - identification up to equivalence classes;
-- use of auxiliary variables, environments, interventions, lags, or multiple views to break ambiguity.
+- use of auxiliary variables, environments, interventions, lags, or multiple views to break ambiguity;
+- robust decisions under ambiguity.
 
 The defensible placement is:
 
@@ -264,7 +561,7 @@ The defensible placement is:
 \boxed{
 \text{Interface Theory Gate 1}
 =
-\text{a corpus-specific reformulation of target-relative identifiability and experimental observability}.
+\text{a corpus-specific reformulation of target-relative identification and experimental observability}.
 }
 \]
 
@@ -272,17 +569,17 @@ The still-open contribution is narrower:
 
 \[
 \boxed{
-\text{Does transporting identifiability limits into explicit typed, scoped, dependency-aware, and reopenable claim records improve correction behavior?}
+\text{Does transporting identified sets and identification limits into explicit typed, scoped, dependency-aware, reopenable, and action-separated claim records improve correction behavior?}
 }
 \]
 
-That question requires comparison with mature Bayesian, causal, decision-theoretic, assurance, provenance, and scientific-governance practices.
+That question requires comparison with mature Bayesian, causal, decision-theoretic, robust, assurance, provenance, and scientific-governance practices.
 
 It is not answered by conceptual coherence or by v0.1–v0.5.
 
 ---
 
-## 6. Authority update ledger
+## 8. Authority update ledger
 
 ### Increased authority
 
@@ -307,6 +604,15 @@ W(
 \[
 W(
 \text{the corpus uses private or nonstandard terminology for established objects}
+)
+\uparrow.
+\]
+
+### Increased boundary precision
+
+\[
+W(
+\text{identified sets, not only point values, constrain permissible claim content}
 )
 \uparrow.
 \]
@@ -337,17 +643,18 @@ W(
 
 ---
 
-## 7. Publication and communication strategy
+## 9. Publication and communication strategy
 
 ### Established substrate
 
 Use standard terminology and cite mature work on:
 
-- statistical identifiability;
+- statistical identification and partial identification;
 - nonlinear ICA;
 - latent-variable models;
 - structural-equation models;
 - causal representation learning;
+- robust decision theory;
 - experimental design;
 - transportability and interventions.
 
@@ -355,7 +662,7 @@ Use standard terminology and cite mature work on:
 
 Present as hypotheses or engineering objects:
 
-- typed authority states;
+- typed epistemic and decision authority states;
 - explicit scope maps;
 - operational reopening;
 - provenance-aware correction paths;
@@ -368,7 +675,7 @@ The central empirical question is:
 
 \[
 \boxed{
-\text{Does explicit authority bookkeeping improve correction behavior relative to strongest fair alternatives after complexity cost?}
+\text{Does explicit authority bookkeeping reduce invalid transfers beyond strongest fair alternatives after complexity cost?}
 }
 \]
 
@@ -380,10 +687,12 @@ Pilot 0 and the comparative protocol address this downstream question.
 
 \[
 \boxed{
-\text{Evidence may increase authority over a target dimension only when that dimension is identified under the declared observation process, assumptions, and discrimination test.}
+\text{Evidence may increase epistemic authority only over claims that are admissible functions of the identified set under the declared observation process, assumptions, and discrimination test.}
 }
 \]
 
-This invariant is a governance proposal anchored in established identifiability theory.
+Decision authority remains separately governed by stakes, loss, robustness, reversibility, monitoring, and rollback.
+
+This invariant is a governance proposal anchored in established identification theory.
 
 Its comparative value remains open.
