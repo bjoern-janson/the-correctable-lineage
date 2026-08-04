@@ -4,7 +4,7 @@
 
 This repository is an interpretive synthesis plus four executable toy benchmarks.
 
-It does not convert the wider corpus into one empirically validated theory of intelligence, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
+It does not convert the wider corpus into one empirically validated theory of intelligence, rationality, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
 
 The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results. Interface Theory Gates 2–4 remain closed.
 
@@ -36,13 +36,71 @@ A passing toy benchmark does not authorize extrapolation beyond its declared cla
 
 \[
 \boxed{
-\text{Evidence may increase authority only along dimensions that the evidence can identify.}
+\text{Evidence may increase authority only along dimensions and scopes that the evidence can identify.}
 }
 \]
 
+Every claim update must preserve:
+
+- the measured distinction;
+- the competing hypotheses;
+- the discrimination test;
+- the provenance and dependency structure;
+- the exact earned scope \(\Sigma\);
+- the reopening conditions \(\mathcal R\);
+- an operational path by which corrective evidence can reach the update mechanism.
+
 This applies to the corpus itself.
 
-A benchmark may increase authority for a local operational distinction without increasing authority for the broader historical, psychological, civilizational, psychedelic, or intelligence interpretation that motivated it.
+---
+
+## Evidential update kernel boundary
+
+The methodological kernel is:
+
+\[
+(O,\Phi)\rightarrow F\rightarrow(\mathcal H,T,\Pi)\rightarrow U\rightarrow(W,\Sigma,\mathcal R,\Gamma).
+\]
+
+It separates:
+
+- observation from measurement;
+- measurement from interpretation;
+- interpretation from justification;
+- justification from authority;
+- authority from scope;
+- formal falsifiability from operational reopenability.
+
+It distinguishes four update operations:
+
+1. promotion;
+2. contraction;
+3. rescoping;
+4. hypothesis expansion.
+
+This is a methodological proposal, not a validated universal update operator.
+
+### Scope boundary
+
+A local result may modify:
+
+\[
+(W(H_i),\Sigma(H_i))
+\]
+
+only over the class, target, interface, conditions, horizon, and action type identified by the evidence.
+
+### Reopening boundary
+
+\[
+\mathcal R(H_i)\neq\varnothing
+\]
+
+is only formal reopenability.
+
+Operational reopenability additionally requires that corrective evidence be realistically obtainable, preserved by measurement, able to reach \(U\), permitted to produce a non-negligible negative update, and capable of triggering revision or replacement.
+
+No validated universal scalar of operational reopenability is claimed.
 
 ---
 
@@ -124,8 +182,6 @@ Autonomous generation of independent tests, unlabeled correction-path comparison
 
 When ordinary calibration holds a latent upstream dependency fixed, a supplied support-changing intervention can expose common-mode failure shared by apparently strong correction channels.
 
-In the frozen exploratory run, the intervention selector chose the lower-marginal-accuracy path unaffected by the dependency and approached the supplied-path oracle after audit cost.
-
 ### Strongest negative results
 
 \[
@@ -175,7 +231,7 @@ v0.2 supplies a bounded toy instance with an externally authored audit.
 
 ### Level 4 — Supplied correction-path diversity
 
-Can the system distinguish redundant correction channels from channels that cover different exposed failures?
+Can the system distinguish redundant channels from channels that cover different exposed failures?
 
 v0.3 supplies a bounded toy instance with labels and externally authored channels.
 
@@ -187,13 +243,13 @@ v0.4 supplies the dependency, intervention, labels, and candidate paths.
 
 ### Level 6 — Autonomous joint-misspecification diagnosis
 
-Can the system discover that its labels, causal graph, candidate interventions, and comparison regime share an unmodeled dependency?
+Can the system discover that its measurements, labels, causal graph, candidate interventions, and comparison regime share an unmodeled dependency?
 
 Open.
 
-### Level 7 — Interface and intervention invention
+### Level 7 — Interface, hypothesis, and intervention invention
 
-Can the system generate a new measurement, variable, reference frame, or intervention without being given the missing distinction or dependency?
+Can the system generate a new measurement, latent distinction, source hypothesis, reference frame, or intervention without being given the missing object?
 
 Open.
 
@@ -203,13 +259,9 @@ No authority should propagate from Levels 2–5 to Levels 6–7 without new evid
 
 ## Psychedelic/entity claim boundary
 
-Survey respondents describing memorable DMT entity encounters provide phenomenological reports, not an independent test of source ontology.
+Reports of DMT entity encounters provide phenomenological observations, not an independent test of source ontology.
 
-The benchmark analogy is limited to this structural question:
-
-\[
-\text{Are multiple apparent confirmation channels causally independent, or downstream of one altered generative process?}
-\]
+The methodological decomposition may separate rendering, presence, agency, communication, felt externality, cited justification, source authority, scope, and reopening conditions.
 
 The repository does not test telepathy, external entities, other dimensions, or any ontological interpretation of psychedelic experience.
 
@@ -222,10 +274,12 @@ The repository does not currently demonstrate:
 - biological or artificial life;
 - open-ended evolution;
 - safe recursive self-improvement;
+- a universal evidential update operator;
+- a universal scope map;
+- a universal operational-reopenability metric;
 - autonomous generation of superior reality-tracking interfaces;
-- autonomous generation of independent correction paths or interventions;
+- autonomous generation of hypotheses, independent correction paths, or interventions;
 - universal authority allocation;
-- a universal measure of epistemic independence;
 - a measurable vision or causal-mass scalar;
 - a civilizational decision procedure;
 - that historical figures instantiated the proposed mechanisms;
@@ -240,14 +294,15 @@ The framework must remain easier to challenge than to defend.
 It should be replaced, reduced, or absorbed when:
 
 1. existing formalisms explain all benchmark behavior without loss;
-2. its distinctions fail to change prediction, intervention, or error localization;
+2. its integrated decomposition does not improve correction behavior or error localization;
 3. its vocabulary expands faster than its discriminating tests;
-4. competing decompositions produce better held-out results;
-5. the framework becomes the sole judge of evidence supporting itself.
+4. scope and reopening records do not prevent authority spillover better than ordinary practice;
+5. competing decompositions produce better held-out results;
+6. the framework becomes the sole judge of evidence supporting itself.
 
 The present frontier is:
 
 \[
 \boxed{
-\text{Can a system generate or select interventions that expose dependencies absent from its supplied causal model?}
+\text{Can a system generate or select hypotheses, measurements, and interventions that expose dependencies absent from its supplied causal model?}
 }
