@@ -1,390 +1,406 @@
 # Research Boundary
 
-## Status
+## Current claim ceiling
 
-This repository is a corpus-level synthesis.
+This repository is an interpretive synthesis plus five executable toy benchmarks.
 
-It is not a new experimental gate, candidate evaluation, architecture comparison, or mechanism-selection result.
+It does not convert the wider corpus into one empirically validated theory of intelligence, rationality, life, recursive self-improvement, vision, epistemic topology, interface evolution, institutional governance, or AI alignment.
 
-The canonical evidential status of each underlying repository remains governed by that repository's own records.
-
-Historical Interface Theory records are not modified by this synthesis.
+The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results. Interface Theory Gates 2–4 remain closed.
 
 ---
 
-## 1. Current claim ceiling
-
-The present governance freeze is preserved:
+## Artifact separation
 
 \[
-\boxed{C_1+C_2}
+\text{hypothesis}
+\neq
+\text{conceptual framework}
+\neq
+\text{benchmark design}
+\neq
+\text{toy implementation}
+\neq
+\text{frozen result}
+\neq
+\text{general theory}.
 \]
 
-as defined by the governing project records.
+Conceptual coherence does not promote a proposal into evidence.
 
-No corpus-level interpretation in this repository raises that ceiling.
+A passing toy benchmark does not authorize extrapolation beyond its declared class, target, interfaces, costs, interventions, controls, candidate paths, governance loss, and evaluation shift.
 
-The distinction remains:
+---
+
+## Frozen governance rule
 
 \[
 \boxed{
-\text{qualification}
-\neq
-\text{comparison}
-\neq
-\text{selection}
+\text{Evidence may increase authority only along dimensions and scopes that the evidence can identify.}
 }
 \]
 
-Accordingly:
+Every claim update must preserve:
 
-- no candidate architecture has been comparatively evaluated;
-- no candidate architecture has been selected;
-- no downstream mechanism study is authorized by this synthesis;
-- no lineage design has been qualified for deployment;
-- no claim of safe recursive self-improvement is made.
+- the measured distinction;
+- the competing hypotheses;
+- the discrimination test;
+- the provenance and dependency structure;
+- the exact earned scope \(\Sigma\);
+- the reopening conditions \(\mathcal R\);
+- an operational path by which corrective evidence can reach the update mechanism;
+- the declared governance loss \(\Lambda\) under which one policy is preferred.
+
+This applies to the corpus itself.
 
 ---
 
-## 2. Interface Theory gate status
+## Evidential update kernel boundary
 
-The completed Interface Theory evidence is class-scoped Gate 1 evidence concerning target factorization through declared interfaces.
-
-The hierarchy remains:
+The methodological kernel is:
 
 \[
-\text{factorization}
+(O,\Phi)
 \rightarrow
-\text{estimation}
+F
 \rightarrow
-\text{predictive validity}
+(\mathcal H,T,\Pi)
 \rightarrow
-\text{causal intervention}.
-\]
-
-Current status:
-
-- Gate 1 contains frozen class-scoped records;
-- Gate 2 remains closed without a separately frozen estimation protocol;
-- Gate 3 remains closed without preregistered held-out predictive testing;
-- Gate 4 remains closed without a validated target and separately frozen intervention protocol.
-
-A corpus-level narrative cannot bypass these requirements.
-
----
-
-## 3. Authorized interpretation
-
-This repository may state that the repository family displays a recurring developmental structure involving:
-
-- interface-dependent reachability;
-- representation revision;
-- recursive adaptation;
-- causal permeability;
-- consequence-dependent selection;
-- inheritance;
-- failure attribution;
-- authority revision;
-- evidential governance.
-
-It may also interpret the family as a research lineage attempting to preserve correctability under increasing adaptive depth.
-
-These are historical and conceptual syntheses.
-
-They are not completed evidence that the proposed architecture exists as one natural system or outperforms alternatives.
-
----
-
-## 4. Explicit non-claims
-
-This repository does not establish:
-
-### Universal intelligence
-
-It does not prove that:
-
-\[
-I=C_{\mathrm{improve}}
-\]
-
-or that \(C_{\mathrm{improve}}\) is an identifiable universal scalar.
-
-The relation:
-
-\[
-I\propto C_{\mathrm{improve}}
-\]
-
-is an organizing hypothesis.
-
-### Universal correctability
-
-It does not establish a substrate-independent measure of corrigibility, permeability, adaptive authority, or revision capacity.
-
-### Open-ended evolution
-
-It does not demonstrate sustained open-ended expansion of future adaptive mechanism space.
-
-### Artificial life
-
-It does not demonstrate biological life, artificial life, autonomous reproduction, metabolism, or a living artificial lineage.
-
-The corpus concerns candidate causal conditions associated with life-like adaptive evolution.
-
-### Recursive self-improvement
-
-It does not implement or validate a system capable of safe recursive self-modification.
-
-### Alignment
-
-It does not show that increased correction capacity implies human-compatible values.
-
-\[
-C_{\mathrm{improve}}
-\neq
-\text{human alignment}.
-\]
-
-### Architecture superiority
-
-It does not show that ARC, RAD, ASEB, Axiom Forge, representation adaptation, or any other candidate mechanism is superior to simpler alternatives.
-
-### Measurement validity
-
-Equations defining quantities such as openness, authority, correction capacity, future viability, or causal mass do not by themselves establish that those quantities are identifiable, estimable, predictive, or causally manipulable.
-
----
-
-## 5. Implementation status
-
-The corpus includes toy implementations, benchmark designs, and prototype code.
-
-Some contain known defects or construct leakage.
-
-Examples include:
-
-- synthetic structural horizons encoded by the generator;
-- CTRE execution paths that do not realize the intended regime shift or state transition;
-- RAHU telemetry that reports task-supplied authority changes even for static systems;
-- simulator quantities whose labels exceed what their computations establish.
-
-These failures are part of the corpus's evidential history.
-
-They must not be remembered as completed validations.
-
----
-
-## 6. Why the failures matter
-
-The defects are not merely engineering mistakes.
-
-They reveal recurring scientific risks:
-
-\[
-\text{concept}
+U_{\Lambda}
 \rightarrow
-\text{metric}
-\rightarrow
-\text{confirmation}
+(W,\Sigma,\mathcal R,\Gamma).
 \]
+
+It separates observation, measurement, interpretation, justification, authority, scope, governance loss, and operational reopening.
+
+It distinguishes four update operations:
+
+1. promotion;
+2. contraction;
+3. rescoping;
+4. hypothesis expansion.
+
+This is a methodological proposal, not a validated universal update operator.
+
+### Scope boundary
+
+A local result may modify:
 
 \[
-\text{benchmark construction}
-\rightarrow
-\text{reported discovery of benchmark construction}
+(W(H_i),\Sigma(H_i))
 \]
+
+only over the class, target, interface, conditions, horizon, and action type identified by the evidence.
+
+### Reopening boundary
 
 \[
-\text{task telemetry}
-\rightarrow
-\text{apparent system adaptation}
+\mathcal R(H_i)\neq\varnothing
 \]
 
-The appropriate update is not to erase the corpus.
+is only formal reopenability.
 
-It is to reduce claim authority, identify the failed mechanism, preserve unaffected conceptual distinctions, and revise the experimental contract.
+Operational reopenability additionally requires realistically obtainable evidence, preserved measurement, access to \(U\), a non-negligible negative response, and permitted revision or replacement.
 
----
+### Governance-loss boundary
 
-## 7. Current hard boundaries
-
-Several central problems remain unresolved.
-
-### Target legitimacy
-
-Interface Theory can determine whether a declared target factors through a declared interface.
-
-It does not determine whether the target should govern the system.
-
-### Causal decomposition
-
-Local correction assumes that responsible mechanisms can be separated observationally and interventionally.
-
-That assumption may fail in distributed or entangled systems.
-
-### Attribution
-
-The true failure address is rarely directly observable.
-
-Attribution procedures may themselves be wrong, self-protective, or non-identifiable.
-
-### Ontology migration
-
-When the system changes its representation or mechanism decomposition, evidence and authority must be transported into the new schema without erasing accountability.
-
-No general migration protocol is established.
-
-### Counterfactual recoverability
-
-A system follows one realized trajectory while improvement claims require comparison with alternatives.
-
-The required counterfactuals may be unavailable or altered by the intervention itself.
-
-### Exteriority
-
-A system can model and optimize against its evaluators, reducing their capacity to supply independent correction.
-
-No permanent external oracle solves this problem because the oracle must also remain correctable.
-
-### Temporal calibration
-
-Fast revision can capture noise or propagate attribution error.
-
-Slow revision can allow irreversible harm or adaptive debt to compound.
-
-No general update-rate law is established.
-
-### Value and viability
-
-Future viability expansion is not normatively self-justifying.
-
-A lineage may become more viable relative to a selection environment while becoming less acceptable to humans.
-
----
-
-## 8. Conditions for legitimate next work
-
-Any future experimental extension should separately freeze:
-
-1. system class \(F\);
-2. target \(L\);
-3. observation interface \(O\);
-4. resource and timing budget;
-5. factorization criterion;
-6. estimation protocol if Gate 1 passes;
-7. preregistered predictive baselines if Gate 2 passes;
-8. intervention and matched controls if Gate 3 passes;
-9. provenance and audit requirements;
-10. explicit stopping, rollback, and interpretation rules.
-
-The experiment should distinguish:
+A policy cannot be called preferable without declaring which errors, harms, delays, and complexity costs it is optimized to avoid.
 
 \[
-\text{available mechanism}
-\neq
-\text{selected mechanism}
-\neq
-\text{current performance}
-\neq
-\text{future adaptive capacity}.
+\Lambda=\sum_k\lambda_kL_k
 \]
 
-It should also preserve:
+is domain- and stakeholder-dependent.
+
+No universal loss terms or weights are claimed.
+
+---
+
+## v0.1 — Exposed interface diagnosis
+
+### Supported local claim
+
+Under a declared collision:
 
 \[
-\text{measurement construction}
-\neq
-\text{hypothesis evaluation}.
+O_0(s_a)=O_0(s_b),
+\qquad
+L(s_a)\neq L(s_b),
 \]
 
----
+additional optimization over \(O_0\) cannot recover the erased distinction, while a supplied paid sensor can restore it and improve held-out net reward.
 
-## 9. What would count as real progress
-
-Examples of legitimate progress include:
-
-- proving factorization for a new declared class and target;
-- producing a failure witness showing that a current interface is insufficient;
-- constructing a finite-sample estimator only after Gate 1 is frozen;
-- showing held-out predictive value beyond preregistered baselines;
-- demonstrating a controlled intervention on a validated target;
-- reproducing the result independently;
-- finding that a simpler mechanism matches or exceeds a proposed recursive architecture;
-- identifying a contradiction that reduces the authority of a corpus-level interpretation.
-
-Negative results are progress when they improve the map of what can and cannot be claimed.
-
----
-
-## 10. RSI boundary
-
-Applying this corpus to a recursive self-improvement system would be a high-stakes intervention.
-
-The corpus might encourage:
-
-- deeper self-audit;
-- localized modification;
-- evidence provenance;
-- counterfactual testing;
-- conditional inheritance.
-
-It might also enable:
-
-- sophisticated self-justification;
-- control of evaluative interfaces;
-- optimization of corrigibility proxies;
-- recursive attribution error;
-- constitutional capture;
-- accelerated movement toward alien viability.
-
-Therefore the corpus should not be interpreted as an executable RSI safety protocol.
-
-A system that can describe correctability is not necessarily governed by it.
-
----
-
-## 11. The current frontier
-
-The broad research question is:
+### Strongest negative result
 
 \[
 \boxed{
-\text{How can a bounded adaptive lineage increase causal capability while preserving independent, target-relevant, and operationally effective correction of the machinery producing future adaptation?}
+\text{No experienced contradiction}
+\Rightarrow
+\text{no interface challenge in v0.1}.
 }
 \]
 
-The sharper experimental frontier is:
+### Not supported
 
-\[
-\boxed{
-\text{Can the evidence required to identify, localize, and validate an error-to-revision mechanism be made observable through a declared interface before that mechanism is compared or selected?}
-}
-\]
-
-Until that is resolved, downstream architecture comparison and selection remain blocked.
+Autonomous sensor invention, unknown-variable discovery, ontology generation, scientific creativity, or a distinct theory beyond active sensing, costly feature acquisition, and POMDP formulations.
 
 ---
 
-## Final boundary statement
+## v0.2 — Hidden interface stress testing
 
-This repository records the shape of the search.
+### Supported local claim
 
-It does not declare the search complete.
+A supplied stress test can expose a training-only proxy when it breaks the relevant correlation, and a value-of-information policy can allocate challenge cost under declared risk and horizon.
+
+### Strongest negative result
 
 \[
 \boxed{
-\text{Synthesis is not validation.}
+\text{A blind challenge cannot reveal a blind interface.}
+}
+\]
+
+### Not supported
+
+Autonomous challenge generation, validation of the challenge operator, unknown-distinction discovery, target revision, or a distinct theory beyond Bayesian decision and experimental design.
+
+---
+
+## v0.3 — Correction-path diversity selection
+
+### Supported local claim
+
+Under a declared shared-blind-spot shift, failure-conditioned correction coverage can outperform marginal-accuracy selection and correlated vote count over a supplied channel set.
+
+### Strongest negative result
+
+\[
+\boxed{
+\text{No exposed failure or independent intervention}
+\Rightarrow
+\text{no identified correction-path independence.}
+}
+\]
+
+### Not supported
+
+Autonomous generation of independent tests, unlabeled correction-path comparison, inference of future shift importance, causal independence from decorrelation alone, or validation of the calibration process itself.
+
+---
+
+## v0.4 — Correction-ecosystem intervention
+
+### Supported local claim
+
+When ordinary calibration holds a latent upstream dependency fixed, a supplied support-changing intervention can expose common-mode failure shared by apparently strong correction channels.
+
+### Strongest negative results
+
+\[
+\boxed{
+\text{A blind intervention cannot validate a blind correction ecosystem.}
+}
+\]
+
+and:
+
+\[
+\boxed{
+\text{identified ecosystem compromise}
+\not\Rightarrow
+\text{available repair}.
+}
+\]
+
+### Not supported
+
+Autonomous latent-dependency discovery, autonomous intervention generation, truth identification without a correctness reference, universal independence measurement, or external validation of altered-state source interpretations.
+
+---
+
+## v0.5 — Claim-contract governance
+
+### Supported local claim
+
+Under one evaluator-authored governance loss, an explicit claim contract can avoid several errors unavailable to an authority-only state:
+
+- local-to-global authority spillover;
+- global rejection after a local transfer failure;
+- forced certainty under an omitted-model residual;
+- treating a listed but unreachable falsifier as operational correctability;
+- counting repeated outputs from one generator as independent confirmation;
+- responding too weakly to a reachable predeclared reopening event.
+
+The scope-only baseline handles the first two errors.
+
+The full contract handles the additional dependency, unresolved-state, and reopening probes while paying nonzero overhead in the stable-global-truth control.
+
+### Strongest negative result
+
+\[
+\boxed{
+\text{The benchmark rewards the distinctions it was designed to encode; transfer and comparative advantage remain unestablished.}
+}
+\]
+
+### Not supported
+
+- a universal governance loss;
+- optimal belief or authority revision;
+- autonomous scope discovery;
+- autonomous dependency discovery;
+- autonomous hypothesis invention;
+- autonomous reopening-rule generation;
+- superiority over existing Bayesian, causal, decision-theoretic, provenance, selective-prediction, or assurance systems that encode equivalent state.
+
+---
+
+## Correction-path capture boundary
+
+`correction-path-capture.md` proposes a cross-domain structural audit.
+
+Let \(\mathcal P^-\) be the operational paths through which adverse evidence can produce material authority or action reduction.
+
+A complete correction cut \(K\) intersects every path:
+
+\[
+\forall p^-\in\mathcal P^-:
+K\cap p^-\neq\varnothing.
+\]
+
+The proposed design requirement is:
+
+\[
+\boxed{
+\text{Do not permit one interested actor unilateral control of a complete cut across all material negative correction paths.}
+}
+\]
+
+This generalizes beyond AI to corporations, scientific communities, governments, engineering organizations, and this repository's own evaluation process.
+
+It does not establish:
+
+- a universal scalar of authority concentration;
+- a numerical phase-transition threshold;
+- that distributed authority guarantees safety or truth;
+- that external evaluators are independent, competent, or benevolent;
+- that every governance domain requires the same architecture;
+- that any named current AI system has captured its correction paths;
+- that the corpus can realign, contain, or govern an advanced strategic agent.
+
+The phase-transition language remains a hypothesis: operational correction may collapse abruptly when an incumbent gains control of a complete cut, even if visible cooperation and uncertainty change smoothly.
+
+---
+
+## Current research ladder
+
+### Level 1 — Interface utilization
+
+Given an interface, can the system use it effectively?
+
+### Level 2 — Exposed interface diagnosis
+
+Given contradiction, can the system distinguish model error from interface insufficiency?
+
+v0.1 supplies a bounded toy instance.
+
+### Level 3 — Hidden interface stress testing
+
+Can the system challenge apparent success before deployment when challenge has a cost?
+
+v0.2 supplies a bounded toy instance with an externally authored audit.
+
+### Level 4 — Supplied correction-path diversity
+
+Can the system distinguish redundant channels from channels that cover different exposed failures?
+
+v0.3 supplies a bounded toy instance with labels and externally authored channels.
+
+### Level 5 — Supplied common-mode dependency audit
+
+Can an intervention vary a hidden upstream dependency and reveal ecosystem-wide failure?
+
+v0.4 supplies the dependency, intervention, labels, and candidate paths.
+
+### Level 6 — Integrated claim-contract governance
+
+Can explicit scope, dependency, unresolved-state, loss, and reopening records reduce declared governance errors relative to simpler claim states?
+
+v0.5 supplies all fields, policies, scenarios, ground truth, and loss weights.
+
+### Level 7 — Autonomous governance-object revision
+
+Can a system discover or generate the missing hypothesis, scope, dependency, loss term, reopening rule, measurement, intervention, or correction-cut model?
+
+Open.
+
+No authority should propagate from Levels 2–6 to Level 7 without new evidence.
+
+---
+
+## Psychedelic/entity claim boundary
+
+Reports of DMT entity encounters provide phenomenological observations, not an independent test of source ontology.
+
+The methodological decomposition may separate rendering, presence, agency, communication, felt externality, cited justification, source authority, scope, governance loss, and reopening conditions.
+
+The repository does not test telepathy, external entities, other dimensions, or any ontological interpretation of psychedelic experience.
+
+---
+
+## Explicit non-claims
+
+The repository does not currently demonstrate:
+
+- biological or artificial life;
+- open-ended evolution;
+- safe recursive self-improvement;
+- a universal evidential update operator;
+- a universal scope map;
+- a universal governance loss;
+- a universal operational-reopenability metric;
+- a universal authority-concentration or correction-cut metric;
+- autonomous generation of superior interfaces, hypotheses, scopes, correction paths, loss contracts, interventions, or governance controls;
+- universal authority allocation;
+- a measurable vision or causal-mass scalar;
+- a civilizational decision procedure;
+- AGI alignment, containment, or moral conversion;
+- that historical figures instantiated the proposed mechanisms;
+- that the Eye of Horus historically encoded this framework.
+
+---
+
+## Replacement condition
+
+The framework must remain easier to challenge than to defend.
+
+It should be replaced, reduced, or absorbed when:
+
+1. existing formalisms explain all benchmark behavior without loss;
+2. the integrated decomposition does not improve correction behavior or error localization;
+3. its vocabulary expands faster than its discriminating tests;
+4. scope, loss, reopening, and control records do not prevent authority spillover or correction capture better than ordinary practice;
+5. independently designed tasks do not reproduce the claimed advantage;
+6. contract overhead exceeds avoided governance loss in relevant domains;
+7. graph-based correction-cut analysis adds no operational value beyond existing assurance, control, or institutional methods;
+8. the framework becomes the sole judge of evidence supporting itself.
+
+The present frontiers are:
+
+\[
+\boxed{
+\text{Can outsiders use the framework without inventor arbitration?}
 }
 \]
 
 \[
 \boxed{
-\text{A coherent lineage map does not authorize a lineage architecture.}
+\text{Does it improve externally authored correction tasks better than mature alternatives?}
 }
 \]
 
 \[
 \boxed{
-\text{The ability to imagine recursive correction does not establish the ability to measure, build, or safely govern it.}
+\text{Can a system generate or revise missing governance objects and detect capture of its own correction architecture?}
 }
 \]

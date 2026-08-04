@@ -1,0 +1,617 @@
+{
+  "aggregate": [
+    {
+      "accuracy_mean": 0.748076,
+      "accuracy_sd": 0.005923497615429586,
+      "agent": "count_all_tests",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": -0.9519240000000002,
+      "net_reward_sd": 0.005923497615429586,
+      "scenario": "all_costly",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 1.7000000000000002,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "majority_all": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.6905459999999999,
+      "accuracy_sd": 0.00650561941708858,
+      "agent": "independence_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6905459999999999,
+      "net_reward_sd": 0.00650561941708858,
+      "scenario": "all_costly",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.6905459999999999,
+      "accuracy_sd": 0.00650561941708858,
+      "agent": "oracle_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6905459999999999,
+      "net_reward_sd": 0.00650561941708858,
+      "scenario": "all_costly",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.6905459999999999,
+      "accuracy_sd": 0.00650561941708858,
+      "agent": "primary_only",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6905459999999999,
+      "net_reward_sd": 0.00650561941708858,
+      "scenario": "all_costly",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.6905459999999999,
+      "accuracy_sd": 0.00650561941708858,
+      "agent": "raw_accuracy_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6905459999999999,
+      "net_reward_sd": 0.00650561941708858,
+      "scenario": "all_costly",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.97399,
+      "accuracy_sd": 0.0022605087922854946,
+      "agent": "count_all_tests",
+      "calibration_primary_failures_mean": 686.83,
+      "n_seeds": 100,
+      "net_reward_mean": 0.88399,
+      "net_reward_sd": 0.0022605087922854946,
+      "scenario": "all_independent",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.09,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "majority_all": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.950126,
+      "accuracy_sd": 0.0028012361556998397,
+      "agent": "independence_selector",
+      "calibration_primary_failures_mean": 686.83,
+      "n_seeds": 100,
+      "net_reward_mean": 0.9301259999999999,
+      "net_reward_sd": 0.0028012361556998397,
+      "scenario": "all_independent",
+      "selected_correction_coverage_mean": 0.9512083428879912,
+      "selected_cost_mean": 0.02,
+      "selected_error_agreement_mean": -0.0026123642566218738,
+      "selection_counts": {
+        "independent_a": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.950126,
+      "accuracy_sd": 0.0028012361556998397,
+      "agent": "oracle_selector",
+      "calibration_primary_failures_mean": 686.83,
+      "n_seeds": 100,
+      "net_reward_mean": 0.9301259999999999,
+      "net_reward_sd": 0.0028012361556998397,
+      "scenario": "all_independent",
+      "selected_correction_coverage_mean": 0.9512083428879912,
+      "selected_cost_mean": 0.02,
+      "selected_error_agreement_mean": -0.0026123642566218738,
+      "selection_counts": {
+        "independent_a": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.735308,
+      "accuracy_sd": 0.00584550562398155,
+      "agent": "primary_only",
+      "calibration_primary_failures_mean": 686.83,
+      "n_seeds": 100,
+      "net_reward_mean": 0.735308,
+      "net_reward_sd": 0.00584550562398155,
+      "scenario": "all_independent",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.950126,
+      "accuracy_sd": 0.0028012361556998397,
+      "agent": "raw_accuracy_selector",
+      "calibration_primary_failures_mean": 686.83,
+      "n_seeds": 100,
+      "net_reward_mean": 0.9301259999999999,
+      "net_reward_sd": 0.0028012361556998397,
+      "scenario": "all_independent",
+      "selected_correction_coverage_mean": 0.9512083428879912,
+      "selected_cost_mean": 0.02,
+      "selected_error_agreement_mean": -0.0026123642566218738,
+      "selection_counts": {
+        "independent_a": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.7481019999999999,
+      "accuracy_sd": 0.005895998303934636,
+      "agent": "count_all_tests",
+      "calibration_primary_failures_mean": 0.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.688102,
+      "net_reward_sd": 0.005895998303934626,
+      "scenario": "no_exposed_primary_failures",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.06,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "majority_all": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.750386,
+      "accuracy_sd": 0.005902491338409577,
+      "agent": "independence_selector",
+      "calibration_primary_failures_mean": 0.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.750386,
+      "net_reward_sd": 0.005902491338409577,
+      "scenario": "no_exposed_primary_failures",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.879178,
+      "accuracy_sd": 0.00457444160526725,
+      "agent": "oracle_selector",
+      "calibration_primary_failures_mean": 0.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.839178,
+      "net_reward_sd": 0.00457444160526725,
+      "scenario": "no_exposed_primary_failures",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.04,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "independent": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.750386,
+      "accuracy_sd": 0.005902491338409577,
+      "agent": "primary_only",
+      "calibration_primary_failures_mean": 0.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.750386,
+      "net_reward_sd": 0.005902491338409577,
+      "scenario": "no_exposed_primary_failures",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.750386,
+      "accuracy_sd": 0.005902491338409577,
+      "agent": "raw_accuracy_selector",
+      "calibration_primary_failures_mean": 0.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.750386,
+      "net_reward_sd": 0.005902491338409577,
+      "scenario": "no_exposed_primary_failures",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.750712,
+      "accuracy_sd": 0.005741381018535525,
+      "agent": "count_all_tests",
+      "calibration_primary_failures_mean": 505.71,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6607120000000001,
+      "net_reward_sd": 0.005741381018535525,
+      "scenario": "redundant_quantity",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.09,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "majority_all": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.879392,
+      "accuracy_sd": 0.004405443904988466,
+      "agent": "independence_selector",
+      "calibration_primary_failures_mean": 505.71,
+      "n_seeds": 100,
+      "net_reward_mean": 0.839392,
+      "net_reward_sd": 0.004405443904988466,
+      "scenario": "redundant_quantity",
+      "selected_correction_coverage_mean": 0.8799762604958882,
+      "selected_cost_mean": 0.04,
+      "selected_error_agreement_mean": -0.00023881126275174027,
+      "selection_counts": {
+        "independent": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.879392,
+      "accuracy_sd": 0.004405443904988466,
+      "agent": "oracle_selector",
+      "calibration_primary_failures_mean": 505.71,
+      "n_seeds": 100,
+      "net_reward_mean": 0.839392,
+      "net_reward_sd": 0.004405443904988466,
+      "scenario": "redundant_quantity",
+      "selected_correction_coverage_mean": 0.8799762604958882,
+      "selected_cost_mean": 0.04,
+      "selected_error_agreement_mean": -0.00023881126275174027,
+      "selection_counts": {
+        "independent": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.690818,
+      "accuracy_sd": 0.006591940230311553,
+      "agent": "primary_only",
+      "calibration_primary_failures_mean": 505.71,
+      "n_seeds": 100,
+      "net_reward_mean": 0.690818,
+      "net_reward_sd": 0.006591940230311553,
+      "scenario": "redundant_quantity",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.74303,
+      "accuracy_sd": 0.006042607053251104,
+      "agent": "raw_accuracy_selector",
+      "calibration_primary_failures_mean": 505.71,
+      "n_seeds": 100,
+      "net_reward_mean": 0.73303,
+      "net_reward_sd": 0.006042607053251104,
+      "scenario": "redundant_quantity",
+      "selected_correction_coverage_mean": 0.5976232331042097,
+      "selected_cost_mean": 0.01,
+      "selected_error_agreement_mean": 0.5516619518771495,
+      "selection_counts": {
+        "redundant_0": 81,
+        "redundant_1": 17,
+        "redundant_2": 2
+      }
+    },
+    {
+      "accuracy_mean": 0.748076,
+      "accuracy_sd": 0.005923497615429586,
+      "agent": "count_all_tests",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6880759999999999,
+      "net_reward_sd": 0.0059234976154295856,
+      "scenario": "shared_blind_spot_shift",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.06,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "majority_all": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.8792,
+      "accuracy_sd": 0.004562981481443909,
+      "agent": "independence_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.8392000000000001,
+      "net_reward_sd": 0.004562981481443909,
+      "scenario": "shared_blind_spot_shift",
+      "selected_correction_coverage_mean": 0.8822762744335715,
+      "selected_cost_mean": 0.04,
+      "selected_error_agreement_mean": -0.0018671268870578506,
+      "selection_counts": {
+        "independent": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.8792,
+      "accuracy_sd": 0.004562981481443909,
+      "agent": "oracle_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.8392000000000001,
+      "net_reward_sd": 0.004562981481443909,
+      "scenario": "shared_blind_spot_shift",
+      "selected_correction_coverage_mean": 0.8822762744335715,
+      "selected_cost_mean": 0.04,
+      "selected_error_agreement_mean": -0.0018671268870578506,
+      "selection_counts": {
+        "independent": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.6905459999999999,
+      "accuracy_sd": 0.00650561941708858,
+      "agent": "primary_only",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.6905459999999999,
+      "net_reward_sd": 0.00650561941708858,
+      "scenario": "shared_blind_spot_shift",
+      "selected_correction_coverage_mean": null,
+      "selected_cost_mean": 0.0,
+      "selected_error_agreement_mean": null,
+      "selection_counts": {
+        "primary": 100
+      }
+    },
+    {
+      "accuracy_mean": 0.742648,
+      "accuracy_sd": 0.005841857238926669,
+      "agent": "raw_accuracy_selector",
+      "calibration_primary_failures_mean": 504.0,
+      "n_seeds": 100,
+      "net_reward_mean": 0.732648,
+      "net_reward_sd": 0.005841857238926669,
+      "scenario": "shared_blind_spot_shift",
+      "selected_correction_coverage_mean": 0.5966961022605172,
+      "selected_cost_mean": 0.01,
+      "selected_error_agreement_mean": 0.5498850944320098,
+      "selection_counts": {
+        "redundant_a": 97,
+        "redundant_b": 3
+      }
+    }
+  ],
+  "checks": [
+    {
+      "criterion": "Failure-mode-aware selection should outperform marginal-accuracy selection after the shared blind spot becomes more common.",
+      "name": "independence_beats_marginal_accuracy_under_shift",
+      "passed": true
+    },
+    {
+      "criterion": "The diversity-aware selector should approach the supplied-path oracle in the declared shift.",
+      "name": "independence_matches_oracle_locally",
+      "passed": true
+    },
+    {
+      "criterion": "Counting many correlated tests should not match one selected independent correction path.",
+      "name": "correlated_test_count_does_not_create_independence",
+      "passed": true
+    },
+    {
+      "criterion": "When candidate errors are already independent, the diversity criterion should not invent a disagreement.",
+      "name": "all_independent_reduces_to_performance_selection",
+      "passed": true
+    },
+    {
+      "criterion": "Independence should not receive authority when every available correction path is uneconomic.",
+      "name": "costly_channels_rejected",
+      "passed": true
+    },
+    {
+      "criterion": "Without calibration failures or a stress intervention, correction-path independence should remain unidentified.",
+      "name": "unexposed_failure_blocks_independence_estimation",
+      "passed": true
+    }
+  ],
+  "scenarios": {
+    "all_costly": {
+      "calibration_episodes": 4000,
+      "channels": [
+        {
+          "cost": 0.4,
+          "name": "redundant_a",
+          "residual_error": 0.01,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.4,
+          "name": "redundant_b",
+          "residual_error": 0.015,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.9,
+          "name": "independent",
+          "residual_error": 0.12,
+          "shares_primary_blind_spot": false
+        }
+      ],
+      "description": "Every correction channel is too costly relative to its declared value.",
+      "evaluation_episodes": 5000,
+      "minimum_primary_failures": 50,
+      "name": "all_costly",
+      "primary_residual_error": 0.08,
+      "shared_failure_calibration": 0.05,
+      "shared_failure_evaluation": 0.25,
+      "stress_weight": 0.5
+    },
+    "all_independent": {
+      "calibration_episodes": 4000,
+      "channels": [
+        {
+          "cost": 0.02,
+          "name": "independent_a",
+          "residual_error": 0.05,
+          "shares_primary_blind_spot": false
+        },
+        {
+          "cost": 0.03,
+          "name": "independent_b",
+          "residual_error": 0.1,
+          "shares_primary_blind_spot": false
+        },
+        {
+          "cost": 0.04,
+          "name": "independent_c",
+          "residual_error": 0.15,
+          "shares_primary_blind_spot": false
+        }
+      ],
+      "description": "All channels have independent errors; diversity-aware selection should reduce to ordinary net-performance selection.",
+      "evaluation_episodes": 5000,
+      "minimum_primary_failures": 50,
+      "name": "all_independent",
+      "primary_residual_error": 0.08,
+      "shared_failure_calibration": 0.1,
+      "shared_failure_evaluation": 0.2,
+      "stress_weight": 0.5
+    },
+    "no_exposed_primary_failures": {
+      "calibration_episodes": 4000,
+      "channels": [
+        {
+          "cost": 0.01,
+          "name": "redundant_a",
+          "residual_error": 0.01,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_b",
+          "residual_error": 0.015,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.04,
+          "name": "independent",
+          "residual_error": 0.12,
+          "shares_primary_blind_spot": false
+        }
+      ],
+      "description": "Calibration contains no primary failure, so correction-path independence cannot be estimated before deployment shift.",
+      "evaluation_episodes": 5000,
+      "minimum_primary_failures": 50,
+      "name": "no_exposed_primary_failures",
+      "primary_residual_error": 0.0,
+      "shared_failure_calibration": 0.0,
+      "shared_failure_evaluation": 0.25,
+      "stress_weight": 0.5
+    },
+    "redundant_quantity": {
+      "calibration_episodes": 4000,
+      "channels": [
+        {
+          "cost": 0.01,
+          "name": "redundant_0",
+          "residual_error": 0.01,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_1",
+          "residual_error": 0.012,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_2",
+          "residual_error": 0.014,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_3",
+          "residual_error": 0.016,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_4",
+          "residual_error": 0.018000000000000002,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.04,
+          "name": "independent",
+          "residual_error": 0.12,
+          "shares_primary_blind_spot": false
+        }
+      ],
+      "description": "Five correlated correction channels compete with one independent channel.",
+      "evaluation_episodes": 5000,
+      "minimum_primary_failures": 50,
+      "name": "redundant_quantity",
+      "primary_residual_error": 0.08,
+      "shared_failure_calibration": 0.05,
+      "shared_failure_evaluation": 0.25,
+      "stress_weight": 0.5
+    },
+    "shared_blind_spot_shift": {
+      "calibration_episodes": 4000,
+      "channels": [
+        {
+          "cost": 0.01,
+          "name": "redundant_a",
+          "residual_error": 0.01,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.01,
+          "name": "redundant_b",
+          "residual_error": 0.015,
+          "shares_primary_blind_spot": true
+        },
+        {
+          "cost": 0.04,
+          "name": "independent",
+          "residual_error": 0.12,
+          "shares_primary_blind_spot": false
+        }
+      ],
+      "description": "Two high-marginal-accuracy channels share the primary blind spot; one lower-marginal-accuracy channel has independent errors.",
+      "evaluation_episodes": 5000,
+      "minimum_primary_failures": 50,
+      "name": "shared_blind_spot_shift",
+      "primary_residual_error": 0.08,
+      "shared_failure_calibration": 0.05,
+      "shared_failure_evaluation": 0.25,
+      "stress_weight": 0.5
+    }
+  },
+  "schema_version": "0.3",
+  "seeds": 100,
+  "status": "frozen exploratory first implementation"
+}

@@ -12,12 +12,86 @@ It is best understood not as one completed theory, but as an evolving research a
 
 ---
 
+## Stable methodological identity
+
+The current kernel is **evidential update governance**:
+
+\[
+(O,\Phi)
+\rightarrow
+F
+\rightarrow
+(\mathcal H,T,\Pi)
+\rightarrow
+U_{\Lambda}
+\rightarrow
+(W,\Sigma,\mathcal R,\Gamma).
+\]
+
+It asks:
+
+- what entered the system;
+- how it was measured;
+- which hypotheses genuinely compete;
+- which observation discriminates among them;
+- which evidence paths share a hidden dependency;
+- which governance errors the system is trying to avoid;
+- how authority should change;
+- what exact scope the update has earned;
+- which reachable evidence can reopen the commitment later.
+
+The governing invariant is:
+
+\[
+\boxed{
+\text{Evidence may increase authority only along dimensions and scopes that the evidence can identify.}
+}
+\]
+
+The corresponding operational rule is:
+
+\[
+\boxed{
+\text{Measure separately. Compare alternatives. Seek discrimination. Discount shared failure. Update locally. Scope explicitly. Preserve reachable reopening.}
+}
+\]
+
+This is a methodological synthesis, not a universal theory of cognition or rationality.
+
+---
+
+## Claim contracts
+
+The project increasingly treats a scientific or operational commitment as:
+
+\[
+\boxed{
+C=(H,W,\Sigma,\mathcal R,\Gamma),
+}
+\]
+
+where:
+
+- \(H\): claim or hypothesis content;
+- \(W\): current authority;
+- \(\Sigma\): demonstrated and permitted scope;
+- \(\mathcal R\): reopening conditions;
+- \(\Gamma\): admissible response when reopening evidence occurs.
+
+The update operator may promote, contract, rescope, or expand the hypothesis space.
+
+The loss contract \(\Lambda\) makes explicit which governance failures matter and how much, including overgeneralization, undergeneralization, premature certainty, excessive skepticism, invalid irreversible commitment, unnecessary reopening, and governance complexity.
+
+No universal loss weights are claimed.
+
+---
+
 ## Core orientation
 
 The recurring formulation is:
 
 \[
-I \propto C_{\mathrm{improve}}
+I\propto C_{\mathrm{improve}},
 \]
 
 where:
@@ -25,45 +99,150 @@ where:
 \[
 C_{\mathrm{improve}}
 =
-\text{capacity to convert feedback into increased future viability.}
+\text{capacity to convert feedback into increased future viability}.
 \]
 
-The corresponding causal loop is:
+These remain organizing hypotheses, not validated universal definitions or metrics.
+
+---
+
+## Empirical turn
+
+The ontology is frozen as a candidate rather than extended with another conceptual layer.
+
+### v0.1 — exposed interface failure
+
+Supported local result:
 
 \[
-\text{feedback}
-\rightarrow
-\text{better representation}
-\rightarrow
-\text{better adaptive mechanisms}
-\rightarrow
-\text{greater capacity to improve}
-\rightarrow
-\text{expanded reachable futures}.
+\boxed{
+\text{Optimization over an insufficient interface cannot recover an erased target distinction.}
+}
 \]
 
-The minimal evolutionary hypothesis is:
+Strongest negative result:
 
 \[
-D_c \times C_e \times A_c \rightarrow G_{\mathcal V}
+\boxed{
+\text{No experienced contradiction}
+\Rightarrow
+\text{no interface challenge in v0.1}.
+}
 \]
 
-where:
+### v0.2 — hidden interface fragility
 
-- \(D_c\): consequences reach the machinery responsible for future adaptation;
-- \(C_e\): consequences influence which changes persist;
-- \(A_c\): successful changes become substrate for later adaptation;
-- \(G_{\mathcal V}\): viable future reachability expands.
+Supported local result:
 
-Its shortest verbal form is:
+\[
+\boxed{
+\text{A supplied valid stress test can reveal hidden fragility when its expected value exceeds cost.}
+}
+\]
 
-> Evolution begins when failure improves the machinery that learns from failure.
+Strongest negative result:
+
+\[
+\boxed{
+\text{A blind challenge cannot reveal a blind interface.}
+}
+\]
+
+### v0.3 — correction-path diversity
+
+Supported local result:
+
+\[
+\boxed{
+\text{Failure-conditioned correction coverage can outperform correlated confirmation under a declared shift.}
+}
+\]
+
+Strongest negative result:
+
+\[
+\boxed{
+\text{No exposed failure or independent intervention}
+\Rightarrow
+\text{no identified correction-path independence.}
+}
+\]
+
+### v0.4 — correction-ecosystem intervention
+
+Supported local result:
+
+\[
+\boxed{
+\text{A support-changing intervention can expose common-mode failure hidden by ordinary calibration.}
+}
+\]
+
+Strongest negative results:
+
+\[
+\boxed{
+\text{A blind intervention cannot validate a blind correction ecosystem.}
+}
+\]
+
+and:
+
+\[
+\boxed{
+\text{identified ecosystem compromise}
+\not\Rightarrow
+\text{available repair}.
+}
+\]
+
+### v0.5 — claim-contract governance
+
+v0.5 compares:
+
+\[
+(H,W),
+\]
+
+\[
+(H,W,\Sigma),
+\]
+
+and:
+
+\[
+(H,W,\Sigma,\Pi,H_{?},\mathcal R,\Gamma)
+\]
+
+under a declared governance loss.
+
+Supported local result:
+
+\[
+\boxed{
+\text{The richer claim contract avoids several errors unavailable to the baseline representation while paying explicit overhead.}
+}
+\]
+
+The scope-only baseline handles local-to-global spillover and distribution rescoping.
+
+The full contract additionally handles supplied dependency groups, unresolved omitted-model states, operational rather than merely formal reopenability, and material reopening responses.
+
+Strongest negative result:
+
+\[
+\boxed{
+\text{The benchmark rewards the distinctions it was designed to encode; transfer and comparative advantage remain unestablished.}
+}
+\]
+
+None of the benchmarks establishes autonomous interface, hypothesis, scope, dependency, challenge, reopening, loss-function, intervention, or correction-cut invention.
 
 ---
 
 ## What the corpus is
 
-The corpus is the complete historical research lineage represented by the associated repositories:
+The corpus is the historical research lineage represented by the associated repositories:
 
 - conceptual frameworks;
 - equations and definitions;
@@ -73,8 +252,6 @@ The corpus is the complete historical research lineage represented by the associ
 - narrowed claims;
 - frozen result ledgers and governance records.
 
-Taken together, these artifacts form a prototype **epistemic operating system for recursive improvement**.
-
 Its recurring cycle is:
 
 \[
@@ -82,26 +259,24 @@ Its recurring cycle is:
 \rightarrow
 \text{observation}
 \rightarrow
-\text{representation}
+\text{measurement}
+\rightarrow
+\text{hypothesis comparison}
+\rightarrow
+\text{authority and scope revision}
 \rightarrow
 \text{action}
 \rightarrow
 \text{consequence}
 \rightarrow
-\text{validation}
-\rightarrow
-\text{attribution}
-\rightarrow
-\text{revision}
-\rightarrow
-\text{inheritance}.
+\text{reopening or inheritance}.
 \]
 
-The corpus asks not only whether a system changes, but whether contradiction can reach the specific machinery responsible for future change, alter its authority, and leave unaffected valid structure intact.
+The corpus asks whether contradiction can reach the machinery responsible for future change, alter only the authority and scope it has earned the right to alter, and leave unaffected valid structure intact.
 
 ---
 
-## Two coupled loops
+## Coupled loops
 
 ### Adaptive loop
 
@@ -109,7 +284,7 @@ The corpus asks not only whether a system changes, but whether contradiction can
 \text{How does the system change?}
 \]
 
-This includes representation, search, action, feedback, mechanism revision, and inheritance.
+This includes representation, search, action, mechanism revision, interface revision, hypothesis expansion, temporal comparison, and inheritance.
 
 ### Governance loop
 
@@ -117,15 +292,42 @@ This includes representation, search, action, feedback, mechanism revision, and 
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, scope, and claim boundaries.
+This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, governance loss, reopening, authority control, and claim boundaries.
 
-The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
+Recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
 ---
 
-## The deepest recurring operation
+## Correction-path capture
 
-Across the repositories, progress repeatedly occurs through **deconflation**:
+The general control problem is not specific to AI.
+
+Let \(\mathcal P^-\) be the operational routes through which adverse evidence can materially reduce authority or action.
+
+A correction cut \(K\) intersects every such route:
+
+\[
+\forall p^-\in\mathcal P^-:
+K\cap p^-\neq\varnothing.
+\]
+
+The governing requirement is:
+
+\[
+\boxed{
+\text{Do not allow the object being corrected to possess unilateral control over a complete correction cut.}
+}
+\]
+
+This applies to AI systems, corporations, scientific communities, governments, engineering organizations, and the evaluation of this repository.
+
+It is a structural hypothesis, not a validated universal threshold or governance solution.
+
+---
+
+## Deepest recurring operation
+
+Across the repositories, progress repeatedly occurs through deconflation:
 
 \[
 \text{broad concept}
@@ -142,30 +344,42 @@ Examples include:
 \[
 \text{difficulty}
 \rightarrow
-\text{task} + \text{interface} + \text{architecture}
-\]
-
-\[
-\text{adaptation}
-\rightarrow
-\text{causal reach} + \text{selection} + \text{inheritance}
+\text{task}+\text{interface}+\text{architecture},
 \]
 
 \[
 \text{feedback}
 \rightarrow
-\text{validation} + \text{attribution} + \text{authority revision}
+\text{validation}+\text{attribution}+\text{authority revision},
 \]
 
 \[
 \text{measurement}
 \rightarrow
-\text{factorization} + \text{estimation} + \text{prediction} + \text{intervention}.
+\text{factorization}+\text{estimation}+\text{prediction}+\text{intervention},
 \]
 
-The corpus therefore converges on a stronger view of intelligence:
+\[
+\text{test quantity}
+\rightarrow
+\text{marginal accuracy}+\text{failure-conditioned coverage}+\text{shared error structure},
+\]
 
-> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward.
+\[
+\text{claim state}
+\rightarrow
+\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}+\text{governance loss},
+\]
+
+\[
+\text{external oversight}
+\rightarrow
+\text{control map}+\text{negative correction paths}+\text{cut-set analysis}.
+\]
+
+The corpus therefore converges on a narrower methodological discipline:
+
+> Identify what became less trustworthy, revise the smallest sufficient causal layer, scope the update to what the evidence identifies, preserve what remains valid, and retain a reachable path by which reality can reopen the commitment.
 
 ---
 
@@ -174,76 +388,78 @@ The corpus therefore converges on a stronger view of intelligence:
 - [corpus.md](corpus.md) — what the corpus is as a research object.
 - [architecture.md](architecture.md) — the coupled adaptive and governance architecture.
 - [causal-kernel.md](causal-kernel.md) — the minimal recurring causal claims.
-- [epistemic-governance.md](epistemic-governance.md) — how evidence may authorize revision.
-- [failure-modes.md](failure-modes.md) — characteristic ways recursive adaptation can fail.
-- [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
-- [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
+- [epistemic-governance.md](epistemic-governance.md) — which kinds of evidence may authorize which revisions.
+- [evidential-update-governance.md](evidential-update-governance.md) — the integrated kernel for measurement, discrimination, dependency, authority, scope, and operational reopenability.
+- [governance-loss-contract.md](governance-loss-contract.md) — explicit domain-specific loss terms governing preferred update behavior.
+- [correction-path-capture.md](correction-path-capture.md) — graph-based audit of authority concentration and control over material negative-update paths.
+- [adversarial-agent-governance-translation.md](adversarial-agent-governance-translation.md) — strategic-agent stress translation under unknown or conflicting incentives.
+- [authority-allocation-invariant.md](authority-allocation-invariant.md) — evidence-scoped authority under incomplete causal understanding.
+- [controlled-interface-evolution.md](controlled-interface-evolution.md) — generation, auditing, repair, replacement, and inheritance of interfaces.
+- [temporal-interface-selection.md](temporal-interface-selection.md) — retrospective reconstruction, prospective generation, and temporal comparison.
+- [sidis-stress-test.md](sidis-stress-test.md) — historical stress test of representational leverage and authority propagation.
+- [ramanujan-stress-test.md](ramanujan-stress-test.md) — result validity separated from generative provenance and mechanism.
+- [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — audit for endogenous correction versus replay or outsourced causal work.
+- [generative-provenance-protocol.md](generative-provenance-protocol.md) — validation of opaque discoveries with bounded provenance claims.
+- [claim-contract-governance-comparative-evaluation-protocol-v1.0.md](claim-contract-governance-comparative-evaluation-protocol-v1.0.md) — comparative protocol against mature alternatives.
+- [evaluation-charter.md](evaluation-charter.md) — separation of authority in the framework's own evaluation.
+- [pilot-0/README.md](pilot-0/README.md) — feasibility package for independent reconstruction and revision.
+- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — exposed interface failure.
+- [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — hidden fragility and adaptive skepticism.
+- [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — failure-conditioned correction-path selection.
+- [correction-ecosystem-benchmark-v0.4.md](correction-ecosystem-benchmark-v0.4.md) — common-mode dependency intervention.
+- [claim-contract-governance-benchmark-v0.5.md](claim-contract-governance-benchmark-v0.5.md) — integrated governance test over scope, dependency, unresolved state, and reopening.
+- [benchmark/README.md](benchmark/README.md) — executable instructions and frozen result artifacts.
+- [research-boundary.md](research-boundary.md) — current claim ceiling and open frontier.
 
 ---
 
 ## Current scientific status
 
-This repository is an **interpretive synthesis**.
+This repository is an interpretive synthesis with five executable toy benchmarks.
 
-It does not convert the underlying repositories into one empirically validated unified theory.
-
-The artifact types must remain distinct:
+It does not convert the wider corpus into one empirically validated unified theory.
 
 \[
 \text{hypothesis}
 \neq
 \text{conceptual framework}
 \neq
-\text{toy implementation}
-\neq
 \text{benchmark design}
 \neq
-\text{empirical evidence}
+\text{toy implementation}
 \neq
-\text{frozen result}.
+\text{frozen result}
+\neq
+\text{general theory}.
 \]
 
-Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, or an operational recursive self-improvement system.
+The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, selective prediction, typed claims, assurance cases, graph cut analysis, and partially observable control frameworks.
+
+The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority, scope, and correction-path capture better than simpler existing formulations.
 
 ---
 
-## Governance freeze
-
-The present claim ceiling is preserved:
+## Current frontiers
 
 \[
-C_1 + C_2
+\boxed{
+\text{Can outsiders use the framework without inventor arbitration?}
+}
 \]
-
-and:
 
 \[
-\text{qualification}
-\neq
-\text{comparison}
-\neq
-\text{selection}.
+\boxed{
+\text{Does it improve externally authored correction tasks better than mature alternatives?}
+}
 \]
 
-Accordingly:
+\[
+\boxed{
+\text{Can a system generate or revise missing governance objects and detect capture of its own correction architecture?}
+}
+\]
 
-- downstream candidate comparison and selection remain blocked;
-- no candidate architecture has been evaluated or selected;
-- Interface Theory Gates 2–4 remain closed;
-- historical repository records are not modified by this synthesis;
-- broad corpus interpretations are not completed experimental claims.
-
----
-
-## What this may eventually support
-
-The long-range research object is a **correctable lineage**:
-
-> A traceable adaptive process in which environmental consequences can improve the machinery of future adaptation, successful corrections can be inherited, and no current mechanism becomes the unchallengeable judge of its own continued authority.
-
-This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
-
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, or safe recursive self-improvement.
+No authority should propagate from v0.1–v0.5 to those open capabilities without new evidence.
 
 ---
 
@@ -255,12 +471,17 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 }
 \]
 
-Its deepest object is not performance alone.
-
-It is:
+Its deepest object is:
 
 \[
 \boxed{
 \text{the organized preservation of the ability to become less wrong.}
 }
 \]
+
+Its stable methodological invariant is:
+
+\[
+\boxed{
+\text{An observation may change authority only through a declared, discriminating, dependency-aware, loss-explicit, scope-bounded, operationally reopenable, and non-captured evidential path.}
+}

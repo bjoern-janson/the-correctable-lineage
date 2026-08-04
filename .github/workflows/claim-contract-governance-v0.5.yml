@@ -1,0 +1,53 @@
+name: Claim Contract Governance Benchmark v0.5
+
+on:
+  pull_request:
+    paths:
+      - 'claim-contract-governance-benchmark-v0.5.md'
+      - 'benchmark/claim_contract_governance_v0_5.py'
+      - 'benchmark/test_claim_contract_governance_v0_5.py'
+      - 'benchmark/results/results-v0.5.json'
+      - 'benchmark/results/results-v0.5.md'
+      - 'benchmark/negative-result-ledger-v0.5.md'
+      - '.github/workflows/claim-contract-governance-v0.5.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run unit tests
+        run: python -m unittest benchmark/test_claim_contract_governance_v0_5.py -v
+      - name: Replay frozen benchmark
+        run: |
+          python benchmark/claim_contract_governance_v0_5.py \
+            --seeds 100 \
+            --strict \
+            --output-json /tmp/results-v0.5.json \
+            --output-md /tmp/results-v0.5.md
+      - name: Verify frozen JSON semantically
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          expected = json.loads(Path('benchmark/results/results-v0.5.json').read_text())
+          actual = json.loads(Path('/tmp/results-v0.5.json').read_text())
+          if expected != actual:
+              raise SystemExit('frozen JSON mismatch')
+          PY
+      - name: Verify frozen Markdown semantically
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          expected = Path('benchmark/results/results-v0.5.md').read_text().rstrip('\n')
+          actual = Path('/tmp/results-v0.5.md').read_text().rstrip('\n')
+          if expected != actual:
+              raise SystemExit('frozen Markdown mismatch')
+          PY
