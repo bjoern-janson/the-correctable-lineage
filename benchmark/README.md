@@ -75,3 +75,28 @@ Artifacts:
 Boundary:
 
 v0.3 supports only a local selection result under a declared shared-blind-spot shift. It remains compatible with robust ensemble selection and decision under correlated errors. It does not generate independent tests or identify correction-path independence from success-only data.
+
+## v0.4 — Correction-ecosystem intervention
+
+Question:
+
+> Can a supplied intervention expose a hidden upstream dependency shared by apparently independent correction channels?
+
+The first implementation is exploratory. It receives the candidate channel set, target labels, hidden dependency, support-changing intervention, costs, shift prior, and deployment horizon.
+
+Run:
+
+```bash
+python benchmark/correction_ecosystem_v0_4.py --seeds 100 --strict
+python -m unittest discover -s benchmark -p 'test_correction_ecosystem_v0_4.py' -v
+```
+
+Artifacts:
+
+- `benchmark/results/results-v0.4.json`
+- `benchmark/results/results-v0.4.md`
+- `benchmark/negative-result-ledger-v0.4.md`
+
+Boundary:
+
+v0.4 supports only the local claim that a supplied intervention on an upstream dependency can expose common-mode failure hidden by ordinary calibration and output decorrelation. It remains compatible with causal experiment design and robust selection under common-mode failure. It does not discover latent dependencies, generate interventions, or identify truth without an external correctness reference.
