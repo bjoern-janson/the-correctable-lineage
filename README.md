@@ -111,7 +111,9 @@ from:
 
 `Interface Evolution Benchmark v0.1` asks whether a bounded interface revision restores a target-relevant distinction and improves held-out performance where model revision through the original interface cannot.
 
-A positive result would support only that local distinction. It would not validate the full corpus architecture.
+The first executable run used 40 seeds per scenario-agent pair. All preregistered checks passed, including rejection of sufficient, useless, and uneconomic sensor revisions. The frozen negative ledger also records the main failure: a training-only correlation prevented pre-shift interface challenge, and the entire result remains compatible with ordinary active sensing, costly feature acquisition, and POMDP formulations.
+
+A positive result supports only the local model/interface diagnostic split. It does not validate the full corpus architecture or establish a distinct interface-evolution theory.
 
 ---
 
@@ -266,7 +268,10 @@ The corpus therefore converges on a stronger view of intelligence:
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
-- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — a minimal hidden-variable benchmark separating model revision from bounded interface revision under held-out evaluation and explicit cost.
+- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — the frozen pre-run design separating model revision from bounded interface revision.
+- [benchmark/README.md](benchmark/README.md) — executable benchmark instructions and implementation boundary.
+- [benchmark/results/results-v0.1.md](benchmark/results/results-v0.1.md) — frozen aggregate results from the first executable run.
+- [benchmark/negative-result-ledger-v0.1.md](benchmark/negative-result-ledger-v0.1.md) — failed cases, negative controls, unresolved redundancy, and claim limits.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
@@ -294,7 +299,7 @@ The artifact types must remain distinct:
 \text{frozen result}.
 \]
 
-`Interface Evolution Benchmark v0.1` is a benchmark design only. No implementation or result is claimed.
+`Interface Evolution Benchmark v0.1` now has a toy implementation, automated tests, and a frozen simulated result ledger. This is not independent empirical evidence. The behavior remains compatible with active sensing, costly feature acquisition, and POMDP formulations, so no separate general interface-evolution mechanism has been established.
 
 Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, or a universal operator for comparing inherited history with possible futures.
 
@@ -345,7 +350,6 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 \[
 \boxed{
 \text{The corpus is a theory-engine for turning contradiction into lineage-level improvement.}
-}
 \]
 
 Its deepest object is not performance alone.
@@ -355,7 +359,6 @@ It is:
 \[
 \boxed{
 \text{the organized preservation of the ability to become less wrong.}
-}
 \]
 
 At the interface layer, that becomes:
@@ -363,7 +366,6 @@ At the interface layer, that becomes:
 \[
 \boxed{
 \text{construct better questions that reality can discriminate, then preserve the interfaces whose distinctions survive correction.}
-}
 \]
 
 Across time, that becomes:
