@@ -49,7 +49,7 @@ and target query \(L\), define:
 \]
 
 \[
-\mathcal I_L(O(f))=\{L(g):g\in[f]_O\}.
+\mathcal I_L(O(f))=\{L(g):O(g)=O(f)\}.
 \]
 
 The proposed downstream rule is:
@@ -57,7 +57,6 @@ The proposed downstream rule is:
 \[
 \boxed{
 \text{Authority may increase only over claims invariant under the remaining observational ambiguity.}
-}
 \]
 
 Identification is necessary for the exact claim, but not sufficient for epistemic or decision authority.
