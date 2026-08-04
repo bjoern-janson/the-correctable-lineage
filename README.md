@@ -17,7 +17,15 @@ It is best understood not as one completed theory, but as an evolving research a
 The current kernel is **evidential update governance**:
 
 \[
-(O,\Phi)\rightarrow F\rightarrow(\mathcal H,T,\Pi)\rightarrow U\rightarrow(W,\Sigma,\mathcal R,\Gamma).
+(O,\Phi)
+\rightarrow
+F
+\rightarrow
+(\mathcal H,T,\Pi)
+\rightarrow
+U_{\Lambda}
+\rightarrow
+(W,\Sigma,\mathcal R,\Gamma).
 \]
 
 It asks:
@@ -27,6 +35,7 @@ It asks:
 - which hypotheses genuinely compete;
 - which observation discriminates among them;
 - which evidence paths share a hidden dependency;
+- which governance errors the system is trying to avoid;
 - how authority should change;
 - what exact scope the update has earned;
 - which reachable evidence can reopen the commitment later.
@@ -51,6 +60,32 @@ This is a methodological synthesis, not a universal theory of cognition or ratio
 
 ---
 
+## Claim contracts
+
+The project increasingly treats a scientific or operational commitment as:
+
+\[
+\boxed{
+C=(H,W,\Sigma,\mathcal R,\Gamma),
+}
+\]
+
+where:
+
+- \(H\): claim or hypothesis content;
+- \(W\): current authority;
+- \(\Sigma\): demonstrated and permitted scope;
+- \(\mathcal R\): reopening conditions;
+- \(\Gamma\): admissible response when reopening evidence occurs.
+
+The update operator may promote, contract, rescope, or expand the hypothesis space.
+
+The loss contract \(\Lambda\) makes explicit which governance failures matter and how much, including overgeneralization, undergeneralization, premature certainty, excessive skepticism, invalid irreversible commitment, unnecessary reopening, and governance complexity.
+
+No universal loss weights are claimed.
+
+---
+
 ## Core orientation
 
 The recurring formulation is:
@@ -67,20 +102,6 @@ C_{\mathrm{improve}}
 \text{capacity to convert feedback into increased future viability}.
 \]
 
-The corresponding loop is:
-
-\[
-\text{feedback}
-\rightarrow
-\text{better representation}
-\rightarrow
-\text{better adaptive mechanisms}
-\rightarrow
-\text{greater capacity to improve}
-\rightarrow
-\text{expanded reachable futures}.
-\]
-
 These remain organizing hypotheses, not validated universal definitions or metrics.
 
 ---
@@ -90,8 +111,6 @@ These remain organizing hypotheses, not validated universal definitions or metri
 The ontology is frozen as a candidate rather than extended with another conceptual layer.
 
 ### v0.1 — exposed interface failure
-
-Can an agent distinguish model insufficiency from interface insufficiency when contradiction is visible and a candidate sensor is supplied?
 
 Supported local result:
 
@@ -113,8 +132,6 @@ Strongest negative result:
 
 ### v0.2 — hidden interface fragility
 
-Can an agent pay to challenge apparent success before deployment while avoiding maximum skepticism?
-
 Supported local result:
 
 \[
@@ -132,8 +149,6 @@ Strongest negative result:
 \]
 
 ### v0.3 — correction-path diversity
-
-Can an agent select channels by their coverage of primary failures rather than marginal accuracy or correlated vote count?
 
 Supported local result:
 
@@ -154,8 +169,6 @@ Strongest negative result:
 \]
 
 ### v0.4 — correction-ecosystem intervention
-
-Can a supplied intervention vary a hidden upstream dependency and reveal common-mode correction failure?
 
 Supported local result:
 
@@ -183,7 +196,47 @@ and:
 }
 \]
 
-None of the benchmarks establishes autonomous interface, hypothesis, dependency, challenge, or intervention invention.
+### v0.5 — claim-contract governance
+
+v0.5 compares:
+
+\[
+(H,W),
+\]
+
+\[
+(H,W,\Sigma),
+\]
+
+and:
+
+\[
+(H,W,\Sigma,\Pi,H_{?},\mathcal R,\Gamma)
+\]
+
+under a declared governance loss.
+
+Supported local result:
+
+\[
+\boxed{
+\text{The richer claim contract avoids several errors unavailable to the baseline representation while paying explicit overhead.}
+}
+\]
+
+The scope-only baseline handles local-to-global spillover and distribution rescoping.
+
+The full contract additionally handles supplied dependency groups, unresolved omitted-model states, operational rather than merely formal reopenability, and material reopening responses.
+
+Strongest negative result:
+
+\[
+\boxed{
+\text{The benchmark rewards the distinctions it was designed to encode; transfer and comparative advantage remain unestablished.}
+}
+\]
+
+None of the benchmarks establishes autonomous interface, hypothesis, scope, dependency, challenge, reopening, loss-function, or intervention invention.
 
 ---
 
@@ -210,7 +263,7 @@ Its recurring cycle is:
 \rightarrow
 \text{hypothesis comparison}
 \rightarrow
-\text{authority revision}
+\text{authority and scope revision}
 \rightarrow
 \text{action}
 \rightarrow
@@ -219,7 +272,7 @@ Its recurring cycle is:
 \text{reopening or inheritance}.
 \]
 
-The corpus asks whether contradiction can reach the specific machinery responsible for future change, alter only the authority it has earned the right to alter, and leave unaffected valid structure intact.
+The corpus asks whether contradiction can reach the machinery responsible for future change, alter only the authority and scope it has earned the right to alter, and leave unaffected valid structure intact.
 
 ---
 
@@ -239,7 +292,7 @@ This includes representation, search, action, mechanism revision, interface revi
 \text{When is that change justified?}
 \]
 
-This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, reopening, and claim boundaries.
+This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, governance loss, reopening, and claim boundaries.
 
 Recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
@@ -286,9 +339,9 @@ Examples include:
 \]
 
 \[
-\text{belief state}
+\text{claim state}
 \rightarrow
-\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}.
+\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}+\text{governance loss}.
 \]
 
 The corpus therefore converges on a narrower methodological discipline:
@@ -304,6 +357,7 @@ The corpus therefore converges on a narrower methodological discipline:
 - [causal-kernel.md](causal-kernel.md) — the minimal recurring causal claims.
 - [epistemic-governance.md](epistemic-governance.md) — which kinds of evidence may authorize which revisions.
 - [evidential-update-governance.md](evidential-update-governance.md) — the integrated kernel for measurement, discrimination, dependency, authority, scope, and operational reopenability.
+- [governance-loss-contract.md](governance-loss-contract.md) — explicit domain-specific loss terms governing preferred update behavior.
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — evidence-scoped authority under incomplete causal understanding.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — generation, auditing, repair, replacement, and inheritance of interfaces.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — retrospective reconstruction, prospective generation, and temporal comparison.
@@ -315,6 +369,7 @@ The corpus therefore converges on a narrower methodological discipline:
 - [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — hidden fragility and adaptive skepticism.
 - [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — failure-conditioned correction-path selection.
 - [correction-ecosystem-benchmark-v0.4.md](correction-ecosystem-benchmark-v0.4.md) — common-mode dependency intervention.
+- [claim-contract-governance-benchmark-v0.5.md](claim-contract-governance-benchmark-v0.5.md) — integrated governance test over scope, dependency, unresolved state, and reopening.
 - [benchmark/README.md](benchmark/README.md) — executable instructions and frozen result artifacts.
 - [research-boundary.md](research-boundary.md) — current claim ceiling and open frontier.
 
@@ -322,7 +377,7 @@ The corpus therefore converges on a narrower methodological discipline:
 
 ## Current scientific status
 
-This repository is an interpretive synthesis with four executable toy benchmarks.
+This repository is an interpretive synthesis with five executable toy benchmarks.
 
 It does not convert the wider corpus into one empirically validated unified theory.
 
@@ -340,7 +395,7 @@ It does not convert the wider corpus into one empirically validated unified theo
 \text{general theory}.
 \]
 
-The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, and partially observable control frameworks.
+The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, selective prediction, typed claims, assurance cases, and partially observable control frameworks.
 
 The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority and scope transfer better than simpler existing formulations.
 
@@ -354,11 +409,11 @@ It is:
 
 \[
 \boxed{
-\text{Can a system generate or select hypotheses, measurements, and interventions that expose dependencies absent from its supplied causal model?}
+\text{Can a system generate or select hypotheses, measurements, scopes, loss contracts, reopening rules, and interventions that expose dependencies absent from its supplied causal model?}
 }
 \]
 
-No authority should propagate from v0.1–v0.4 to that open capability without new evidence.
+No authority should propagate from v0.1–v0.5 to that open capability without new evidence.
 
 ---
 
@@ -382,5 +437,5 @@ Its stable methodological invariant is:
 
 \[
 \boxed{
-\text{An observation may change authority only through a declared, discriminating, dependency-aware, scope-bounded, and operationally reopenable evidential path.}
+\text{An observation may change authority only through a declared, discriminating, dependency-aware, loss-explicit, scope-bounded, and operationally reopenable evidential path.}
 }
