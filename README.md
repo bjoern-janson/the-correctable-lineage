@@ -286,5 +286,4 @@ It is:
 \[
 \boxed{
 \text{the organized preservation of the ability to become less wrong without suppressing the ability to see farther.}
-}
 \]
