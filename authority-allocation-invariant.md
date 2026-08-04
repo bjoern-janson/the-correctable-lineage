@@ -314,7 +314,7 @@ It should inherit an evidence-bearing object:
  \mathcal D_y,
  \mathcal L_y,
  \mathbf W_y
-\rightangle
+\right\rangle
 }
 \]
 
@@ -453,7 +453,7 @@ Which feedback and competition mechanisms determine whether this trajectory surv
 
 Which observations, failures, or rival outcomes would reduce its authority?
 
-The new selection coordinate matters because a reachable future may still lose against alternatives.
+The selection coordinate matters because a reachable future may still lose against alternatives.
 
 A proposed technology, institution, strategy, organism, or cultural representation exists within a competitive environment.
 
@@ -464,6 +464,10 @@ Thus a prospective representation should ask not only:
 but also:
 
 > Which selection process would make this trajectory persist rather than its competitors?
+
+Selection resolution is not the ability to choose the preferred future.
+
+It is the ability to identify the mechanism that determines which represented trajectory will actually persist.
 
 ---
 
@@ -666,6 +670,8 @@ The requirement is calibrated acquisition:
 \propto
 \text{strength, relevance, independence, scope, and reversibility of evidence for }j.
 \]
+
+This proportionality is qualitative, not a validated measurement equation.
 
 A useful governance target is:
 
