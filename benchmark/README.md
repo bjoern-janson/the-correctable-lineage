@@ -1,42 +1,50 @@
-# Interface Evolution Benchmark v0.1
+# Interface Benchmarks
 
-Executable companion to [`../interface-evolution-benchmark-v0.1.md`](../interface-evolution-benchmark-v0.1.md).
+Executable companions to the frozen benchmark specifications.
 
-## Frozen question
+The implementations use only the Python standard library.
 
-Can an adaptive system distinguish a failure caused by an insufficient model from one caused by an insufficient observation interface?
+## v0.1 — Reactive interface diagnosis
 
-The implementation deliberately uses a predeclared paid sensor. It tests selective interface acquisition, not autonomous sensor or ontology generation.
+Question:
 
-## Run
+> Can an adaptive system distinguish a failure caused by an insufficient model from one caused by an insufficient observation interface after contradiction is visible?
+
+Run:
 
 ```bash
 python benchmark/interface_evolution_v0_1.py --seeds 40
 python -m unittest discover -s benchmark -p 'test_*.py' -v
 ```
 
-The benchmark uses only the Python standard library.
-
-Generated artifacts:
+Artifacts:
 
 - `benchmark/results/results-v0.1.json`
 - `benchmark/results/results-v0.1.md`
+- `benchmark/negative-result-ledger-v0.1.md`
 
-## Agents
+Boundary:
 
-- `fixed_interface`: updates a cue-conditioned model but cannot acquire the sensor.
-- `oracle_interface`: receives the sensor on every episode and pays its cost.
-- `interface_revision`: begins with the initial cue, probes the offered sensor after persistent low accuracy, and activates it only when estimated net value exceeds the fixed-interface alternative.
+The result is compatible with active sensing, costly feature acquisition, and POMDP formulations.
 
-## Scenarios
+## v0.2 — Hidden fragility and adaptive skepticism
 
-- hidden collision;
-- sufficient initial interface;
-- useless added sensor;
-- informative but uneconomic sensor;
-- moderate held-out prevalence/noise shift;
-- spurious training cue removed at evaluation.
+Question:
 
-## Interpretation boundary
+> Can an agent pay to challenge an apparently successful interface before deployment, while avoiding maximum skepticism?
 
-The implementation is compatible with active sensing, costly feature acquisition, and POMDP formulations. A positive run does not establish a distinct general theory of interface evolution.
+Run:
+
+```bash
+python benchmark/interface_stress_v0_2.py --seeds 200 --strict
+python -m unittest discover -s benchmark -p 'test_*.py' -v
+```
+
+Artifacts:
+
+- `benchmark/results/results-v0.2.md`
+- `benchmark/negative-result-ledger-v0.2.md`
+
+Boundary:
+
+v0.2 supplies the challenge operator, prior, target, sensor, cost, and horizon. It remains compatible with Bayesian value of information and active experiment design. It does not test autonomous interface discovery.
