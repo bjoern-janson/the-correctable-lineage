@@ -6,6 +6,8 @@ This document records an external literature-placement correction to the corpus.
 
 It does not claim a new theory of identifiability.
 
+The contribution is not a replacement for identifiability theory. It treats identifiability results as constraints on permissible authority transitions.
+
 Its purpose is to separate:
 
 1. an established upstream identifiability substrate;
