@@ -75,6 +75,20 @@ The corresponding interface-level hypothesis is:
 }
 \]
 
+The temporal extension is:
+
+\[
+\boxed{
+\text{Temporal intelligence}
+=
+\text{selective inheritance}
++
+\text{prospective generation}
++
+\text{reality-correctable comparison}.
+}
+\]
+
 These are organizing hypotheses, not validated universal definitions or metrics.
 
 ---
@@ -119,6 +133,8 @@ The corpus asks not only whether a system changes, but whether contradiction can
 
 The interface-evolution extension asks whether the system can discover that the observation, representation, coordination, or action interface itself is the source of failure.
 
+The temporal extension asks whether the lineage can revise both how it reconstructs the past and how it generates possible futures, while applying different evidence standards to realized history and unrealized candidates.
+
 ---
 
 ## Two coupled loops
@@ -129,7 +145,7 @@ The interface-evolution extension asks whether the system can discover that the 
 \text{How does the system change?}
 \]
 
-This includes representation, search, action, feedback, mechanism revision, interface revision, and inheritance.
+This includes representation, search, action, feedback, mechanism revision, interface revision, temporal comparison, and inheritance.
 
 ### Governance loop
 
@@ -137,7 +153,7 @@ This includes representation, search, action, feedback, mechanism revision, inte
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, and claim boundaries.
+This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, temporal asymmetry, and claim boundaries.
 
 The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
@@ -192,12 +208,24 @@ Examples include:
 \[
 \text{interface effect}
 \rightarrow
-\text{discovery} + \text{coordination} + \text{constitution}.
+\text{discovery} + \text{coordination} + \text{constitution}
+\]
+
+\[
+\text{past}
+\rightarrow
+\text{actual history} + \text{surviving record} + \text{current reconstruction}
+\]
+
+\[
+\text{future}
+\rightarrow
+\text{possibility} + \text{probability} + \text{path} + \text{selection} + \text{revision}.
 \]
 
 The corpus therefore converges on a stronger view of intelligence:
 
-> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence became visible.
+> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence, history, or future possibility became visible.
 
 ---
 
@@ -215,6 +243,7 @@ The corpus therefore converges on a stronger view of intelligence:
 - [generative-provenance-protocol.md](generative-provenance-protocol.md) — a protocol for validating opaque discoveries while separately governing provenance, mechanism, and explanation claims.
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
+- [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
@@ -242,7 +271,7 @@ The artifact types must remain distinct:
 \text{frozen result}.
 \]
 
-Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, or a universal interface-generation law.
+Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, or a universal operator for comparing inherited history with possible futures.
 
 ---
 
@@ -278,11 +307,11 @@ Accordingly:
 
 The long-range research object is a **correctable lineage**:
 
-> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, and no current mechanism or interface becomes the unchallengeable judge of its own continued authority.
+> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism or interface becomes the unchallengeable judge of its own continued authority.
 
 This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
 
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, or autonomous generation of superior reality-tracking interfaces.
+But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, or a validated method for choosing among civilizational futures.
 
 ---
 
@@ -309,5 +338,13 @@ At the interface layer, that becomes:
 \[
 \boxed{
 \text{construct better questions that reality can discriminate, then preserve the interfaces whose distinctions survive correction.}
+}
+\]
+
+Across time, that becomes:
+
+\[
+\boxed{
+\text{inherit selectively, generate prospectively, compare asymmetrically, and let reality repair the bridge.}
 }
 \]
