@@ -93,6 +93,28 @@ These are organizing hypotheses, not validated universal definitions or metrics.
 
 ---
 
+## Empirical turn
+
+The current ontology is frozen as a candidate rather than extended with another conceptual layer.
+
+The immediate test is whether an agent can distinguish:
+
+\[
+M_t\rightarrow M_{t+1}
+\]
+
+from:
+
+\[
+\mathcal I_t\rightarrow\mathcal I_{t+1}.
+\]
+
+`Interface Evolution Benchmark v0.1` asks whether a bounded interface revision restores a target-relevant distinction and improves held-out performance where model revision through the original interface cannot.
+
+A positive result would support only that local distinction. It would not validate the full corpus architecture.
+
+---
+
 ## What the corpus is
 
 The corpus is the complete historical research lineage represented by the associated repositories:
@@ -244,6 +266,7 @@ The corpus therefore converges on a stronger view of intelligence:
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
+- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — a minimal hidden-variable benchmark separating model revision from bounded interface revision under held-out evaluation and explicit cost.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
@@ -270,6 +293,8 @@ The artifact types must remain distinct:
 \neq
 \text{frozen result}.
 \]
+
+`Interface Evolution Benchmark v0.1` is a benchmark design only. No implementation or result is claimed.
 
 Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, or a universal operator for comparing inherited history with possible futures.
 
@@ -346,5 +371,4 @@ Across time, that becomes:
 \[
 \boxed{
 \text{inherit selectively, generate prospectively, compare asymmetrically, and let reality repair the bridge.}
-}
 \]
