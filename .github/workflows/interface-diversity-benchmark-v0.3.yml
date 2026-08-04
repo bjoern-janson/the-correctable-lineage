@@ -1,0 +1,34 @@
+name: Interface Diversity Benchmark v0.3
+
+on:
+  pull_request:
+  push:
+    branches:
+      - agent/integrate-sidis-stress-test
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark-v0-3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run v0.3 unit tests
+        run: python -m unittest discover -s benchmark -p 'test_interface_diversity_v0_3.py' -v
+
+      - name: Re-run frozen v0.3 benchmark
+        run: python benchmark/interface_diversity_v0_3.py --seeds 100 --output-dir /tmp/interface-diversity-v0-3
+
+      - name: Verify frozen v0.3 aggregate
+        run: |
+          diff -u benchmark/results/results-v0.3.json /tmp/interface-diversity-v0-3/results-v0.3.json
+          diff -u benchmark/results/results-v0.3.md /tmp/interface-diversity-v0-3/results-v0.3.md
