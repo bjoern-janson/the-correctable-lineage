@@ -50,3 +50,28 @@ Artifacts:
 Boundary:
 
 v0.2 supplies the challenge operator, prior, target, sensor, cost, and horizon. It remains compatible with Bayesian value of information and active experiment design. It does not test autonomous interface discovery.
+
+## v0.3 — Correction-path diversity
+
+Question:
+
+> Can an agent select correction channels by their coverage of primary failures rather than marginal accuracy or correlated vote count?
+
+The first implementation is exploratory. It receives labeled calibration data, a bounded candidate set, channel costs, and an externally declared stress weight.
+
+Run:
+
+```bash
+python benchmark/interface_diversity_v0_3.py --seeds 100
+python -m unittest discover -s benchmark -p 'test_interface_diversity_v0_3.py' -v
+```
+
+Artifacts:
+
+- `benchmark/results/results-v0.3.json`
+- `benchmark/results/results-v0.3.md`
+- `benchmark/negative-result-ledger-v0.3.md`
+
+Boundary:
+
+v0.3 supports only a local selection result under a declared shared-blind-spot shift. It remains compatible with robust ensemble selection and decision under correlated errors. It does not generate independent tests or identify correction-path independence from success-only data.
