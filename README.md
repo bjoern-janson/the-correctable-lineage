@@ -178,6 +178,7 @@ The corpus therefore converges on a stronger view of intelligence:
 - [failure-modes.md](failure-modes.md) — characteristic ways recursive adaptation can fail.
 - [sidis-stress-test.md](sidis-stress-test.md) — a historical stress test of representational leverage, causal orientation, boundary accounting, and authority propagation.
 - [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — a reusable audit for distinguishing endogenous correction from replay, reversal, scripting, and outsourced causal work.
+- [authority-acquisition-gate.md](authority-acquisition-gate.md) — separates evidence detection, operational authority revision, selection efficacy, and inherited correction.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
