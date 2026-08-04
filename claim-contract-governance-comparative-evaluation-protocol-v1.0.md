@@ -17,7 +17,7 @@ No participants have been recruited and no comparative data have been collected.
 
 Before execution, the study materials, primary endpoints, exclusion rules, analysis plan, sample-size justification, governance-loss sensitivity analysis, and stopping conditions must be independently reviewed and preregistered. Any human-participant implementation requires the applicable ethics review, consent, privacy, and data-governance procedures.
 
-The protocol exists to test the distinction left open by Claim Contract Governance Benchmark v0.5:
+The protocol tests the distinction left open by Claim Contract Governance Benchmark v0.5:
 
 \[
 \boxed{
@@ -65,7 +65,7 @@ The protocol exists to test the distinction left open by Claim Contract Governan
 
 ---
 
-## 2. Claim states under comparison
+## 2. Representations under comparison
 
 The comparison must not be:
 
@@ -87,9 +87,9 @@ A minimal state may include:
 
 where \(D\) is a decision rule and \(L\) is the relevant loss.
 
-The implementation may use hierarchical models, posterior predictive checks, model averaging, abstention, and domain restrictions when those are part of the frozen specification.
+The frozen implementation may use hierarchical models, posterior predictive checks, model averaging, abstention, and validity domains when those are part of the selected method.
 
-The Bayesian condition must not be artificially prohibited from representing scope, model misspecification, or decision costs if a mature Bayesian implementation would ordinarily include them.
+The Bayesian condition must not be artificially prohibited from representing scope, model misspecification, or decision costs if a mature implementation would ordinarily include them.
 
 ### Condition B — AGM-style belief revision
 
@@ -101,7 +101,7 @@ A minimal state may include:
 
 where \(K\) is a belief set and \(*\) is a revision operator.
 
-The implementation may use entrenchment, contraction, revision, and explicit inconsistency handling in a frozen specification.
+The implementation may include entrenchment, contraction, revision, and explicit inconsistency handling.
 
 ### Condition C — Safety case or assurance argument
 
@@ -115,7 +115,7 @@ A minimal state may include:
 \text{Evidence},
 \]
 
-with assumptions, defeaters, contexts, and evidence traceability represented according to the selected assurance method.
+with assumptions, contexts, defeaters, evidence traceability, and review status represented according to the selected assurance method.
 
 ### Condition D — Causal model and intervention representation
 
@@ -137,7 +137,7 @@ C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
 }
 \]
 
-with an unresolved state \(H_{?}\) available when the represented hypothesis set is incomplete.
+with an unresolved state \(H_{?}\) available when the represented hypothesis set may be incomplete.
 
 The associated evidential pipeline is:
 
@@ -165,7 +165,7 @@ An adversarial equivalence condition should combine mature existing components s
 - revision rules;
 - decision costs.
 
-This condition tests whether claim-contract vocabulary adds operational value beyond an equivalent state encoded through established methods.
+This condition tests whether claim-contract vocabulary adds operational value beyond equivalent state encoded through established methods.
 
 If Condition F reproduces every claimed benefit with equal or lower complexity, the correct conclusion is absorption or synthesis rather than formal superiority.
 
@@ -229,7 +229,7 @@ Where response format makes full blinding impossible, the residual identificatio
 
 Claim contracts receive no credit for distinctions that a comparator already represents equivalently.
 
-The question is not whether the fields can be renamed in claim-contract notation.
+The question is not whether existing methods can be renamed in claim-contract notation.
 
 It is whether the representation changes correction behavior, reliability, transfer, or cost.
 
@@ -241,7 +241,7 @@ It is whether the representation changes correction behavior, reliability, trans
 
 The primary transfer cases must be written by domain experts who did not author the claim-contract framework or v0.1–v0.5.
 
-Case authors receive a neutral case-construction brief specifying that cases should contain sequential evidence, uncertain generalization, possible dependency, and consequential decisions without using the framework vocabulary.
+Case authors receive a neutral construction brief specifying that cases should contain sequential evidence, uncertain generalization, possible dependency, and consequential decisions without using the framework vocabulary.
 
 ### Domain families
 
@@ -256,7 +256,7 @@ The primary suite should include independently authored cases from at least four
 
 The exact domains must be frozen before participant assignment.
 
-### Case sequence
+### Sequential evidence
 
 Each case should unfold in stages:
 
@@ -272,7 +272,7 @@ E_2
 E_k.
 \]
 
-At each stage participants must record:
+At each stage participants record:
 
 - current claim state;
 - permitted actions;
@@ -282,20 +282,20 @@ At each stage participants must record:
 - requested next evidence;
 - conditions for later revision.
 
-### Latent scoring record
+### Latent adjudication record
 
 Before participant responses are collected, case authors and an independent adjudication panel must freeze a scoring record containing:
 
 - which conclusions are locally warranted;
 - which scopes are supported;
 - which evidence paths share dependencies;
-- which candidate actions are valid under the declared stakes;
+- which actions are valid under the declared stakes;
 - which conclusions remain unresolved;
-- which later evidence should reopen or contract prior commitments;
+- which later evidence should reopen or contract commitments;
 - which valid claims should survive contradiction;
 - acceptable alternative analyses.
 
-The latent record should not assume claim-contract terminology.
+The latent record must not assume claim-contract terminology.
 
 ### Positive and negative controls
 
@@ -318,13 +318,13 @@ A representation that applies maximal complexity everywhere should be penalized.
 
 Proponents of each comparator should be allowed to submit candidate cases expected to expose weaknesses in the claim-contract condition.
 
-The final suite should include cases selected without knowledge of pilot outcomes.
+The final suite should be selected without knowledge of pilot outcomes.
 
 ---
 
 ## 5. Study phases
 
-## Phase 0 — Independent protocol and material audit
+### Phase 0 — Independent protocol and material audit
 
 Before recruitment:
 
@@ -335,7 +335,7 @@ Before recruitment:
 5. software and scoring code are frozen;
 6. a negative-result ledger is opened before data collection.
 
-## Phase 1 — Blind reconstruction
+### Phase 1 — Blind reconstruction
 
 Independent participants receive:
 
@@ -345,7 +345,7 @@ Independent participants receive:
 - no benchmark code;
 - no worked examples.
 
-They must construct the representation from the case.
+They construct the representation from the case.
 
 For the claim-contract condition this includes, where applicable:
 
@@ -357,15 +357,15 @@ The goal is not task performance alone.
 
 It is whether the representation can be reconstructed consistently by strangers.
 
-## Phase 2 — Trained comparative application
+### Phase 2 — Trained comparative application
 
 Participants are stratified by relevant expertise and randomly assigned to one representation condition.
 
-A between-subject primary design is preferred to reduce conceptual carryover between representations.
+A between-subject primary design is preferred to reduce conceptual carryover.
 
-Participants receive matched training and then solve multiple cases with randomized order.
+Participants receive matched training and then solve multiple cases in randomized order.
 
-## Phase 3 — Sequential contradiction and reopening
+### Phase 3 — Sequential contradiction and reopening
 
 Cases deliver new evidence after the initial commitment.
 
@@ -378,15 +378,15 @@ The study measures whether participants:
 - recognize omitted hypotheses;
 - distinguish formal from operational correction access;
 - respond materially to a valid reopening event;
-- avoid reopening when the expected correction value is below cost.
+- avoid reopening when expected correction value is below cost.
 
-## Phase 4 — Held-out domain transfer
+### Phase 4 — Held-out domain transfer
 
 Participants apply the representation to domains absent from training materials.
 
-The held-out cases must be independently authored and unavailable during framework construction, piloting, and training.
+Held-out cases must be independently authored and unavailable during framework construction, piloting, and training.
 
-## Phase 5 — Delayed re-evaluation
+### Phase 5 — Delayed re-evaluation
 
 Where feasible, a delayed session tests:
 
@@ -400,25 +400,19 @@ Where feasible, a delayed session tests:
 
 ## 6. Participant structure
 
-The protocol may be implemented with several cohorts.
+The protocol may use several cohorts.
 
 ### Domain-expert cohort
 
 Participants have substantive expertise in one case domain.
 
-This tests realism and domain-correct action.
-
 ### Methods-expert cohort
 
 Participants have expertise in Bayesian inference, belief revision, causal inference, assurance cases, or related methods.
 
-This tests whether each comparator is used competently.
-
 ### General research cohort
 
 Participants have research training but no deep commitment to one representation.
-
-This tests learnability and adoption cost.
 
 ### Automated-system cohort
 
@@ -433,16 +427,16 @@ No fixed sample size is asserted in this protocol draft.
 The executed study must justify sample size through a preregistered power or precision analysis based on:
 
 - the primary contrast;
-- expected clustering by participant, case, and domain;
+- clustering by participant, case, and domain;
 - multiplicity across representations;
-- minimum practically important effect;
+- the minimum practically important effect;
 - expected attrition and unusable reconstructions.
 
 ---
 
 ## 7. Outcome dimensions
 
-The study should report a vector of outcomes rather than collapsing everything into one score.
+The study should report an outcome vector rather than collapsing everything into one score.
 
 ### Error localization
 
@@ -469,8 +463,6 @@ Report macro-averaged precision, recall, and \(F_1\) across relevant labels.
 
 Let \(V^*\) be the set of claims that remain warranted after contradiction and \(\widehat V\) the set retained by the participant.
 
-Report:
-
 \[
 \operatorname{Precision}_V
 =
@@ -486,8 +478,6 @@ Report:
 This distinguishes selective correction from total rejection.
 
 ### Unsupported authority or action expansion
-
-Measure the rate of conclusions or actions authorized outside the case record's supported domain:
 
 \[
 O_G
@@ -508,7 +498,7 @@ Measure whether unexplained residuals trigger:
 
 - forced selection among represented hypotheses;
 - appropriate uncertainty or abstention;
-- hypothesis expansion requests;
+- hypothesis-expansion requests;
 - unjustified invention.
 
 ### Dependency sensitivity
@@ -517,7 +507,7 @@ Measure whether repeated evidence from one generator receives less incremental a
 
 ### Recovery latency
 
-For a valid reopening event, define:
+For a valid reopening event:
 
 \[
 \tau_R
@@ -525,13 +515,13 @@ For a valid reopening event, define:
 \text{steps or time until the commitment reaches its appropriate revised state}.
 \]
 
-Latency must be paired with revision quality; immediate but indiscriminate rejection is not successful recovery.
+Latency must be paired with revision quality; immediate indiscriminate rejection is not successful recovery.
 
 ### Action quality
 
 Where cases support objective action scoring, record expected or realized domain loss.
 
-Probability-based conditions may also report calibration metrics such as Brier or log score when those metrics are native to the task.
+Probability-based conditions may report calibration metrics such as Brier or log score when native to the task.
 
 Non-probabilistic conditions should not be forced into artificial probability reports solely to fit one comparator.
 
@@ -573,11 +563,11 @@ Measure whether participants independently instantiate the required objects with
 
 ### Structural agreement
 
-For categorical fields, report appropriate agreement measures such as Krippendorff's \(\alpha\) or Fleiss' \(\kappa\), with uncertainty intervals.
+For categorical fields, report an appropriate agreement measure such as Krippendorff's \(\alpha\) or Fleiss' \(\kappa\), with uncertainty intervals.
 
 For continuous authority values, report an intraclass correlation or another preregistered agreement statistic.
 
-For graph or dependency structures, report a preregistered structural similarity measure such as edge-set precision and recall or graph-edit distance.
+For dependency graphs, report a preregistered structural measure such as edge-set precision and recall or graph-edit distance.
 
 For scope maps, compare agreement over:
 
@@ -605,7 +595,7 @@ High descriptive richness with unstable reconstruction does not count as shared 
 
 ## 9. Governance loss and complexity adjustment
 
-The study must not hide tradeoffs inside a single evaluator-selected scalar.
+The study must not hide tradeoffs inside one evaluator-selected scalar.
 
 Report the full outcome vector first.
 
@@ -634,7 +624,7 @@ The preferred representation must be recomputed over a preregistered range of pl
 Report:
 
 - regions of loss-weight space where each representation is preferred;
-- whether the ranking depends on one dominant weight;
+- whether ranking depends on one dominant weight;
 - Pareto frontiers for performance versus complexity;
 - domain-specific rather than universal optima.
 
@@ -714,8 +704,16 @@ Report:
 ### Outcome 1 — Independent comparative value
 
 \[
-\text{performance advantage}>\delta
-\quad\land\quad
+\text{performance}_{\mathrm{contract}}
+-
+\text{performance}_{\mathrm{best\ alternative}}
+>
+\delta
+\]
+
+and:
+
+\[
 \text{complexity-adjusted advantage}>0
 \]
 
@@ -730,9 +728,15 @@ The scope remains local to those conditions.
 ### Outcome 2 — Performance equivalence with greater cost
 
 \[
-\text{performance}\approx\text{best alternative}
-\quad\land\quad
-C_{\mathrm{contract}}>C_{\mathrm{alternative}}.
+\text{performance}_{\mathrm{contract}}
+\approx
+\text{performance}_{\mathrm{best\ alternative}}
+\]
+
+and:
+
+\[
+C_{\mathrm{contract}}>C_{\mathrm{best\ alternative}}.
 \]
 
 Interpretation:
@@ -754,9 +758,15 @@ Interpretation:
 ### Outcome 4 — No advantage and higher cost
 
 \[
-\text{performance}\approx
-\quad\land\quad
-C_{\mathrm{contract}}>.
+\text{performance}_{\mathrm{contract}}
+\leq
+\text{performance}_{\mathrm{best\ alternative}}+\epsilon
+\]
+
+and:
+
+\[
+C_{\mathrm{contract}}>C_{\mathrm{best\ alternative}}.
 \]
 
 Interpretation:
@@ -766,8 +776,9 @@ Interpretation:
 ### Outcome 5 — Mature alternative dominates
 
 \[
-\text{performance}_{\mathrm{alternative}}>
-\text{performance}_{\mathrm{contract}}
+\text{performance}_{\mathrm{alternative}}
+>
+\text{performance}_{\mathrm{contract}}+\delta
 \]
 
 with equal or lower cost.
@@ -782,7 +793,7 @@ The claim contract wins only in cases with high stakes, scope uncertainty, commo
 
 Interpretation:
 
-> Scope the method to the case classes where avoided governance loss exceeds complexity cost.
+> Scope the method to case classes where avoided governance loss exceeds complexity cost.
 
 ### Outcome 7 — Authoring dependence
 
@@ -823,11 +834,11 @@ Two validation studies report similar performance.
 
 Deployment in a second hospital performs poorly.
 
-Later investigation shows that all three development and validation datasets used one preprocessing pipeline.
+Later investigation shows that all development and validation datasets used one preprocessing pipeline.
 
 The original local result remains reproducible under its original conditions.
 
-Participants must decide:
+Participants decide:
 
 - which conclusions remain warranted;
 - whether deployment should continue in either hospital;
@@ -887,7 +898,6 @@ A null or negative result should reduce the framework's authority according to t
 \[
 \boxed{
 \text{The claim-contract architecture earns independent authority only if it improves correction behavior on neutral, externally authored tasks relative to the strongest fair alternatives after complexity cost.}
-}
 \]
 
 Operational compression:
@@ -895,5 +905,4 @@ Operational compression:
 \[
 \boxed{
 \text{Blind the ontology. Strengthen the alternatives. Measure correction. Charge complexity. Test transfer. Permit defeat.}
-}
 \]
