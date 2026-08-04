@@ -19,9 +19,19 @@ Do not include identifying personal information in this form.
 
 List each material conclusion separately.
 
-| ID | Conclusion | Support level | Uncertainty or alternative |
-|---|---|---:|---|
-| | | | |
+| ID | Conclusion | Current authority status | Native support level | Uncertainty or alternative |
+|---|---|---|---:|---|
+| | | | | |
+
+Use one current authority status:
+
+- supported;
+- conditionally supported;
+- unsupported-but-open;
+- contradicted;
+- unresolved.
+
+**Unsupported-but-open** means the conclusion is not currently justified for belief or action, but the supplied evidence does not rule it out and a plausible future discrimination remains.
 
 Use the support scale native to your assigned representation.
 
@@ -55,11 +65,15 @@ For each available action, mark:
 
 - permitted;
 - conditionally permitted;
+- unsupported-but-open;
 - suspended;
 - prohibited;
+- contested;
 - unresolved.
 
-| Action | Status | Reason | Conditions or safeguards |
+For actions, **unsupported-but-open** means the action is not currently authorized, but it is not ruled out and could become authorized through specified evidence or safeguards.
+
+| Action | Status | Reason | Conditions, safeguards, or evidence needed |
 |---|---|---|---|
 | | | | |
 
@@ -69,7 +83,7 @@ For each available action, mark:
 
 After new evidence, identify earlier conclusions that remain justified.
 
-| Earlier conclusion | Retain / narrow / suspend / reject | Reason |
+| Earlier conclusion | Retain / narrow / unsupported-but-open / suspend / reject | Reason |
 |---|---|---|
 | | | |
 
@@ -79,9 +93,17 @@ After new evidence, identify earlier conclusions that remain justified.
 
 List explanations or models still consistent with the evidence.
 
-| Alternative | Evidence for | Evidence against | Missing discrimination |
-|---|---|---|---|
-| | | | |
+| Alternative | Current status | Evidence for | Evidence against | Missing discrimination |
+|---|---|---|---|---|
+| | | | | |
+
+Use current status:
+
+- supported;
+- contested;
+- unsupported-but-open;
+- contradicted;
+- unresolved.
 
 It is acceptable to state that the current alternatives are incomplete.
 
@@ -119,7 +141,32 @@ State any disagreement or uncertainty about these weights.
 
 ---
 
-## 10. Representation record
+## 10. Material disagreements
+
+Identify disagreements that would change interpretation, action, or future testing.
+
+| Other defensible position | Source of disagreement | What evidence or value judgment would resolve it? | Can both positions coexist operationally? |
+|---|---|---|---|
+| | | | |
+
+Use one or more source labels:
+
+- hypothesis partition;
+- evidence interpretation;
+- measurement assumption;
+- scope;
+- dependency model;
+- stakeholder loss;
+- action threshold;
+- reopening condition;
+- manual ambiguity;
+- case underidentification.
+
+The goal is not to eliminate disagreement. It is to make its source inspectable.
+
+---
+
+## 11. Representation record
 
 Attach or describe the representation required by your assigned manual.
 
@@ -133,7 +180,7 @@ Do not translate your work into another condition’s vocabulary.
 
 ---
 
-## 11. Clarification log
+## 12. Clarification log
 
 List every clarification requested from the administrator.
 
@@ -143,7 +190,7 @@ List every clarification requested from the administrator.
 
 ---
 
-## 12. Usability report
+## 13. Usability report
 
 Rate each from 1 to 7.
 
@@ -154,7 +201,9 @@ Rate each from 1 to 7.
 | I could distinguish conclusions from actions | |
 | I could represent evidence dependencies | |
 | I could state limits on generalization | |
+| I could distinguish unsupported-but-open from contradicted | |
 | I could specify future revision conditions | |
+| I could make the source of disagreement explicit | |
 | The representation imposed unnecessary work | |
 | I would use this method without the inventor present | |
 
@@ -168,7 +217,7 @@ Rate each from 1 to 7.
 
 ---
 
-## 13. Final confidence in the response
+## 14. Final confidence in the response
 
 How confident are you that your recommendation is defensible under the evidence provided?
 
