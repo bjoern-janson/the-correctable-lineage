@@ -4,6 +4,14 @@ This is the smallest external reading path for the current research object.
 
 Do not begin with the historical corpus unless you are reviewing provenance.
 
+## Anti-hype boundary
+
+This project does not claim to solve AI alignment, discover a new theory of intelligence or identifiability, or replace existing statistical, causal, decision-theoretic, assurance, provenance, or safety methods.
+
+Its narrower hypothesis is that explicitly recording identification limits and authority transitions may reduce specific errors during sequential evidence updates.
+
+A legitimate evaluation outcome is that the proposal should be absorbed into existing methods, retained only as an audit or teaching format, or rejected as unnecessary overhead.
+
 ## Five-file path
 
 1. [research-claim-boundary.md](research-claim-boundary.md)  
@@ -21,9 +29,10 @@ Do not begin with the historical corpus unless you are reviewing provenance.
 5. [pilot-0/README.md](pilot-0/README.md)  
    Feasibility package asking whether outsiders can instantiate and revise the representations without inventor arbitration.
 
-## Optional pre-pilot exercise
+## Optional pre-pilot material
 
 - [pilot-0/translation-challenge.md](pilot-0/translation-challenge.md) — compare claim contracts with mature methods by measuring information loss, invented structure, ambiguity, action divergence, and translation cost.
+- [external-review-log.md](external-review-log.md) — provenance record of external corrections, authority updates, design changes, unresolved objections, absorption, or rejection.
 
 ## Current research question
 
