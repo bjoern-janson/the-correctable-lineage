@@ -1,0 +1,62 @@
+name: Correction Ecosystem Benchmark v0.4
+
+on:
+  pull_request:
+  push:
+    branches:
+      - agent/integrate-sidis-stress-test
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark-v0-4:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run v0.4 unit tests
+        run: python -m unittest discover -s benchmark -p 'test_correction_ecosystem_v0_4.py' -v
+
+      - name: Re-run frozen v0.4 benchmark
+        run: python benchmark/correction_ecosystem_v0_4.py --seeds 100 --strict --output-dir /tmp/correction-ecosystem-v0.4
+
+      - name: Verify frozen v0.4 aggregate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          frozen = json.loads(Path('benchmark/results/results-v0.4.json').read_text())
+          current = json.loads(Path('/tmp/correction-ecosystem-v0.4/results-v0.4.json').read_text())
+
+          assert frozen['schema_version'] == current['schema_version']
+          assert frozen['status'] == current['status']
+          assert frozen['seeds'] == current['seeds']
+          assert frozen['checks'] == current['checks']
+
+          frozen_rows = {(r['scenario'], r['agent']): r for r in frozen['aggregate']}
+          current_rows = {(r['scenario'], r['agent']): r for r in current['aggregate']}
+          assert frozen_rows.keys() == current_rows.keys()
+
+          for key in frozen_rows:
+              expected = frozen_rows[key]
+              observed = current_rows[key]
+              for field, expected_value in expected.items():
+                  observed_value = observed[field]
+                  if isinstance(expected_value, float):
+                      assert abs(expected_value - observed_value) <= 1e-6, (
+                          key, field, expected_value, observed_value
+                      )
+                  else:
+                      assert expected_value == observed_value, (
+                          key, field, expected_value, observed_value
+                      )
+          PY
