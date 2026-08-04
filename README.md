@@ -4,9 +4,9 @@
 
 The Correctable Lineage is a map of a distributed research corpus concerned with one question:
 
-> How can a bounded system expand what it can do without reducing reality's ability to correct how it changes next?
+> How can a lineage generate, evaluate, select, and inherit representations whose authority remains proportional to the evidence supporting their exact scope?
 
-The corpus spans interfaces, computational reach, representation change, recursive adaptation, causal permeability, failure attribution, authority revision, inheritance, and evidential governance.
+The corpus spans interfaces, computational reach, representation change, recursive adaptation, causal permeability, failure attribution, authority revision, inheritance, prospective representation, and evidential governance.
 
 It is best understood not as one completed theory, but as an evolving research architecture for studying systems that can become more capable while preserving the ability to become less wrong.
 
@@ -59,6 +59,14 @@ Its shortest verbal form is:
 
 > Evolution begins when failure improves the machinery that learns from failure.
 
+The corpus-level authority invariant is:
+
+\[
+\boxed{
+\text{Evidence may increase authority only along dimensions that the evidence can identify.}
+}
+\]
+
 ---
 
 ## What the corpus is
@@ -84,6 +92,8 @@ Its recurring cycle is:
 \rightarrow
 \text{representation}
 \rightarrow
+\text{prospective generation}
+\rightarrow
 \text{action}
 \rightarrow
 \text{consequence}
@@ -92,7 +102,9 @@ Its recurring cycle is:
 \rightarrow
 \text{attribution}
 \rightarrow
-\text{revision}
+\text{authority revision}
+\rightarrow
+\text{selection}
 \rightarrow
 \text{inheritance}.
 \]
@@ -109,7 +121,7 @@ The corpus asks not only whether a system changes, but whether contradiction can
 \text{How does the system change?}
 \]
 
-This includes representation, search, action, feedback, mechanism revision, and inheritance.
+This includes representation, prospective generation, search, action, feedback, mechanism revision, selection, and inheritance.
 
 ### Governance loop
 
@@ -117,7 +129,7 @@ This includes representation, search, action, feedback, mechanism revision, and 
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, scope, and claim boundaries.
+This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, typed authority, scope, and claim boundaries.
 
 The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
@@ -160,12 +172,18 @@ Examples include:
 \[
 \text{measurement}
 \rightarrow
-\text{factorization} + \text{estimation} + \text{prediction} + \text{intervention}.
+\text{factorization} + \text{estimation} + \text{prediction} + \text{intervention}
+\]
+
+\[
+\text{knowledge}
+\rightarrow
+\text{validity} + \text{provenance} + \text{mechanism} + \text{explanation} + \text{future reliability}.
 \]
 
 The corpus therefore converges on a stronger view of intelligence:
 
-> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward.
+> Intelligence is not merely the ability to produce better models or change when wrong. It includes controlling the rate and scope at which representations acquire the right to shape reality.
 
 ---
 
@@ -245,7 +263,7 @@ Accordingly:
 
 The long-range research object is a **correctable lineage**:
 
-> A traceable adaptive process in which environmental consequences can improve the machinery of future adaptation, successful corrections can be inherited, and no current mechanism becomes the unchallengeable judge of its own continued authority.
+> A traceable adaptive process that can generate representations of present and possible futures, allocate authority according to evidence, allow environmental consequences to revise future-change machinery, and inherit successful corrections without turning any current model into the unchallengeable judge of its own continued authority.
 
 This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
 
@@ -257,7 +275,7 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 
 \[
 \boxed{
-\text{The corpus is a theory-engine for turning contradiction into lineage-level improvement.}
+\text{The corpus is a theory-engine for governing how representations earn, exercise, lose, and transmit authority.}
 }
 \]
 
@@ -267,6 +285,6 @@ It is:
 
 \[
 \boxed{
-\text{the organized preservation of the ability to become less wrong.}
+\text{the organized preservation of the ability to become less wrong without suppressing the ability to see farther.}
 }
 \]
