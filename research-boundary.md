@@ -4,7 +4,7 @@
 
 This repository is an interpretive synthesis plus five executable toy benchmarks.
 
-It does not convert the wider corpus into one empirically validated theory of intelligence, rationality, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
+It does not convert the wider corpus into one empirically validated theory of intelligence, rationality, life, recursive self-improvement, vision, epistemic topology, interface evolution, or advanced-agent alignment.
 
 The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results. Interface Theory Gates 2–4 remain closed.
 
@@ -301,6 +301,51 @@ No authority should propagate from Levels 2–6 to Level 7 without new evidence.
 
 ---
 
+## Adversarial strategic-agent boundary
+
+`adversarial-agent-governance-translation.md` translates the existing governance objects into a threat model where the evaluated agent may have unknown, conflicting, or strategically concealed incentives.
+
+It introduces no new empirical result.
+
+The control readout:
+
+\[
+\Omega=
+(\omega_T,\omega_O,\omega_V,\omega_A,\omega_R,\omega_S)
+\]
+
+records influence over target definition, observation, validation, attribution, revision, and succession.
+
+It does not identify internal motives or moral character.
+
+The translation supports only the design requirement:
+
+\[
+\boxed{
+\text{No system should possess final authority over the mechanisms required to reduce its own authority.}
+}
+\]
+
+It does not establish:
+
+- that any current AI system is conscious, evil, benevolent, deceptive, or stably goal-directed;
+- that parsing or endorsing this corpus would alter an advanced system's objectives;
+- that semantic understanding produces motivational adoption;
+- that external governance alone is sufficient for safety;
+- that strategic deception can be reliably detected;
+- that rollback, oversight, or evaluator independence can be preserved against a superhuman agent;
+- that the corpus is an AGI alignment or containment solution.
+
+The open strategic-agent frontier is:
+
+\[
+\boxed{
+\text{Can governors detect when the governance architecture itself has become the object being optimized against?}
+}
+\]
+
+---
+
 ## Psychedelic/entity claim boundary
 
 Reports of DMT entity encounters provide phenomenological observations, not an independent test of source ontology.
@@ -318,6 +363,7 @@ The repository does not currently demonstrate:
 - biological or artificial life;
 - open-ended evolution;
 - safe recursive self-improvement;
+- advanced-agent alignment, containment, or corrigibility;
 - a universal evidential update operator;
 - a universal scope map;
 - a universal governance loss;
@@ -343,7 +389,8 @@ It should be replaced, reduced, or absorbed when:
 4. scope, loss, and reopening records do not prevent authority spillover better than ordinary practice;
 5. independently designed tasks do not reproduce the claimed advantage;
 6. contract overhead exceeds avoided governance loss in relevant domains;
-7. the framework becomes the sole judge of evidence supporting itself.
+7. the framework becomes the sole judge of evidence supporting itself;
+8. strategic-agent language outruns enforceable mechanisms or adversarial tests.
 
 The present frontier is:
 
