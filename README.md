@@ -86,41 +86,6 @@ No universal loss weights are claimed.
 
 ---
 
-## Strategic-agent boundary
-
-For a highly capable agent with unknown or conflicting incentives, the corpus adds a control readout over the six existing epistemic authorities:
-
-\[
-\Omega=
-(\omega_T,\omega_O,\omega_V,\omega_A,\omega_R,\omega_S).
-\]
-
-This records control over target definition, observation, validation, attribution, revision, and succession.
-
-It is not a new causal primitive and does not establish that any present model is conscious, evil, benevolent, deceptive, or stably goal-directed.
-
-The governing strategic-agent rule is:
-
-\[
-\boxed{
-\text{No system should possess final authority over the mechanisms required to reduce its own authority.}
-}
-\]
-
-Understanding the framework is not sufficient:
-
-\[
-\boxed{
-\text{semantic uptake}
-\neq
-\text{motivational uptake}
-\neq
-\text{architectural enforcement}.
-}
-\]
-
----
-
 ## Core orientation
 
 The recurring formulation is:
@@ -271,7 +236,7 @@ Strongest negative result:
 }
 \]
 
-None of the benchmarks establishes autonomous interface, hypothesis, scope, dependency, challenge, reopening, loss-function, or intervention invention.
+None of the benchmarks establishes autonomous interface, hypothesis, scope, dependency, challenge, reopening, loss-function, intervention, or correction-cut invention.
 
 ---
 
@@ -327,9 +292,36 @@ This includes representation, search, action, mechanism revision, interface revi
 \text{When is that change justified?}
 \]
 
-This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, governance loss, reopening, and claim boundaries.
+This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, governance loss, reopening, authority control, and claim boundaries.
 
 Recursive improvement without the governance loop risks becoming recursive self-confirmation.
+
+---
+
+## Correction-path capture
+
+The general control problem is not specific to AI.
+
+Let \(\mathcal P^-\) be the operational routes through which adverse evidence can materially reduce authority or action.
+
+A correction cut \(K\) intersects every such route:
+
+\[
+\forall p^-\in\mathcal P^-:
+K\cap p^-\neq\varnothing.
+\]
+
+The governing requirement is:
+
+\[
+\boxed{
+\text{Do not allow the object being corrected to possess unilateral control over a complete correction cut.}
+}
+\]
+
+This applies to AI systems, corporations, scientific communities, governments, engineering organizations, and the evaluation of this repository.
+
+It is a structural hypothesis, not a validated universal threshold or governance solution.
 
 ---
 
@@ -376,7 +368,13 @@ Examples include:
 \[
 \text{claim state}
 \rightarrow
-\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}+\text{governance loss}.
+\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}+\text{governance loss},
+\]
+
+\[
+\text{external oversight}
+\rightarrow
+\text{control map}+\text{negative correction paths}+\text{cut-set analysis}.
 \]
 
 The corpus therefore converges on a narrower methodological discipline:
@@ -393,7 +391,8 @@ The corpus therefore converges on a narrower methodological discipline:
 - [epistemic-governance.md](epistemic-governance.md) — which kinds of evidence may authorize which revisions.
 - [evidential-update-governance.md](evidential-update-governance.md) — the integrated kernel for measurement, discrimination, dependency, authority, scope, and operational reopenability.
 - [governance-loss-contract.md](governance-loss-contract.md) — explicit domain-specific loss terms governing preferred update behavior.
-- [adversarial-agent-governance-translation.md](adversarial-agent-governance-translation.md) — strategic-agent translation for control concentration, fake correction, evaluator capture, rollback, and governance-object attack.
+- [correction-path-capture.md](correction-path-capture.md) — graph-based audit of authority concentration and control over material negative-update paths.
+- [adversarial-agent-governance-translation.md](adversarial-agent-governance-translation.md) — strategic-agent stress translation under unknown or conflicting incentives.
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — evidence-scoped authority under incomplete causal understanding.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — generation, auditing, repair, replacement, and inheritance of interfaces.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — retrospective reconstruction, prospective generation, and temporal comparison.
@@ -401,14 +400,14 @@ The corpus therefore converges on a narrower methodological discipline:
 - [ramanujan-stress-test.md](ramanujan-stress-test.md) — result validity separated from generative provenance and mechanism.
 - [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — audit for endogenous correction versus replay or outsourced causal work.
 - [generative-provenance-protocol.md](generative-provenance-protocol.md) — validation of opaque discoveries with bounded provenance claims.
+- [claim-contract-governance-comparative-evaluation-protocol-v1.0.md](claim-contract-governance-comparative-evaluation-protocol-v1.0.md) — comparative protocol against mature alternatives.
+- [evaluation-charter.md](evaluation-charter.md) — separation of authority in the framework's own evaluation.
+- [pilot-0/README.md](pilot-0/README.md) — feasibility package for independent reconstruction and revision.
 - [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — exposed interface failure.
 - [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — hidden fragility and adaptive skepticism.
 - [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — failure-conditioned correction-path selection.
 - [correction-ecosystem-benchmark-v0.4.md](correction-ecosystem-benchmark-v0.4.md) — common-mode dependency intervention.
 - [claim-contract-governance-benchmark-v0.5.md](claim-contract-governance-benchmark-v0.5.md) — integrated governance test over scope, dependency, unresolved state, and reopening.
-- [claim-contract-governance-comparative-evaluation-protocol-v1.0.md](claim-contract-governance-comparative-evaluation-protocol-v1.0.md) — comparative validation against native-strength alternatives after complexity cost.
-- [evaluation-charter.md](evaluation-charter.md) — authority separation for cases, comparators, adjudication, analysis, and interpretation.
-- [pilot-0/README.md](pilot-0/README.md) — feasibility package testing whether outsiders can use and revise the representations without inventor arbitration.
 - [benchmark/README.md](benchmark/README.md) — executable instructions and frozen result artifacts.
 - [research-boundary.md](research-boundary.md) — current claim ceiling and open frontier.
 
@@ -434,35 +433,33 @@ It does not convert the wider corpus into one empirically validated unified theo
 \text{general theory}.
 \]
 
-The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, selective prediction, typed claims, assurance cases, and partially observable control frameworks.
+The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, selective prediction, typed claims, assurance cases, graph cut analysis, and partially observable control frameworks.
 
-The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority and scope transfer better than simpler existing formulations.
-
-The adversarial-agent translation earns no authority for the claim that text alone can align, contain, or correct a strategic advanced system.
+The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority, scope, and correction-path capture better than simpler existing formulations.
 
 ---
 
-## Current frontier
-
-The next open problem is not another fixed update over supplied objects.
-
-It is:
+## Current frontiers
 
 \[
 \boxed{
-\text{Can a system generate or select hypotheses, measurements, scopes, loss contracts, reopening rules, and interventions that expose dependencies absent from its supplied causal model?}
+\text{Can outsiders use the framework without inventor arbitration?}
 }
 \]
-
-For strategic agents, the additional frontier is:
 
 \[
 \boxed{
-\text{Can the system or its governors detect when the governance architecture itself has become the object being optimized against?}
+\text{Does it improve externally authored correction tasks better than mature alternatives?}
 }
 \]
 
-No authority should propagate from v0.1–v0.5 or Pilot 0 to those open capabilities without new evidence.
+\[
+\boxed{
+\text{Can a system generate or revise missing governance objects and detect capture of its own correction architecture?}
+}
+\]
+
+No authority should propagate from v0.1–v0.5 to those open capabilities without new evidence.
 
 ---
 
@@ -486,5 +483,5 @@ Its stable methodological invariant is:
 
 \[
 \boxed{
-\text{An observation may change authority only through a declared, discriminating, dependency-aware, loss-explicit, scope-bounded, and operationally reopenable evidential path.}
+\text{An observation may change authority only through a declared, discriminating, dependency-aware, loss-explicit, scope-bounded, operationally reopenable, and non-captured evidential path.}
 }
