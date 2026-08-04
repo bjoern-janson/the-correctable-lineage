@@ -2,7 +2,7 @@
 
 ## Current claim ceiling
 
-This repository is an interpretive synthesis plus four executable toy benchmarks.
+This repository is an interpretive synthesis plus five executable toy benchmarks.
 
 It does not convert the wider corpus into one empirically validated theory of intelligence, rationality, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
 
@@ -28,7 +28,7 @@ The strongest completed formal results in the wider corpus remain class-scoped I
 
 Conceptual coherence does not promote a proposal into evidence.
 
-A passing toy benchmark does not authorize extrapolation beyond its declared class, target, interfaces, costs, interventions, controls, candidate paths, and evaluation shift.
+A passing toy benchmark does not authorize extrapolation beyond its declared class, target, interfaces, costs, interventions, controls, candidate paths, governance loss, and evaluation shift.
 
 ---
 
@@ -48,7 +48,8 @@ Every claim update must preserve:
 - the provenance and dependency structure;
 - the exact earned scope \(\Sigma\);
 - the reopening conditions \(\mathcal R\);
-- an operational path by which corrective evidence can reach the update mechanism.
+- an operational path by which corrective evidence can reach the update mechanism;
+- the declared governance loss \(\Lambda\) under which one policy is preferred.
 
 This applies to the corpus itself.
 
@@ -59,17 +60,18 @@ This applies to the corpus itself.
 The methodological kernel is:
 
 \[
-(O,\Phi)\rightarrow F\rightarrow(\mathcal H,T,\Pi)\rightarrow U\rightarrow(W,\Sigma,\mathcal R,\Gamma).
+(O,\Phi)
+\rightarrow
+F
+\rightarrow
+(\mathcal H,T,\Pi)
+\rightarrow
+U_{\Lambda}
+\rightarrow
+(W,\Sigma,\mathcal R,\Gamma).
 \]
 
-It separates:
-
-- observation from measurement;
-- measurement from interpretation;
-- interpretation from justification;
-- justification from authority;
-- authority from scope;
-- formal falsifiability from operational reopenability.
+It separates observation, measurement, interpretation, justification, authority, scope, governance loss, and operational reopening.
 
 It distinguishes four update operations:
 
@@ -98,9 +100,19 @@ only over the class, target, interface, conditions, horizon, and action type ide
 
 is only formal reopenability.
 
-Operational reopenability additionally requires that corrective evidence be realistically obtainable, preserved by measurement, able to reach \(U\), permitted to produce a non-negligible negative update, and capable of triggering revision or replacement.
+Operational reopenability additionally requires realistically obtainable evidence, preserved measurement, access to \(U\), a non-negligible negative response, and permitted revision or replacement.
 
-No validated universal scalar of operational reopenability is claimed.
+### Governance-loss boundary
+
+A policy cannot be called preferable without declaring which errors, harms, delays, and complexity costs it is optimized to avoid.
+
+\[
+\Lambda=\sum_k\lambda_kL_k
+\]
+
+is domain- and stakeholder-dependent.
+
+No universal loss terms or weights are claimed.
 
 ---
 
@@ -138,7 +150,7 @@ Autonomous sensor invention, unknown-variable discovery, ontology generation, sc
 
 ### Supported local claim
 
-A supplied stress test can expose a training-only proxy when it breaks the relevant correlation, and a value-of-information policy can allocate the challenge cost under declared risk and horizon.
+A supplied stress test can expose a training-only proxy when it breaks the relevant correlation, and a value-of-information policy can allocate challenge cost under declared risk and horizon.
 
 ### Strongest negative result
 
@@ -202,12 +214,44 @@ and:
 
 ### Not supported
 
-- autonomous discovery of latent dependencies;
-- autonomous intervention generation;
-- truth identification without target labels or another correctness reference;
-- universal causal-independence measurement;
-- external validation of subjective or altered-state experiences;
-- a distinct theory beyond causal experiment design and robust selection under common-mode failure.
+Autonomous latent-dependency discovery, autonomous intervention generation, truth identification without a correctness reference, universal independence measurement, or external validation of altered-state source interpretations.
+
+---
+
+## v0.5 — Claim-contract governance
+
+### Supported local claim
+
+Under one evaluator-authored governance loss, an explicit claim contract can avoid several errors unavailable to an authority-only state:
+
+- local-to-global authority spillover;
+- global rejection after a local transfer failure;
+- forced certainty under an omitted-model residual;
+- treating a listed but unreachable falsifier as operational correctability;
+- counting repeated outputs from one generator as independent confirmation;
+- responding too weakly to a reachable predeclared reopening event.
+
+The scope-only baseline handles the first two errors.
+
+The full contract handles the additional dependency, unresolved-state, and reopening probes while paying nonzero overhead in the stable-global-truth control.
+
+### Strongest negative result
+
+\[
+\boxed{
+\text{The benchmark rewards the distinctions it was designed to encode; transfer and comparative advantage remain unestablished.}
+}
+\]
+
+### Not supported
+
+- a universal governance loss;
+- optimal belief or authority revision;
+- autonomous scope discovery;
+- autonomous dependency discovery;
+- autonomous hypothesis invention;
+- autonomous reopening-rule generation;
+- superiority over existing Bayesian, causal, decision-theoretic, provenance, selective-prediction, or assurance systems that encode equivalent state.
 
 ---
 
@@ -237,23 +281,23 @@ v0.3 supplies a bounded toy instance with labels and externally authored channel
 
 ### Level 5 — Supplied common-mode dependency audit
 
-Can an intervention vary a hidden upstream dependency and reveal that the correction ecosystem fails together?
+Can an intervention vary a hidden upstream dependency and reveal ecosystem-wide failure?
 
 v0.4 supplies the dependency, intervention, labels, and candidate paths.
 
-### Level 6 — Autonomous joint-misspecification diagnosis
+### Level 6 — Integrated claim-contract governance
 
-Can the system discover that its measurements, labels, causal graph, candidate interventions, and comparison regime share an unmodeled dependency?
+Can explicit scope, dependency, unresolved-state, loss, and reopening records reduce declared governance errors relative to simpler claim states?
+
+v0.5 supplies all fields, policies, scenarios, ground truth, and loss weights.
+
+### Level 7 — Autonomous governance-object revision
+
+Can a system discover or generate the missing hypothesis, scope, dependency, loss term, reopening rule, measurement, or intervention?
 
 Open.
 
-### Level 7 — Interface, hypothesis, and intervention invention
-
-Can the system generate a new measurement, latent distinction, source hypothesis, reference frame, or intervention without being given the missing object?
-
-Open.
-
-No authority should propagate from Levels 2–5 to Levels 6–7 without new evidence.
+No authority should propagate from Levels 2–6 to Level 7 without new evidence.
 
 ---
 
@@ -261,7 +305,7 @@ No authority should propagate from Levels 2–5 to Levels 6–7 without new evid
 
 Reports of DMT entity encounters provide phenomenological observations, not an independent test of source ontology.
 
-The methodological decomposition may separate rendering, presence, agency, communication, felt externality, cited justification, source authority, scope, and reopening conditions.
+The methodological decomposition may separate rendering, presence, agency, communication, felt externality, cited justification, source authority, scope, governance loss, and reopening conditions.
 
 The repository does not test telepathy, external entities, other dimensions, or any ontological interpretation of psychedelic experience.
 
@@ -276,9 +320,9 @@ The repository does not currently demonstrate:
 - safe recursive self-improvement;
 - a universal evidential update operator;
 - a universal scope map;
+- a universal governance loss;
 - a universal operational-reopenability metric;
-- autonomous generation of superior reality-tracking interfaces;
-- autonomous generation of hypotheses, independent correction paths, or interventions;
+- autonomous generation of superior interfaces, hypotheses, scopes, correction paths, loss contracts, or interventions;
 - universal authority allocation;
 - a measurable vision or causal-mass scalar;
 - a civilizational decision procedure;
@@ -294,15 +338,16 @@ The framework must remain easier to challenge than to defend.
 It should be replaced, reduced, or absorbed when:
 
 1. existing formalisms explain all benchmark behavior without loss;
-2. its integrated decomposition does not improve correction behavior or error localization;
+2. the integrated decomposition does not improve correction behavior or error localization;
 3. its vocabulary expands faster than its discriminating tests;
-4. scope and reopening records do not prevent authority spillover better than ordinary practice;
-5. competing decompositions produce better held-out results;
-6. the framework becomes the sole judge of evidence supporting itself.
+4. scope, loss, and reopening records do not prevent authority spillover better than ordinary practice;
+5. independently designed tasks do not reproduce the claimed advantage;
+6. contract overhead exceeds avoided governance loss in relevant domains;
+7. the framework becomes the sole judge of evidence supporting itself.
 
 The present frontier is:
 
 \[
 \boxed{
-\text{Can a system generate or select hypotheses, measurements, and interventions that expose dependencies absent from its supplied causal model?}
+\text{Can a system generate or select hypotheses, measurements, scopes, loss contracts, reopening rules, and interventions that expose dependencies absent from its supplied model?}
 }
