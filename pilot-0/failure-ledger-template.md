@@ -49,6 +49,11 @@ Select one or more:
 - adjudicator conflict;
 - evaluator underidentification;
 - suppressed disagreement;
+- consensus laundering;
+- disagreement-source laundering;
+- unsupported-open collapsed into permitted;
+- unsupported-open collapsed into prohibited;
+- contested collapsed into unresolved;
 - scoring circularity;
 - condition unblinding;
 - post-outcome rule change;
@@ -57,6 +62,7 @@ Select one or more:
 - governance-loss dispute;
 - stakeholder omission;
 - generalized abstention;
+- generalized rejection;
 - complexity measurement failure;
 - software or administration failure;
 - other: __________
@@ -75,6 +81,7 @@ Which evaluation objects may be compromised?
 - comparator fidelity;
 - adjudication record;
 - scoring rubric;
+- disagreement map;
 - loss model;
 - analysis;
 - interpretation;
@@ -116,7 +123,9 @@ Could the event favor:
 - all complex representations;
 - all simple representations;
 - abstention;
+- generalized rejection;
 - one case interpretation;
+- one adjudicator coalition;
 - unknown direction.
 
 Explain.
@@ -213,7 +222,34 @@ Possible conclusion:
 
 > No independent authority update is permitted.
 
-## 5. Generalized skepticism
+## 5. Consensus laundering
+
+Indicators:
+
+- adjudicator agreement is treated as ground truth without consequence evidence;
+- minority positions are deleted after panel discussion;
+- different loss assumptions are rewritten as factual errors;
+- convergence follows authority pressure rather than new evidence;
+- persistent disagreement becomes visible only in private notes.
+
+Possible conclusion:
+
+> The evaluation produced conformity rather than identified correction.
+
+## 6. Open-status collapse
+
+Indicators:
+
+- unsupported-but-open possibilities receive current action authority;
+- lack of current support is treated as permanent falsification;
+- contested positions are collapsed into generic uncertainty;
+- underidentified case states are scored as participant failures.
+
+Possible conclusion:
+
+> The evaluation cannot preserve graded authority states and should not test the framework's claimed update granularity.
+
+## 7. Generalized skepticism
 
 Indicators:
 
@@ -225,7 +261,19 @@ Possible conclusion:
 
 > Apparent safety gain is abstention rather than better correction governance.
 
-## 6. Governance-loss capture
+## 8. Generalized rejection
+
+Indicators:
+
+- every unsupported claim is treated as false;
+- later evidence cannot reopen rejected possibilities;
+- participants preserve no unsupported-but-open region.
+
+Possible conclusion:
+
+> Apparent decisiveness is closure rather than calibrated authority governance.
+
+## 9. Governance-loss capture
 
 Indicators:
 
@@ -238,7 +286,7 @@ Possible conclusion:
 
 > Any preference is conditional on a narrow loss contract and must be scoped accordingly.
 
-## 7. Reconstruction without consequential validity
+## 10. Reconstruction without consequential validity
 
 Indicators:
 
@@ -250,7 +298,7 @@ Possible conclusion:
 
 > Structural reliability does not establish operational usefulness.
 
-## 8. Consequential validity without structural agreement
+## 11. Consequential validity without structural agreement
 
 Indicators:
 
@@ -261,11 +309,36 @@ Possible conclusion:
 
 > The method may permit plural internal structures; exact reconstruction should not be treated as necessary.
 
-## 9. Evaluation underidentification
+## 12. Disagreement without legibility
 
 Indicators:
 
-- adjudicators cannot define prohibited or permitted regions;
+- material disagreements remain entangled;
+- source labels require inventor translation;
+- coders cannot distinguish evidence, scope, dependency, loss, and action disputes;
+- disagreement records do not change tests, actions, or coordination.
+
+Possible conclusion:
+
+> The representation does not provide a stable public method for structuring expert disagreement.
+
+## 13. Legibility without correction value
+
+Indicators:
+
+- disagreements receive tidy labels;
+- labels do not improve evidence acquisition, coexistence, action, or later repair;
+- classification cost exceeds coordination value.
+
+Possible conclusion:
+
+> The disagreement vocabulary is descriptive overhead under the tested conditions.
+
+## 14. Evaluation underidentification
+
+Indicators:
+
+- adjudicators cannot define prohibited, permitted, unsupported-open, or contested regions;
 - later evidence supports multiple incompatible actions;
 - scoring requires disputed hidden facts.
 
@@ -273,7 +346,7 @@ Possible conclusion:
 
 > The case is qualitative or unusable for performance inference.
 
-## 10. Complexity dominance
+## 15. Complexity dominance
 
 Indicators:
 
@@ -297,8 +370,10 @@ At study close report:
 - protocol deviations;
 - exclusions and reruns;
 - likely directional bias;
+- unsupported-open and underidentified classification failures;
+- disagreement-source coding failures;
 - which claims remain supportable;
-- which claims must be narrowed, suspended, or rejected;
+- which claims must be narrowed, suspended, absorbed, or rejected;
 - which failures require a new pilot before comparative testing.
 
 The ledger must be published with the report subject to privacy and ethics constraints.
