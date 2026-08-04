@@ -4,9 +4,9 @@
 
 The Correctable Lineage is a map of a distributed research corpus concerned with one question:
 
-> How can a lineage generate, evaluate, select, and inherit representations whose authority remains proportional to the evidence supporting their exact scope?
+> How can a bounded system expand what it can do without reducing reality's ability to correct how it changes next?
 
-The corpus spans interfaces, computational reach, representation change, recursive adaptation, causal permeability, failure attribution, authority revision, inheritance, prospective representation, and evidential governance.
+The corpus spans interfaces, computational reach, representation change, recursive adaptation, causal permeability, failure attribution, authority revision, inheritance, and evidential governance.
 
 It is best understood not as one completed theory, but as an evolving research architecture for studying systems that can become more capable while preserving the ability to become less wrong.
 
@@ -59,13 +59,23 @@ Its shortest verbal form is:
 
 > Evolution begins when failure improves the machinery that learns from failure.
 
-The corpus-level authority invariant is:
+The newer governance compression is:
 
 \[
 \boxed{
 \text{Evidence may increase authority only along dimensions that the evidence can identify.}
 }
 \]
+
+The corresponding interface-level hypothesis is:
+
+\[
+\boxed{
+\text{Intelligence includes the controlled generation, repair, evaluation, and inheritance of interfaces through which reality becomes actionable.}
+}
+\]
+
+These are organizing hypotheses, not validated universal definitions or metrics.
 
 ---
 
@@ -92,8 +102,6 @@ Its recurring cycle is:
 \rightarrow
 \text{representation}
 \rightarrow
-\text{prospective generation}
-\rightarrow
 \text{action}
 \rightarrow
 \text{consequence}
@@ -102,14 +110,14 @@ Its recurring cycle is:
 \rightarrow
 \text{attribution}
 \rightarrow
-\text{authority revision}
-\rightarrow
-\text{selection}
+\text{revision}
 \rightarrow
 \text{inheritance}.
 \]
 
 The corpus asks not only whether a system changes, but whether contradiction can reach the specific machinery responsible for future change, alter its authority, and leave unaffected valid structure intact.
+
+The interface-evolution extension asks whether the system can discover that the observation, representation, coordination, or action interface itself is the source of failure.
 
 ---
 
@@ -121,7 +129,7 @@ The corpus asks not only whether a system changes, but whether contradiction can
 \text{How does the system change?}
 \]
 
-This includes representation, prospective generation, search, action, feedback, mechanism revision, selection, and inheritance.
+This includes representation, search, action, feedback, mechanism revision, interface revision, and inheritance.
 
 ### Governance loop
 
@@ -129,7 +137,7 @@ This includes representation, prospective generation, search, action, feedback, 
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, typed authority, scope, and claim boundaries.
+This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, and claim boundaries.
 
 The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
@@ -176,14 +184,20 @@ Examples include:
 \]
 
 \[
-\text{knowledge}
+\text{interface}
 \rightarrow
-\text{validity} + \text{provenance} + \text{mechanism} + \text{explanation} + \text{future reliability}.
+\text{observation} + \text{representation} + \text{coordination} + \text{action}
+\]
+
+\[
+\text{interface effect}
+\rightarrow
+\text{discovery} + \text{coordination} + \text{constitution}.
 \]
 
 The corpus therefore converges on a stronger view of intelligence:
 
-> Intelligence is not merely the ability to produce better models or change when wrong. It includes controlling the rate and scope at which representations acquire the right to shape reality.
+> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence became visible.
 
 ---
 
@@ -199,7 +213,8 @@ The corpus therefore converges on a stronger view of intelligence:
 - [authority-acquisition-gate.md](authority-acquisition-gate.md) — separates evidence detection, operational authority revision, selection efficacy, and inherited correction.
 - [ramanujan-stress-test.md](ramanujan-stress-test.md) — a stress test of discovery without accessible derivation and the separation of result validity from mechanism understanding.
 - [generative-provenance-protocol.md](generative-provenance-protocol.md) — a protocol for validating opaque discoveries while separately governing provenance, mechanism, and explanation claims.
-- [authority-allocation-invariant.md](authority-allocation-invariant.md) — the general invariant governing typed authority, prospective representations, selection resolution, and evidential scope.
+- [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
+- [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
@@ -227,7 +242,7 @@ The artifact types must remain distinct:
 \text{frozen result}.
 \]
 
-Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, or an operational recursive self-improvement system.
+Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, or a universal interface-generation law.
 
 ---
 
@@ -263,11 +278,11 @@ Accordingly:
 
 The long-range research object is a **correctable lineage**:
 
-> A traceable adaptive process that can generate representations of present and possible futures, allocate authority according to evidence, allow environmental consequences to revise future-change machinery, and inherit successful corrections without turning any current model into the unchallengeable judge of its own continued authority.
+> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, and no current mechanism or interface becomes the unchallengeable judge of its own continued authority.
 
 This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
 
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, or safe recursive self-improvement.
+But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, or autonomous generation of superior reality-tracking interfaces.
 
 ---
 
@@ -275,7 +290,7 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 
 \[
 \boxed{
-\text{The corpus is a theory-engine for governing how representations earn, exercise, lose, and transmit authority.}
+\text{The corpus is a theory-engine for turning contradiction into lineage-level improvement.}
 }
 \]
 
@@ -285,5 +300,14 @@ It is:
 
 \[
 \boxed{
-\text{the organized preservation of the ability to become less wrong without suppressing the ability to see farther.}
+\text{the organized preservation of the ability to become less wrong.}
+}
+\]
+
+At the interface layer, that becomes:
+
+\[
+\boxed{
+\text{construct better questions that reality can discriminate, then preserve the interfaces whose distinctions survive correction.}
+}
 \]
