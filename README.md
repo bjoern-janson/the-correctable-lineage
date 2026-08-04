@@ -12,12 +12,51 @@ It is best understood not as one completed theory, but as an evolving research a
 
 ---
 
+## Stable methodological identity
+
+The current kernel is **evidential update governance**:
+
+\[
+(O,\Phi)\rightarrow F\rightarrow(\mathcal H,T,\Pi)\rightarrow U\rightarrow(W,\Sigma,\mathcal R,\Gamma).
+\]
+
+It asks:
+
+- what entered the system;
+- how it was measured;
+- which hypotheses genuinely compete;
+- which observation discriminates among them;
+- which evidence paths share a hidden dependency;
+- how authority should change;
+- what exact scope the update has earned;
+- which reachable evidence can reopen the commitment later.
+
+The governing invariant is:
+
+\[
+\boxed{
+\text{Evidence may increase authority only along dimensions and scopes that the evidence can identify.}
+}
+\]
+
+The corresponding operational rule is:
+
+\[
+\boxed{
+\text{Measure separately. Compare alternatives. Seek discrimination. Discount shared failure. Update locally. Scope explicitly. Preserve reachable reopening.}
+}
+\]
+
+This is a methodological synthesis, not a universal theory of cognition or rationality.
+
+---
+
 ## Core orientation
 
 The recurring formulation is:
 
 \[
-I \propto C_{\mathrm{improve}}
+I\propto C_{\mathrm{improve}},
 \]
 
 where:
@@ -25,10 +64,10 @@ where:
 \[
 C_{\mathrm{improve}}
 =
-\text{capacity to convert feedback into increased future viability.}
+\text{capacity to convert feedback into increased future viability}.
 \]
 
-The corresponding causal loop is:
+The corresponding loop is:
 
 \[
 \text{feedback}
@@ -42,88 +81,49 @@ The corresponding causal loop is:
 \text{expanded reachable futures}.
 \]
 
-The minimal evolutionary hypothesis is:
-
-\[
-D_c \times C_e \times A_c \rightarrow G_{\mathcal V}
-\]
-
-where:
-
-- \(D_c\): consequences reach the machinery responsible for future adaptation;
-- \(C_e\): consequences influence which changes persist;
-- \(A_c\): successful changes become substrate for later adaptation;
-- \(G_{\mathcal V}\): viable future reachability expands.
-
-Its shortest verbal form is:
-
-> Evolution begins when failure improves the machinery that learns from failure.
-
-The newer governance compression is:
-
-\[
-\boxed{
-\text{Evidence may increase authority only along dimensions that the evidence can identify.}
-}
-\]
-
-The corresponding interface-level hypothesis is:
-
-\[
-\boxed{
-\text{Intelligence includes the controlled generation, repair, evaluation, and inheritance of interfaces through which reality becomes actionable.}
-}
-\]
-
-The temporal extension is:
-
-\[
-\boxed{
-\text{Temporal intelligence}
-=
-\text{selective inheritance}
-+
-\text{prospective generation}
-+
-\text{reality-correctable comparison}.
-}
-\]
-
-These are organizing hypotheses, not validated universal definitions or metrics.
+These remain organizing hypotheses, not validated universal definitions or metrics.
 
 ---
 
 ## Empirical turn
 
-The current ontology is frozen as a candidate rather than extended with another conceptual layer.
-
-The benchmark ladder now separates:
+The ontology is frozen as a candidate rather than extended with another conceptual layer.
 
 ### v0.1 — exposed interface failure
 
-Can an agent distinguish:
+Can an agent distinguish model insufficiency from interface insufficiency when contradiction is visible and a candidate sensor is supplied?
+
+Supported local result:
 
 \[
-M_t\rightarrow M_{t+1}
+\boxed{
+\text{Optimization over an insufficient interface cannot recover an erased target distinction.}
+}
 \]
 
-from:
+Strongest negative result:
 
 \[
-\mathcal I_t\rightarrow\mathcal I_{t+1}
+\boxed{
+\text{No experienced contradiction}
+\Rightarrow
+\text{no interface challenge in v0.1}.
+}
 \]
-
-when contradiction is already visible and a candidate sensor is supplied?
-
-The first frozen result supports only the local diagnostic split. It remains compatible with active sensing, costly feature acquisition, and POMDP formulations.
 
 ### v0.2 — hidden interface fragility
 
-Can an agent pay to challenge an apparently successful interface before deployment, while avoiding maximum skepticism?
+Can an agent pay to challenge apparent success before deployment while avoiding maximum skepticism?
 
-The first frozen result supports only a cost-sensitive value-of-information claim: a supplied stress test can reveal hidden fragility when it breaks the training correlation.
+Supported local result:
 
-Its strongest negative result is:
+\[
+\boxed{
+\text{A supplied valid stress test can reveal hidden fragility when its expected value exceeds cost.}
+}
+\]
+
+Strongest negative result:
 
 \[
 \boxed{
@@ -133,11 +133,17 @@ Its strongest negative result is:
 
 ### v0.3 — correction-path diversity
 
-Can an agent select correction channels by what they reveal about primary failures rather than by marginal accuracy or correlated vote count?
+Can an agent select channels by their coverage of primary failures rather than marginal accuracy or correlated vote count?
 
-The first exploratory result supports only a local selection claim under a declared shared-blind-spot shift. A failure-conditioned selector chose the lower-marginal-accuracy independent channel and matched the supplied-path oracle after cost.
+Supported local result:
 
-Its strongest negative result is:
+\[
+\boxed{
+\text{Failure-conditioned correction coverage can outperform correlated confirmation under a declared shift.}
+}
+\]
+
+Strongest negative result:
 
 \[
 \boxed{
@@ -147,13 +153,43 @@ Its strongest negative result is:
 }
 \]
 
-None of the benchmarks establishes autonomous interface invention, autonomous challenge generation, or a universal measure of epistemic independence.
+### v0.4 — correction-ecosystem intervention
+
+Can a supplied intervention vary a hidden upstream dependency and reveal common-mode correction failure?
+
+Supported local result:
+
+\[
+\boxed{
+\text{A support-changing intervention can expose common-mode failure hidden by ordinary calibration.}
+}
+\]
+
+Strongest negative results:
+
+\[
+\boxed{
+\text{A blind intervention cannot validate a blind correction ecosystem.}
+}
+\]
+
+and:
+
+\[
+\boxed{
+\text{identified ecosystem compromise}
+\not\Rightarrow
+\text{available repair}.
+}
+\]
+
+None of the benchmarks establishes autonomous interface, hypothesis, dependency, challenge, or intervention invention.
 
 ---
 
 ## What the corpus is
 
-The corpus is the complete historical research lineage represented by the associated repositories:
+The corpus is the historical research lineage represented by the associated repositories:
 
 - conceptual frameworks;
 - equations and definitions;
@@ -163,8 +199,6 @@ The corpus is the complete historical research lineage represented by the associ
 - narrowed claims;
 - frozen result ledgers and governance records.
 
-Taken together, these artifacts form a prototype **epistemic operating system for recursive improvement**.
-
 Its recurring cycle is:
 
 \[
@@ -172,32 +206,24 @@ Its recurring cycle is:
 \rightarrow
 \text{observation}
 \rightarrow
-\text{representation}
+\text{measurement}
+\rightarrow
+\text{hypothesis comparison}
+\rightarrow
+\text{authority revision}
 \rightarrow
 \text{action}
 \rightarrow
 \text{consequence}
 \rightarrow
-\text{validation}
-\rightarrow
-\text{attribution}
-\rightarrow
-\text{revision}
-\rightarrow
-\text{inheritance}.
+\text{reopening or inheritance}.
 \]
 
-The corpus asks not only whether a system changes, but whether contradiction can reach the specific machinery responsible for future change, alter its authority, and leave unaffected valid structure intact.
-
-The interface-evolution extension asks whether the system can discover that the observation, representation, coordination, or action interface itself is the source of failure.
-
-The temporal extension asks whether the lineage can revise both how it reconstructs the past and how it generates possible futures, while applying different evidence standards to realized history and unrealized candidates.
-
-The correction-path extension asks whether reality has multiple genuinely distinct routes by which it can reduce the authority of the system's current interface.
+The corpus asks whether contradiction can reach the specific machinery responsible for future change, alter only the authority it has earned the right to alter, and leave unaffected valid structure intact.
 
 ---
 
-## Two coupled loops
+## Coupled loops
 
 ### Adaptive loop
 
@@ -205,7 +231,7 @@ The correction-path extension asks whether reality has multiple genuinely distin
 \text{How does the system change?}
 \]
 
-This includes representation, search, action, feedback, mechanism revision, interface revision, temporal comparison, correction-path selection, and inheritance.
+This includes representation, search, action, mechanism revision, interface revision, hypothesis expansion, temporal comparison, and inheritance.
 
 ### Governance loop
 
@@ -213,15 +239,15 @@ This includes representation, search, action, feedback, mechanism revision, inte
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, temporal asymmetry, correction-path dependence, and claim boundaries.
+This includes measurement, discrimination, provenance, correction-path dependence, update magnitude, scope, reopening, and claim boundaries.
 
-The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
+Recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
 ---
 
-## The deepest recurring operation
+## Deepest recurring operation
 
-Across the repositories, progress repeatedly occurs through **deconflation**:
+Across the repositories, progress repeatedly occurs through deconflation:
 
 \[
 \text{broad concept}
@@ -238,60 +264,36 @@ Examples include:
 \[
 \text{difficulty}
 \rightarrow
-\text{task} + \text{interface} + \text{architecture}
-\]
-
-\[
-\text{adaptation}
-\rightarrow
-\text{causal reach} + \text{selection} + \text{inheritance}
+\text{task}+\text{interface}+\text{architecture},
 \]
 
 \[
 \text{feedback}
 \rightarrow
-\text{validation} + \text{attribution} + \text{authority revision}
+\text{validation}+\text{attribution}+\text{authority revision},
 \]
 
 \[
 \text{measurement}
 \rightarrow
-\text{factorization} + \text{estimation} + \text{prediction} + \text{intervention}
-\]
-
-\[
-\text{interface}
-\rightarrow
-\text{observation} + \text{representation} + \text{coordination} + \text{action}
-\]
-
-\[
-\text{interface effect}
-\rightarrow
-\text{discovery} + \text{coordination} + \text{constitution}
-\]
-
-\[
-\text{past}
-\rightarrow
-\text{actual history} + \text{surviving record} + \text{current reconstruction}
-\]
-
-\[
-\text{future}
-\rightarrow
-\text{possibility} + \text{probability} + \text{path} + \text{selection} + \text{revision}
+\text{factorization}+\text{estimation}+\text{prediction}+\text{intervention},
 \]
 
 \[
 \text{test quantity}
 \rightarrow
-\text{marginal accuracy} + \text{failure-conditioned coverage} + \text{shared error structure}.
+\text{marginal accuracy}+\text{failure-conditioned coverage}+\text{shared error structure},
 \]
 
-The corpus therefore converges on a stronger view of intelligence:
+\[
+\text{belief state}
+\rightarrow
+\text{authority}+\text{scope}+\text{reopening conditions}+\text{revision response}.
+\]
 
-> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence, history, future possibility, or correction itself became visible.
+The corpus therefore converges on a narrower methodological discipline:
+
+> Identify what became less trustworthy, revise the smallest sufficient causal layer, scope the update to what the evidence identifies, preserve what remains valid, and retain a reachable path by which reality can reopen the commitment.
 
 ---
 
@@ -300,97 +302,63 @@ The corpus therefore converges on a stronger view of intelligence:
 - [corpus.md](corpus.md) — what the corpus is as a research object.
 - [architecture.md](architecture.md) — the coupled adaptive and governance architecture.
 - [causal-kernel.md](causal-kernel.md) — the minimal recurring causal claims.
-- [epistemic-governance.md](epistemic-governance.md) — how evidence may authorize revision.
-- [failure-modes.md](failure-modes.md) — characteristic ways recursive adaptation can fail.
-- [sidis-stress-test.md](sidis-stress-test.md) — a historical stress test of representational leverage, causal orientation, boundary accounting, and authority propagation.
-- [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — a reusable audit for distinguishing endogenous correction from replay, reversal, scripting, and outsourced causal work.
-- [authority-acquisition-gate.md](authority-acquisition-gate.md) — separates evidence detection, operational authority revision, selection efficacy, and inherited correction.
-- [ramanujan-stress-test.md](ramanujan-stress-test.md) — a stress test of discovery without accessible derivation and the separation of result validity from mechanism understanding.
-- [generative-provenance-protocol.md](generative-provenance-protocol.md) — a protocol for validating opaque discoveries while separately governing provenance, mechanism, and explanation claims.
-- [authority-allocation-invariant.md](authority-allocation-invariant.md) — the corpus-level rule that evidence may increase authority only along dimensions and scopes it can identify.
-- [controlled-interface-evolution.md](controlled-interface-evolution.md) — separates discovery, coordination, epistemic, and constitutive interfaces and specifies how interfaces may be generated, audited, repaired, replaced, and inherited.
-- [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
-- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — a minimal benchmark for exposed interface failure and bounded sensor acquisition.
-- [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — a benchmark for hidden fragility, costly interface challenge, and adaptive skepticism allocation.
-- [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — a benchmark for selecting supplied correction channels by failure-conditioned coverage rather than correlated quantity.
-- [benchmark/README.md](benchmark/README.md) — executable benchmark instructions, frozen result artifacts, and interpretation boundaries.
-- [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
-- [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
+- [epistemic-governance.md](epistemic-governance.md) — which kinds of evidence may authorize which revisions.
+- [evidential-update-governance.md](evidential-update-governance.md) — the integrated kernel for measurement, discrimination, dependency, authority, scope, and operational reopenability.
+- [authority-allocation-invariant.md](authority-allocation-invariant.md) — evidence-scoped authority under incomplete causal understanding.
+- [controlled-interface-evolution.md](controlled-interface-evolution.md) — generation, auditing, repair, replacement, and inheritance of interfaces.
+- [temporal-interface-selection.md](temporal-interface-selection.md) — retrospective reconstruction, prospective generation, and temporal comparison.
+- [sidis-stress-test.md](sidis-stress-test.md) — historical stress test of representational leverage and authority propagation.
+- [ramanujan-stress-test.md](ramanujan-stress-test.md) — result validity separated from generative provenance and mechanism.
+- [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — audit for endogenous correction versus replay or outsourced causal work.
+- [generative-provenance-protocol.md](generative-provenance-protocol.md) — validation of opaque discoveries with bounded provenance claims.
+- [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — exposed interface failure.
+- [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — hidden fragility and adaptive skepticism.
+- [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — failure-conditioned correction-path selection.
+- [correction-ecosystem-benchmark-v0.4.md](correction-ecosystem-benchmark-v0.4.md) — common-mode dependency intervention.
+- [benchmark/README.md](benchmark/README.md) — executable instructions and frozen result artifacts.
+- [research-boundary.md](research-boundary.md) — current claim ceiling and open frontier.
 
 ---
 
 ## Current scientific status
 
-This repository is an **interpretive synthesis** with three executable toy benchmarks.
+This repository is an interpretive synthesis with four executable toy benchmarks.
 
-It does not convert the underlying repositories into one empirically validated unified theory.
-
-The artifact types must remain distinct:
+It does not convert the wider corpus into one empirically validated unified theory.
 
 \[
 \text{hypothesis}
 \neq
 \text{conceptual framework}
 \neq
-\text{toy implementation}
-\neq
 \text{benchmark design}
 \neq
-\text{empirical evidence}
+\text{toy implementation}
 \neq
-\text{frozen result}.
+\text{frozen result}
+\neq
+\text{general theory}.
 \]
 
-`Interface Evolution Benchmark v0.1` supports a local distinction between model insufficiency and interface insufficiency under a declared collision and supplied sensor.
+The benchmarks remain compatible with existing active sensing, feature acquisition, Bayesian decision, experiment design, robust ensemble selection, correlated-error analysis, causal intervention, and partially observable control frameworks.
 
-`Interface Stress Benchmark v0.2` supports a local value-of-information distinction between maximum skepticism, no challenge, and cost-sensitive challenge under a supplied audit operator.
-
-`Interface Diversity Benchmark v0.3` supports a local distinction between marginal accuracy, correlated test count, and failure-conditioned correction coverage under supplied labeled calibration and a declared shared-blind-spot shift.
-
-All three remain compatible with existing active sensing, feature acquisition, experiment design, Bayesian decision, robust ensemble selection, correlated-error analysis, and partially observable control frameworks.
-
-Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, a universal correction-path independence metric, or a universal operator for comparing inherited history with possible futures.
+The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority and scope transfer better than simpler existing formulations.
 
 ---
 
-## Governance freeze
+## Current frontier
 
-The present claim ceiling is preserved:
+The next open problem is not another fixed update over supplied objects.
 
-\[
-C_1 + C_2
-\]
-
-and:
+It is:
 
 \[
-\text{qualification}
-\neq
-\text{comparison}
-\neq
-\text{selection}.
+\boxed{
+\text{Can a system generate or select hypotheses, measurements, and interventions that expose dependencies absent from its supplied causal model?}
+}
 \]
 
-Accordingly:
-
-- downstream candidate architecture comparison and selection remain blocked;
-- no candidate architecture has been evaluated or selected;
-- Interface Theory Gates 2–4 remain closed;
-- historical repository records are not modified by this synthesis;
-- broad corpus interpretations are not completed experimental claims;
-- none of the benchmarks authorizes a general theory of interface invention or epistemic topology.
-
----
-
-## What this may eventually support
-
-The long-range research object is a **correctable lineage**:
-
-> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism, interface, challenge operator, or correction-path comparison becomes the unchallengeable judge of its own continued authority.
-
-This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
-
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, autonomous challenge generation, autonomous correction-path generation, or a validated method for choosing among civilizational futures.
+No authority should propagate from v0.1–v0.4 to that open capability without new evidence.
 
 ---
 
@@ -402,9 +370,7 @@ But the corpus has not yet demonstrated biological life, artificial life, open-e
 }
 \]
 
-Its deepest object is not performance alone.
-
-It is:
+Its deepest object is:
 
 \[
 \boxed{
@@ -412,25 +378,9 @@ It is:
 }
 \]
 
-At the interface layer, that becomes:
+Its stable methodological invariant is:
 
 \[
 \boxed{
-\text{construct better questions that reality can discriminate, then preserve the interfaces whose distinctions survive correction.}
+\text{An observation may change authority only through a declared, discriminating, dependency-aware, scope-bounded, and operationally reopenable evidential path.}
 }
-\]
-
-Across time, that becomes:
-
-\[
-\boxed{
-\text{inherit selectively, generate prospectively, compare asymmetrically, and let reality repair the bridge.}
-\]
-
-At the current benchmark frontier:
-
-\[
-\boxed{
-\text{select correction paths by the failures they can expose, then test whether the comparison itself shares a hidden failure.}
-}
-\]
