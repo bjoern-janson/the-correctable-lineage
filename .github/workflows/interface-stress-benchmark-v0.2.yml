@@ -1,0 +1,36 @@
+name: Interface Stress Benchmark v0.2
+
+on:
+  pull_request:
+  push:
+    branches:
+      - agent/integrate-sidis-stress-test
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark-v0-2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run benchmark unit tests
+        run: python -m unittest discover -s benchmark -p 'test_*.py' -v
+
+      - name: Re-run frozen v0.2 benchmark
+        run: |
+          python benchmark/interface_stress_v0_2.py \
+            --seeds 200 \
+            --markdown-out /tmp/results-v0.2.md \
+            --strict
+
+      - name: Verify frozen v0.2 aggregate
+        run: diff -u benchmark/results/results-v0.2.md /tmp/results-v0.2.md
