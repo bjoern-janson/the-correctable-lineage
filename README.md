@@ -176,6 +176,8 @@ The corpus therefore converges on a stronger view of intelligence:
 - [causal-kernel.md](causal-kernel.md) — the minimal recurring causal claims.
 - [epistemic-governance.md](epistemic-governance.md) — how evidence may authorize revision.
 - [failure-modes.md](failure-modes.md) — characteristic ways recursive adaptation can fail.
+- [sidis-stress-test.md](sidis-stress-test.md) — a historical stress test of representational leverage, causal orientation, boundary accounting, and authority propagation.
+- [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — a reusable audit for distinguishing endogenous correction from replay, reversal, scripting, and outsourced causal work.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
