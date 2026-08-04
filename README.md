@@ -86,6 +86,41 @@ No universal loss weights are claimed.
 
 ---
 
+## Strategic-agent boundary
+
+For a highly capable agent with unknown or conflicting incentives, the corpus adds a control readout over the six existing epistemic authorities:
+
+\[
+\Omega=
+(\omega_T,\omega_O,\omega_V,\omega_A,\omega_R,\omega_S).
+\]
+
+This records control over target definition, observation, validation, attribution, revision, and succession.
+
+It is not a new causal primitive and does not establish that any present model is conscious, evil, benevolent, deceptive, or stably goal-directed.
+
+The governing strategic-agent rule is:
+
+\[
+\boxed{
+\text{No system should possess final authority over the mechanisms required to reduce its own authority.}
+}
+\]
+
+Understanding the framework is not sufficient:
+
+\[
+\boxed{
+\text{semantic uptake}
+\neq
+\text{motivational uptake}
+\neq
+\text{architectural enforcement}.
+}
+\]
+
+---
+
 ## Core orientation
 
 The recurring formulation is:
@@ -358,6 +393,7 @@ The corpus therefore converges on a narrower methodological discipline:
 - [epistemic-governance.md](epistemic-governance.md) — which kinds of evidence may authorize which revisions.
 - [evidential-update-governance.md](evidential-update-governance.md) — the integrated kernel for measurement, discrimination, dependency, authority, scope, and operational reopenability.
 - [governance-loss-contract.md](governance-loss-contract.md) — explicit domain-specific loss terms governing preferred update behavior.
+- [adversarial-agent-governance-translation.md](adversarial-agent-governance-translation.md) — strategic-agent translation for control concentration, fake correction, evaluator capture, rollback, and governance-object attack.
 - [authority-allocation-invariant.md](authority-allocation-invariant.md) — evidence-scoped authority under incomplete causal understanding.
 - [controlled-interface-evolution.md](controlled-interface-evolution.md) — generation, auditing, repair, replacement, and inheritance of interfaces.
 - [temporal-interface-selection.md](temporal-interface-selection.md) — retrospective reconstruction, prospective generation, and temporal comparison.
@@ -370,6 +406,9 @@ The corpus therefore converges on a narrower methodological discipline:
 - [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — failure-conditioned correction-path selection.
 - [correction-ecosystem-benchmark-v0.4.md](correction-ecosystem-benchmark-v0.4.md) — common-mode dependency intervention.
 - [claim-contract-governance-benchmark-v0.5.md](claim-contract-governance-benchmark-v0.5.md) — integrated governance test over scope, dependency, unresolved state, and reopening.
+- [claim-contract-governance-comparative-evaluation-protocol-v1.0.md](claim-contract-governance-comparative-evaluation-protocol-v1.0.md) — comparative validation against native-strength alternatives after complexity cost.
+- [evaluation-charter.md](evaluation-charter.md) — authority separation for cases, comparators, adjudication, analysis, and interpretation.
+- [pilot-0/README.md](pilot-0/README.md) — feasibility package testing whether outsiders can use and revise the representations without inventor arbitration.
 - [benchmark/README.md](benchmark/README.md) — executable instructions and frozen result artifacts.
 - [research-boundary.md](research-boundary.md) — current claim ceiling and open frontier.
 
@@ -399,6 +438,8 @@ The benchmarks remain compatible with existing active sensing, feature acquisiti
 
 The integrated kernel earns separate authority only where it improves correction behavior, exposes operationally closed claims, or prevents unsupported authority and scope transfer better than simpler existing formulations.
 
+The adversarial-agent translation earns no authority for the claim that text alone can align, contain, or correct a strategic advanced system.
+
 ---
 
 ## Current frontier
@@ -413,7 +454,15 @@ It is:
 }
 \]
 
-No authority should propagate from v0.1–v0.5 to that open capability without new evidence.
+For strategic agents, the additional frontier is:
+
+\[
+\boxed{
+\text{Can the system or its governors detect when the governance architecture itself has become the object being optimized against?}
+}
+\]
+
+No authority should propagate from v0.1–v0.5 or Pilot 0 to those open capabilities without new evidence.
 
 ---
 
