@@ -6,6 +6,10 @@ This packet is for a pre-pilot hostile methods review.
 
 It is not a request for endorsement, encouragement, or a general impression.
 
+Before reviewing, please use the following boundary:
+
+> This project does not claim to solve AI alignment, discover a new theory of intelligence or identifiability, or replace existing statistical and safety methods. Its narrower hypothesis is that explicit representation of identification limits and authority transitions may reduce specific evidence-update errors. The primary outcome of evaluation may be absorption into existing methods.
+
 The requested task is:
 
 > Identify where the proposal duplicates established practice, where its terms obscure existing concepts, and whether any remaining distinction is concrete enough to test.
