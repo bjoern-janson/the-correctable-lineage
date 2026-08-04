@@ -42,5 +42,12 @@ jobs:
           if expected != actual:
               raise SystemExit('frozen JSON mismatch')
           PY
-      - name: Verify frozen Markdown
-        run: cmp /tmp/results-v0.5.md benchmark/results/results-v0.5.md
+      - name: Verify frozen Markdown semantically
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          expected = Path('benchmark/results/results-v0.5.md').read_text().rstrip('\n')
+          actual = Path('/tmp/results-v0.5.md').read_text().rstrip('\n')
+          if expected != actual:
+              raise SystemExit('frozen Markdown mismatch')
+          PY
