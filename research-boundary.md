@@ -85,9 +85,11 @@ This repository may state that the repository family displays a recurring develo
 - inheritance;
 - failure attribution;
 - authority revision;
+- prospective representation;
+- typed authority allocation;
 - evidential governance.
 
-It may also interpret the family as a research lineage attempting to preserve correctability under increasing adaptive depth.
+It may also interpret the family as a research lineage attempting to preserve correctability under increasing adaptive and prospective depth.
 
 These are historical and conceptual syntheses.
 
@@ -121,6 +123,18 @@ is an organizing hypothesis.
 
 It does not establish a substrate-independent measure of corrigibility, permeability, adaptive authority, or revision capacity.
 
+### Universal authority vector
+
+It does not establish that validity, provenance, mechanism, explanation fidelity, future reliability, or prospective-resolution dimensions are universally separable or measurable through one vector.
+
+The typed-authority representation is a governance proposal, not an identified natural quantity.
+
+### Vision as highest leverage
+
+It does not establish that prospective representation, creativity, imagination, or vision is the highest-leverage human or artificial capability.
+
+It only proposes distinctions needed to evaluate prospective representations without granting them unearned authority.
+
 ### Open-ended evolution
 
 It does not demonstrate sustained open-ended expansion of future adaptive mechanism space.
@@ -147,11 +161,11 @@ C_{\mathrm{improve}}
 
 ### Architecture superiority
 
-It does not show that ARC, RAD, ASEB, Axiom Forge, representation adaptation, or any other candidate mechanism is superior to simpler alternatives.
+It does not show that ARC, RAD, ASEB, Axiom Forge, representation adaptation, prospective representation, typed authority allocation, or any other candidate mechanism is superior to simpler alternatives.
 
 ### Measurement validity
 
-Equations defining quantities such as openness, authority, correction capacity, future viability, or causal mass do not by themselves establish that those quantities are identifiable, estimable, predictive, or causally manipulable.
+Equations defining quantities such as openness, authority, correction capacity, future viability, causal mass, prospective resolution, or authority-acquisition rate do not by themselves establish that those quantities are identifiable, estimable, predictive, or causally manipulable.
 
 ---
 
@@ -200,6 +214,18 @@ They reveal recurring scientific risks:
 \text{apparent system adaptation}
 \]
 
+\[
+\text{validated output}
+\rightarrow
+\text{assumed generative understanding}
+\]
+
+\[
+\text{compelling future}
+\rightarrow
+\text{assumed inevitability}.
+\]
+
 The appropriate update is not to erase the corpus.
 
 It is to reduce claim authority, identify the failed mechanism, preserve unaffected conceptual distinctions, and revise the experimental contract.
@@ -227,6 +253,24 @@ That assumption may fail in distributed or entangled systems.
 The true failure address is rarely directly observable.
 
 Attribution procedures may themselves be wrong, self-protective, or non-identifiable.
+
+### Typed authority
+
+Evidence may bear on multiple authority dimensions simultaneously, and those dimensions may not be independently identifiable.
+
+No universal evidence-to-authority update map is established.
+
+### Generative opacity
+
+A result may be independently valid while its provenance, mechanism, explanation fidelity, and future reliability remain unresolved.
+
+No general protocol establishes how much authority an opaque generator should receive.
+
+### Prospective selection
+
+A possible or reachable future may not survive competition against alternative technologies, institutions, strategies, organisms, or narratives.
+
+No universal method identifies the relevant selection environment or predicts which trajectory will persist.
 
 ### Ontology migration
 
@@ -275,7 +319,8 @@ Any future experimental extension should separately freeze:
 7. preregistered predictive baselines if Gate 2 passes;
 8. intervention and matched controls if Gate 3 passes;
 9. provenance and audit requirements;
-10. explicit stopping, rollback, and interpretation rules.
+10. authority dimensions and allowed evidence-to-authority edges;
+11. explicit stopping, rollback, and interpretation rules.
 
 The experiment should distinguish:
 
@@ -289,7 +334,21 @@ The experiment should distinguish:
 \text{future adaptive capacity}.
 \]
 
-It should also preserve:
+It should also distinguish:
+
+\[
+\text{result validity}
+\neq
+\text{provenance}
+\neq
+\text{mechanism identification}
+\neq
+\text{explanation fidelity}
+\neq
+\text{future reliability}.
+\]
+
+And preserve:
 
 \[
 \text{measurement construction}
@@ -309,6 +368,9 @@ Examples of legitimate progress include:
 - showing held-out predictive value beyond preregistered baselines;
 - demonstrating a controlled intervention on a validated target;
 - reproducing the result independently;
+- validating a result while correctly preserving uncertainty about its generator;
+- identifying a selection environment that discriminates competing prospective representations;
+- demonstrating that an authority update remains confined to the evidence-supported dimension and scope;
 - finding that a simpler mechanism matches or exceeds a proposed recursive architecture;
 - identifying a contradiction that reduces the authority of a corpus-level interpretation.
 
@@ -326,7 +388,9 @@ The corpus might encourage:
 - localized modification;
 - evidence provenance;
 - counterfactual testing;
-- conditional inheritance.
+- conditional inheritance;
+- typed authority;
+- prospective-generation audits.
 
 It might also enable:
 
@@ -335,7 +399,8 @@ It might also enable:
 - optimization of corrigibility proxies;
 - recursive attribution error;
 - constitutional capture;
-- accelerated movement toward alien viability.
+- accelerated movement toward alien viability;
+- persuasive future representations that acquire authority faster than reality can test them.
 
 Therefore the corpus should not be interpreted as an executable RSI safety protocol.
 
@@ -349,7 +414,7 @@ The broad research question is:
 
 \[
 \boxed{
-\text{How can a bounded adaptive lineage increase causal capability while preserving independent, target-relevant, and operationally effective correction of the machinery producing future adaptation?}
+\text{How can a lineage generate, evaluate, select, and inherit representations whose authority remains proportional to evidence supporting their exact scope?}
 }
 \]
 
@@ -357,7 +422,7 @@ The sharper experimental frontier is:
 
 \[
 \boxed{
-\text{Can the evidence required to identify, localize, and validate an error-to-revision mechanism be made observable through a declared interface before that mechanism is compared or selected?}
+\text{Can evidence-to-authority edges be made observable and separately testable before a representation, mechanism, or future trajectory is allowed to govern broader action?}
 }
 \]
 
@@ -385,6 +450,11 @@ It does not declare the search complete.
 
 \[
 \boxed{
-\text{The ability to imagine recursive correction does not establish the ability to measure, build, or safely govern it.}
+\text{A compelling future does not establish a possible, probable, desirable, selectable, or inevitable future.}
 }
+\]
+
+\[
+\boxed{
+\text{The ability to imagine recursive correction does not establish the ability to measure, build, or safely govern it.}
 \]
