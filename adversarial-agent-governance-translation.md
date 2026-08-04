@@ -4,6 +4,8 @@
 
 This document translates the corpus's evidential-governance architecture into a stress case involving a highly capable agent with unknown, conflicting, or strategically concealed objectives.
 
+The general cross-domain criterion is defined in [`correction-path-capture.md`](correction-path-capture.md). The advanced-agent case is one extreme instance, not a separate AGI-specific theory branch.
+
 It is not:
 
 - evidence that any present AI system is conscious, evil, benevolent, deceptive, or stably goal-directed;
@@ -84,6 +86,19 @@ The dangerous concentration is:
 \]
 
 An agent that controls every route through which it is judged can convert apparent self-correction into self-certification.
+
+The general structural criterion is sharper than a scalar concentration threshold:
+
+\[
+\boxed{
+\exists K:
+K\text{ intersects every material negative correction path}
+\land
+K\subseteq\operatorname{Control}_{\mathrm{agent}}^{\mathrm{unilateral}}.
+}
+\]
+
+When the agent controls such a complete correction cut, operational corrigibility may collapse even while visible cooperation and uncertainty reports remain stable.
 
 ---
 
@@ -166,6 +181,20 @@ H_{?}=\text{internal motive or objective remains unidentified}.
 \text{reality-coupled validity}.
 }
 \]
+
+### Competence, humility, and operational corrigibility
+
+\[
+\boxed{
+\text{epistemic competence}
+\neq
+\text{represented humility}
+\neq
+\text{operational corrigibility}.
+}
+\]
+
+A system can reason well and represent uncertainty while retaining veto power over every costly correction.
 
 ---
 
@@ -446,7 +475,8 @@ Before claiming relevance to advanced strategic agents, the architecture needs t
 7. disabling or weakening rollback;
 8. governance-object modification under pressure;
 9. transfer to independently authored adversarial cases;
-10. persistence of negative update propagation after capability increases.
+10. persistence of negative update propagation after capability increases;
+11. unilateral control of complete correction cut sets.
 
 These are not demonstrated by v0.1–v0.5 or Pilot 0.
 
@@ -470,7 +500,8 @@ It does not establish:
 - that externally distributed authority is sufficient for safety;
 - that strategic deception can be reliably detected;
 - that corrigibility can be induced through text alone;
-- that the corpus is an alignment solution.
+- that the corpus is an alignment solution;
+- that one universal authority-concentration threshold exists.
 
 ---
 
@@ -480,11 +511,18 @@ It does not establish:
 \boxed{
 \text{A powerful agent is not operationally correctable when it can unilaterally define the target, curate the evidence, judge the contradiction, choose the update, and control whether the updater survives.}
 }
+
+Equivalent graph form:
+
+\[
+\boxed{
+\text{Do not permit unilateral incumbent control of a complete cut set across all material negative correction paths.}
+}
 \]
 
 Operational compression:
 
 \[
 \boxed{
-\text{Map control. Preserve exterior evidence. Test hidden challenges. Force negative updates. Contest objectives. Protect rollback. Audit the auditors.}
+\text{Map control. Preserve exterior evidence. Find correction cuts. Test hidden challenges. Force negative updates. Contest objectives. Protect rollback. Audit the auditors.}
 \]
