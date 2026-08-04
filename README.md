@@ -179,6 +179,8 @@ The corpus therefore converges on a stronger view of intelligence:
 - [sidis-stress-test.md](sidis-stress-test.md) — a historical stress test of representational leverage, causal orientation, boundary accounting, and authority propagation.
 - [orientation-boundary-protocol.md](orientation-boundary-protocol.md) — a reusable audit for distinguishing endogenous correction from replay, reversal, scripting, and outsourced causal work.
 - [authority-acquisition-gate.md](authority-acquisition-gate.md) — separates evidence detection, operational authority revision, selection efficacy, and inherited correction.
+- [ramanujan-stress-test.md](ramanujan-stress-test.md) — a stress test of discovery without accessible derivation and the separation of result validity from mechanism understanding.
+- [generative-provenance-protocol.md](generative-provenance-protocol.md) — a protocol for validating opaque discoveries while separately governing provenance, mechanism, and explanation claims.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
 
