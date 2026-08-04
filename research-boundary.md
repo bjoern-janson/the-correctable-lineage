@@ -2,9 +2,9 @@
 
 ## Current claim ceiling
 
-This repository is an interpretive synthesis plus two executable toy benchmarks.
+This repository is an interpretive synthesis plus three executable toy benchmarks.
 
-It does not convert the underlying corpus into one empirically validated theory of intelligence, life, recursive self-improvement, vision, or interface evolution.
+It does not convert the underlying corpus into one empirically validated theory of intelligence, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
 
 The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results.
 
@@ -32,7 +32,7 @@ The following remain distinct:
 
 Conceptual coherence does not promote a proposal into evidence.
 
-A passing toy benchmark does not authorize extrapolation beyond its declared class, interface, target, costs, and controls.
+A passing toy benchmark does not authorize extrapolation beyond its declared class, interface, target, costs, controls, candidate correction paths, and evaluation shift.
 
 ---
 
@@ -117,6 +117,43 @@ The challenge operator can inherit the same failure as the interface it is suppo
 
 ---
 
+## Interface Diversity Benchmark v0.3
+
+### Supported local claim
+
+Under a declared shift that increases a shared blind spot, a selector using failure-conditioned correction coverage can outperform:
+
+- marginal-accuracy selection;
+- a majority of correlated correction channels;
+- the unrevised primary interface.
+
+In the frozen exploratory run, the lower-marginal-accuracy independent path matched the supplied-path oracle after cost.
+
+### Not supported
+
+v0.3 does not establish:
+
+- autonomous generation of independent tests;
+- unlabeled correction-path comparison;
+- inference of the stress weight or future shift probability;
+- causal independence from observed error decorrelation alone;
+- validation of the calibration process used to compare channels;
+- a distinct theory beyond robust ensemble selection, conditional risk, or decision under correlated errors.
+
+### Strongest negative result
+
+\[
+\boxed{
+\text{No exposed failure or independent intervention}
+\Rightarrow
+\text{no identified correction-path independence.}
+}
+\]
+
+Success-only calibration does not reveal which channel can correct failures that never occurred in calibration.
+
+---
+
 ## Current research ladder
 
 ### Level 1 — Interface utilization
@@ -135,19 +172,27 @@ Can the system challenge apparent success before deployment when challenge has a
 
 v0.2 supplies a toy instance with an externally authored audit.
 
-### Level 4 — Challenge-interface diagnosis
+### Level 4 — Correction-path diversity selection
 
-Can the system discover that all available tests preserve the same blind spot?
+Can the system distinguish redundant correction channels from channels that cover different primary failures?
+
+v0.3 supplies a bounded toy instance with labeled calibration data and externally authored channels.
+
+It does not establish that the comparison process itself has independent access.
+
+### Level 5 — Joint challenge-interface diagnosis
+
+Can the system discover that its available tests, labels, calibration regime, and independence estimates share one hidden failure?
 
 Open.
 
-### Level 5 — Interface invention
+### Level 6 — Interface invention
 
 Can the system generate a new measurement, variable, intervention, or question without being given the missing distinction?
 
 Open.
 
-No authority should propagate from Levels 2–3 to Levels 4–5 without new evidence.
+No authority should propagate from Levels 2–4 to Levels 5–6 without new evidence.
 
 ---
 
@@ -159,7 +204,9 @@ The repository does not currently demonstrate:
 - open-ended evolution;
 - safe recursive self-improvement;
 - autonomous generation of superior reality-tracking interfaces;
+- autonomous generation of independent correction paths;
 - universal authority allocation;
+- a universal measure of epistemic independence;
 - a measurable vision or causal-mass scalar;
 - a general civilizational decision procedure;
 - a universal temporal comparison operator;
@@ -186,5 +233,5 @@ It is:
 
 \[
 \boxed{
-\text{Can a system challenge the adequacy of the interfaces through which it challenges itself?}
+\text{Can a system obtain evidence that its entire correction-path comparison is jointly mis-specified?}
 }
