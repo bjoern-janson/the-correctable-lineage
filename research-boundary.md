@@ -2,19 +2,15 @@
 
 ## Current claim ceiling
 
-This repository is an interpretive synthesis plus three executable toy benchmarks.
+This repository is an interpretive synthesis plus four executable toy benchmarks.
 
-It does not convert the underlying corpus into one empirically validated theory of intelligence, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
+It does not convert the wider corpus into one empirically validated theory of intelligence, life, recursive self-improvement, vision, epistemic topology, or interface evolution.
 
-The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results.
-
-Interface Theory Gates 2–4 remain closed.
+The strongest completed formal results in the wider corpus remain class-scoped Interface Theory Gate 1 factorization results. Interface Theory Gates 2–4 remain closed.
 
 ---
 
 ## Artifact separation
-
-The following remain distinct:
 
 \[
 \text{hypothesis}
@@ -32,7 +28,7 @@ The following remain distinct:
 
 Conceptual coherence does not promote a proposal into evidence.
 
-A passing toy benchmark does not authorize extrapolation beyond its declared class, interface, target, costs, controls, candidate correction paths, and evaluation shift.
+A passing toy benchmark does not authorize extrapolation beyond its declared class, target, interfaces, costs, interventions, controls, candidate paths, and evaluation shift.
 
 ---
 
@@ -46,15 +42,15 @@ A passing toy benchmark does not authorize extrapolation beyond its declared cla
 
 This applies to the corpus itself.
 
-A benchmark result may increase authority for a local operational distinction without increasing authority for the broader historical, psychological, civilizational, or intelligence interpretation from which the benchmark was motivated.
+A benchmark may increase authority for a local operational distinction without increasing authority for the broader historical, psychological, civilizational, psychedelic, or intelligence interpretation that motivated it.
 
 ---
 
-## Interface Evolution Benchmark v0.1
+## v0.1 — Exposed interface diagnosis
 
 ### Supported local claim
 
-Under a declared hidden collision:
+Under a declared collision:
 
 \[
 O_0(s_a)=O_0(s_b),
@@ -63,16 +59,6 @@ L(s_a)\neq L(s_b),
 \]
 
 additional optimization over \(O_0\) cannot recover the erased distinction, while a supplied paid sensor can restore it and improve held-out net reward.
-
-### Not supported
-
-v0.1 does not establish:
-
-- autonomous sensor invention;
-- unknown-variable discovery;
-- ontology generation;
-- scientific creativity;
-- a distinct theory beyond active sensing, costly feature acquisition, or POMDP formulations.
 
 ### Strongest negative result
 
@@ -84,26 +70,17 @@ v0.1 does not establish:
 }
 \]
 
+### Not supported
+
+Autonomous sensor invention, unknown-variable discovery, ontology generation, scientific creativity, or a distinct theory beyond active sensing, costly feature acquisition, and POMDP formulations.
+
 ---
 
-## Interface Stress Benchmark v0.2
+## v0.2 — Hidden interface stress testing
 
 ### Supported local claim
 
-When two training worlds produce identical apparent success, a supplied challenge operator can expose hidden fragility if it breaks the relevant training correlation.
-
-A value-of-information policy can allocate challenge cost using declared prior risk, horizon, sensor value, and audit cost.
-
-### Not supported
-
-v0.2 does not establish:
-
-- autonomous challenge generation;
-- validation of the challenge operator;
-- discovery of an unknown missing distinction;
-- target revision;
-- open-ended interface invention;
-- a distinct theory beyond Bayesian decision, experiment design, costly information acquisition, or partially observable control.
+A supplied stress test can expose a training-only proxy when it breaks the relevant correlation, and a value-of-information policy can allocate the challenge cost under declared risk and horizon.
 
 ### Strongest negative result
 
@@ -113,32 +90,17 @@ v0.2 does not establish:
 }
 \]
 
-The challenge operator can inherit the same failure as the interface it is supposed to test.
+### Not supported
+
+Autonomous challenge generation, validation of the challenge operator, unknown-distinction discovery, target revision, or a distinct theory beyond Bayesian decision and experimental design.
 
 ---
 
-## Interface Diversity Benchmark v0.3
+## v0.3 — Correction-path diversity selection
 
 ### Supported local claim
 
-Under a declared shift that increases a shared blind spot, a selector using failure-conditioned correction coverage can outperform:
-
-- marginal-accuracy selection;
-- a majority of correlated correction channels;
-- the unrevised primary interface.
-
-In the frozen exploratory run, the lower-marginal-accuracy independent path matched the supplied-path oracle after cost.
-
-### Not supported
-
-v0.3 does not establish:
-
-- autonomous generation of independent tests;
-- unlabeled correction-path comparison;
-- inference of the stress weight or future shift probability;
-- causal independence from observed error decorrelation alone;
-- validation of the calibration process used to compare channels;
-- a distinct theory beyond robust ensemble selection, conditional risk, or decision under correlated errors.
+Under a declared shared-blind-spot shift, failure-conditioned correction coverage can outperform marginal-accuracy selection and correlated vote count over a supplied channel set.
 
 ### Strongest negative result
 
@@ -150,7 +112,46 @@ v0.3 does not establish:
 }
 \]
 
-Success-only calibration does not reveal which channel can correct failures that never occurred in calibration.
+### Not supported
+
+Autonomous generation of independent tests, unlabeled correction-path comparison, inference of future shift importance, causal independence from decorrelation alone, or validation of the calibration process itself.
+
+---
+
+## v0.4 — Correction-ecosystem intervention
+
+### Supported local claim
+
+When ordinary calibration holds a latent upstream dependency fixed, a supplied support-changing intervention can expose common-mode failure shared by apparently strong correction channels.
+
+In the frozen exploratory run, the intervention selector chose the lower-marginal-accuracy path unaffected by the dependency and approached the supplied-path oracle after audit cost.
+
+### Strongest negative results
+
+\[
+\boxed{
+\text{A blind intervention cannot validate a blind correction ecosystem.}
+}
+\]
+
+and:
+
+\[
+\boxed{
+\text{identified ecosystem compromise}
+\not\Rightarrow
+\text{available repair}.
+}
+\]
+
+### Not supported
+
+- autonomous discovery of latent dependencies;
+- autonomous intervention generation;
+- truth identification without target labels or another correctness reference;
+- universal causal-independence measurement;
+- external validation of subjective or altered-state experiences;
+- a distinct theory beyond causal experiment design and robust selection under common-mode failure.
 
 ---
 
@@ -164,35 +165,53 @@ Given an interface, can the system use it effectively?
 
 Given contradiction, can the system distinguish model error from interface insufficiency?
 
-v0.1 supplies a toy instance.
+v0.1 supplies a bounded toy instance.
 
 ### Level 3 — Hidden interface stress testing
 
 Can the system challenge apparent success before deployment when challenge has a cost?
 
-v0.2 supplies a toy instance with an externally authored audit.
+v0.2 supplies a bounded toy instance with an externally authored audit.
 
-### Level 4 — Correction-path diversity selection
+### Level 4 — Supplied correction-path diversity
 
-Can the system distinguish redundant correction channels from channels that cover different primary failures?
+Can the system distinguish redundant correction channels from channels that cover different exposed failures?
 
-v0.3 supplies a bounded toy instance with labeled calibration data and externally authored channels.
+v0.3 supplies a bounded toy instance with labels and externally authored channels.
 
-It does not establish that the comparison process itself has independent access.
+### Level 5 — Supplied common-mode dependency audit
 
-### Level 5 — Joint challenge-interface diagnosis
+Can an intervention vary a hidden upstream dependency and reveal that the correction ecosystem fails together?
 
-Can the system discover that its available tests, labels, calibration regime, and independence estimates share one hidden failure?
+v0.4 supplies the dependency, intervention, labels, and candidate paths.
 
-Open.
+### Level 6 — Autonomous joint-misspecification diagnosis
 
-### Level 6 — Interface invention
-
-Can the system generate a new measurement, variable, intervention, or question without being given the missing distinction?
+Can the system discover that its labels, causal graph, candidate interventions, and comparison regime share an unmodeled dependency?
 
 Open.
 
-No authority should propagate from Levels 2–4 to Levels 5–6 without new evidence.
+### Level 7 — Interface and intervention invention
+
+Can the system generate a new measurement, variable, reference frame, or intervention without being given the missing distinction or dependency?
+
+Open.
+
+No authority should propagate from Levels 2–5 to Levels 6–7 without new evidence.
+
+---
+
+## Psychedelic/entity claim boundary
+
+Survey respondents describing memorable DMT entity encounters provide phenomenological reports, not an independent test of source ontology.
+
+The benchmark analogy is limited to this structural question:
+
+\[
+\text{Are multiple apparent confirmation channels causally independent, or downstream of one altered generative process?}
+\]
+
+The repository does not test telepathy, external entities, other dimensions, or any ontological interpretation of psychedelic experience.
 
 ---
 
@@ -204,12 +223,11 @@ The repository does not currently demonstrate:
 - open-ended evolution;
 - safe recursive self-improvement;
 - autonomous generation of superior reality-tracking interfaces;
-- autonomous generation of independent correction paths;
+- autonomous generation of independent correction paths or interventions;
 - universal authority allocation;
 - a universal measure of epistemic independence;
 - a measurable vision or causal-mass scalar;
-- a general civilizational decision procedure;
-- a universal temporal comparison operator;
+- a civilizational decision procedure;
 - that historical figures instantiated the proposed mechanisms;
 - that the Eye of Horus historically encoded this framework.
 
@@ -227,11 +245,9 @@ It should be replaced, reduced, or absorbed when:
 4. competing decompositions produce better held-out results;
 5. the framework becomes the sole judge of evidence supporting itself.
 
-The present frontier is therefore not another conceptual layer.
-
-It is:
+The present frontier is:
 
 \[
 \boxed{
-\text{Can a system obtain evidence that its entire correction-path comparison is jointly mis-specified?}
+\text{Can a system generate or select interventions that expose dependencies absent from its supplied causal model?}
 }
