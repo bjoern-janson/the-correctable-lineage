@@ -131,7 +131,23 @@ Its strongest negative result is:
 }
 \]
 
-Neither benchmark establishes autonomous interface invention.
+### v0.3 — correction-path diversity
+
+Can an agent select correction channels by what they reveal about primary failures rather than by marginal accuracy or correlated vote count?
+
+The first exploratory result supports only a local selection claim under a declared shared-blind-spot shift. A failure-conditioned selector chose the lower-marginal-accuracy independent channel and matched the supplied-path oracle after cost.
+
+Its strongest negative result is:
+
+\[
+\boxed{
+\text{No exposed failure or independent intervention}
+\Rightarrow
+\text{no identified correction-path independence.}
+}
+\]
+
+None of the benchmarks establishes autonomous interface invention, autonomous challenge generation, or a universal measure of epistemic independence.
 
 ---
 
@@ -177,6 +193,8 @@ The interface-evolution extension asks whether the system can discover that the 
 
 The temporal extension asks whether the lineage can revise both how it reconstructs the past and how it generates possible futures, while applying different evidence standards to realized history and unrealized candidates.
 
+The correction-path extension asks whether reality has multiple genuinely distinct routes by which it can reduce the authority of the system's current interface.
+
 ---
 
 ## Two coupled loops
@@ -187,7 +205,7 @@ The temporal extension asks whether the lineage can revise both how it reconstru
 \text{How does the system change?}
 \]
 
-This includes representation, search, action, feedback, mechanism revision, interface revision, temporal comparison, and inheritance.
+This includes representation, search, action, feedback, mechanism revision, interface revision, temporal comparison, correction-path selection, and inheritance.
 
 ### Governance loop
 
@@ -195,7 +213,7 @@ This includes representation, search, action, feedback, mechanism revision, inte
 \text{When is that change justified?}
 \]
 
-This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, temporal asymmetry, and claim boundaries.
+This includes target declaration, observation interfaces, factorization, estimation, predictive validation, causal intervention, provenance, authority scope, temporal asymmetry, correction-path dependence, and claim boundaries.
 
 The corpus increasingly argues that recursive improvement without the governance loop risks becoming recursive self-confirmation.
 
@@ -262,12 +280,18 @@ Examples include:
 \[
 \text{future}
 \rightarrow
-\text{possibility} + \text{probability} + \text{path} + \text{selection} + \text{revision}.
+\text{possibility} + \text{probability} + \text{path} + \text{selection} + \text{revision}
+\]
+
+\[
+\text{test quantity}
+\rightarrow
+\text{marginal accuracy} + \text{failure-conditioned coverage} + \text{shared error structure}.
 \]
 
 The corpus therefore converges on a stronger view of intelligence:
 
-> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence, history, or future possibility became visible.
+> Intelligence is not merely the ability to change when wrong. It is the ability to identify what became less trustworthy, revise the smallest sufficient causal layer, preserve what remained valid, and carry the correction forward—including when the failed layer is the interface through which evidence, history, future possibility, or correction itself became visible.
 
 ---
 
@@ -288,6 +312,7 @@ The corpus therefore converges on a stronger view of intelligence:
 - [temporal-interface-selection.md](temporal-interface-selection.md) — separates retrospective reconstruction from prospective generation and specifies how a lineage may compare, select, repair, and inherit interfaces across time.
 - [interface-evolution-benchmark-v0.1.md](interface-evolution-benchmark-v0.1.md) — a minimal benchmark for exposed interface failure and bounded sensor acquisition.
 - [interface-stress-benchmark-v0.2.md](interface-stress-benchmark-v0.2.md) — a benchmark for hidden fragility, costly interface challenge, and adaptive skepticism allocation.
+- [interface-diversity-benchmark-v0.3.md](interface-diversity-benchmark-v0.3.md) — a benchmark for selecting supplied correction channels by failure-conditioned coverage rather than correlated quantity.
 - [benchmark/README.md](benchmark/README.md) — executable benchmark instructions, frozen result artifacts, and interpretation boundaries.
 - [lineage-map.md](lineage-map.md) — conceptual progression across the repository family.
 - [research-boundary.md](research-boundary.md) — current claim ceiling, non-claims, and open frontier.
@@ -296,7 +321,7 @@ The corpus therefore converges on a stronger view of intelligence:
 
 ## Current scientific status
 
-This repository is an **interpretive synthesis** with two executable toy benchmarks.
+This repository is an **interpretive synthesis** with three executable toy benchmarks.
 
 It does not convert the underlying repositories into one empirically validated unified theory.
 
@@ -320,9 +345,11 @@ The artifact types must remain distinct:
 
 `Interface Stress Benchmark v0.2` supports a local value-of-information distinction between maximum skepticism, no challenge, and cost-sensitive challenge under a supplied audit operator.
 
-Both remain compatible with existing active sensing, feature acquisition, experiment design, Bayesian decision, and partially observable control frameworks.
+`Interface Diversity Benchmark v0.3` supports a local distinction between marginal accuracy, correlated test count, and failure-conditioned correction coverage under supplied labeled calibration and a declared shared-blind-spot shift.
 
-Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, or a universal operator for comparing inherited history with possible futures.
+All three remain compatible with existing active sensing, feature acquisition, experiment design, Bayesian decision, robust ensemble selection, correlated-error analysis, and partially observable control frameworks.
+
+Interface Theory currently contains the most strictly governed completed evidence in the corpus. Its results are class-scoped Gate 1 factorization results. They do not establish a universal intelligence metric, a universal correctability scalar, a superior adaptive architecture, an operational recursive self-improvement system, a universal interface-generation law, a universal correction-path independence metric, or a universal operator for comparing inherited history with possible futures.
 
 ---
 
@@ -346,12 +373,12 @@ and:
 
 Accordingly:
 
-- downstream candidate comparison and selection remain blocked;
+- downstream candidate architecture comparison and selection remain blocked;
 - no candidate architecture has been evaluated or selected;
 - Interface Theory Gates 2–4 remain closed;
 - historical repository records are not modified by this synthesis;
 - broad corpus interpretations are not completed experimental claims;
-- neither benchmark authorizes a general theory of interface invention.
+- none of the benchmarks authorizes a general theory of interface invention or epistemic topology.
 
 ---
 
@@ -359,11 +386,11 @@ Accordingly:
 
 The long-range research object is a **correctable lineage**:
 
-> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism, interface, or challenge operator becomes the unchallengeable judge of its own continued authority.
+> A traceable adaptive process in which environmental consequences can improve the machinery and interfaces of future adaptation, successful corrections can be inherited with their evidence and limits attached, represented pasts and futures remain separately auditable, and no current mechanism, interface, challenge operator, or correction-path comparison becomes the unchallengeable judge of its own continued authority.
 
 This is closer to the causal anatomy of an artificial evolutionary lineage than to an ordinary static software architecture.
 
-But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, autonomous challenge generation, or a validated method for choosing among civilizational futures.
+But the corpus has not yet demonstrated biological life, artificial life, open-ended evolution, safe recursive self-improvement, autonomous generation of superior reality-tracking interfaces, autonomous challenge generation, autonomous correction-path generation, or a validated method for choosing among civilizational futures.
 
 ---
 
@@ -404,5 +431,6 @@ At the current benchmark frontier:
 
 \[
 \boxed{
-\text{challenge successful interfaces when the expected value justifies it, then challenge the challenge itself.}
+\text{select correction paths by the failures they can expose, then test whether the comparison itself shares a hidden failure.}
+}
 \]
