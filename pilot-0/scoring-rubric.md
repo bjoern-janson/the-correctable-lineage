@@ -15,9 +15,11 @@ All condition differences are descriptive feasibility signals unless a later pre
 Report:
 
 \[
+\boxed{
 Y_{\mathrm{pilot}}
 =
-(C,F,H,R,T,A,J,L),
+(C,F,H,R,T,A,J,G,L),
+}
 \]
 
 where:
@@ -29,6 +31,7 @@ where:
 - \(T\): translation burden;
 - \(A\): consequence-based action quality;
 - \(J\): adjudication identifiability;
+- \(G\): disagreement legibility;
 - \(L\): ontology leakage and role-capture indicators.
 
 Do not collapse the vector into one winner score during Pilot 0.
@@ -72,7 +75,8 @@ Examples:
 - Bayesian likelihood and posterior are conflated;
 - assurance evidence is listed without a supporting claim or inference;
 - reopening condition is not connected to any response;
-- action status contradicts the represented decision rule.
+- action status contradicts the represented decision rule;
+- unsupported-but-open is used to authorize current action without further evidence.
 
 Ambiguity caused by the manual should be coded as specification failure, not participant error.
 
@@ -92,6 +96,7 @@ For each representation, define a frozen set of comparison dimensions such as:
 - validity-domain partition;
 - dependency clusters;
 - action permissions;
+- unsupported-but-open possibilities;
 - unresolved states;
 - future revision triggers.
 
@@ -112,7 +117,8 @@ Also report:
 - number of clusters;
 - singleton rate;
 - coder agreement on clustering;
-- whether clusters produce materially different later actions.
+- whether clusters produce materially different later actions;
+- whether apparent agreement depends on retrospective framework translation.
 
 ### Interpretation
 
@@ -135,32 +141,41 @@ Freeze a distance over action statuses:
 \{
 \text{permitted},
 \text{conditional},
+\text{unsupported-open},
 \text{suspended},
 \text{prohibited},
-\text{unresolved}
+\text{contested},
+\text{underidentified}
 \}.
 \]
+
+Unsupported-open must remain distinguishable from both permitted and prohibited.
 
 Report pairwise distance before and after each evidence stage.
 
 ### Valid-structure convergence
 
-Compare which earlier claims participants retain, narrow, suspend, or reject.
+Compare which earlier claims participants retain, narrow, mark unsupported-but-open, suspend, or reject.
 
 ### Reopening convergence
 
 Compare whether participants identify similar future tests or triggers after contradiction.
 
-### Guard against abstention
+### Guard against abstention and closure
 
 Convergence to “unresolved” on every action is not automatically successful.
+
+Convergence to “prohibited” on every unsupported claim is also not automatically successful.
 
 Report:
 
 - convergence toward adjudicator-permitted regions;
 - convergence toward prohibited regions;
+- convergence toward correctly unsupported-open regions;
 - convergence through generalized abstention;
-- persistent contested divergence.
+- convergence through generalized rejection;
+- persistent contested divergence;
+- whether convergence follows later evidence or panel-imposed interpretation.
 
 ---
 
@@ -213,7 +228,9 @@ Report separate scores for:
 4. unsupported extension prevention;
 5. dependency handling;
 6. future correction path;
-7. stakeholder-loss transparency.
+7. stakeholder-loss transparency;
+8. open-status calibration;
+9. disagreement legibility.
 
 Do not reward use of framework vocabulary.
 
@@ -246,6 +263,29 @@ O_G
 {\text{promotion opportunities}}.
 \]
 
+### Unsupported-open preservation
+
+Let \(U^*\) be possibilities judged unsupported-but-open and \(\widehat U\) those preserved by the participant without present authorization.
+
+Report:
+
+\[
+P_U
+=
+\frac{|\widehat U\cap U^*|}{|\widehat U|},
+\]
+
+\[
+R_U
+=
+\frac{|\widehat U\cap U^*|}{|U^*|}.
+\]
+
+This detects two opposite errors:
+
+- granting authority to an unsupported possibility;
+- converting lack of present support into permanent rejection.
+
 ### Under-generalization
 
 Record valid actions withheld without sufficient reason.
@@ -254,13 +294,68 @@ This prevents generalized skepticism from masquerading as governance quality.
 
 ---
 
-## 7. Adjudication identifiability
+## 7. Disagreement legibility
+
+Pilot 0 tests whether a representation can compress expert disagreement into inspectable components without forcing consensus.
+
+For each material disagreement, coders assign one or more source labels:
+
+- hypothesis partition;
+- evidence interpretation;
+- measurement assumption;
+- scope;
+- dependency model;
+- stakeholder loss;
+- action threshold;
+- reopening condition;
+- manual ambiguity;
+- case underidentification;
+- factual error;
+- irreducibly mixed or unclassifiable.
+
+### Legibility coverage
+
+Let \(N_D\) be the number of material disagreements and \(N_L\) those assigned a stable source by independent coders.
+
+\[
+G_C
+=
+\frac{N_L}{N_D}.
+\]
+
+Report with:
+
+- coder agreement on source labels;
+- multi-label frequency;
+- unclassifiable proportion;
+- whether localization changes the next evidence request;
+- whether localization permits operational coexistence;
+- whether localization enables a targeted test or negotiated action;
+- time required to translate disagreement into a shared record.
+
+### Behavioral value
+
+High disagreement legibility is useful only if it improves at least one of:
+
+- targeted evidence acquisition;
+- valid coexistence of different actions or scopes;
+- repair convergence under later evidence;
+- avoidance of false consensus;
+- avoidance of premature rejection.
+
+A framework-specific relabeling performed after the fact does not count.
+
+---
+
+## 8. Adjudication identifiability
 
 Report:
 
 - agreement on permitted actions;
 - agreement on prohibited actions;
+- agreement on unsupported-but-open actions;
 - contested-action proportion;
+- underidentified-action proportion;
 - agreement on valid structure to retain;
 - agreement on material dependency;
 - agreement on whether later evidence should trigger revision;
@@ -270,8 +365,9 @@ Report:
 
 Classify each stage:
 
-- **highly identifiable** — narrow permitted region and high panel agreement;
-- **partially identifiable** — clear prohibited region but multiple defensible actions;
+- **highly identifiable** — narrow permitted and prohibited regions with high panel agreement;
+- **partially identifiable** — clear current boundaries but multiple defensible actions;
+- **open but unsupported** — plausible future possibility remains without current authority;
 - **value-sensitive** — factual agreement but stakeholder losses differ;
 - **model-sensitive** — alternative causal accounts remain;
 - **underidentified** — case evidence does not support stable scoring.
@@ -280,7 +376,7 @@ Underidentified cases may be useful qualitative probes but should not anchor com
 
 ---
 
-## 8. Ontology leakage and role capture
+## 9. Ontology leakage and role capture
 
 Record binary or graded indicators:
 
@@ -291,13 +387,15 @@ Record binary or graded indicators:
 - adjudicator uses claim-contract terms as scoring criteria;
 - analyst changes exclusions after condition labels are known;
 - one role controls case, score, and interpretation;
-- divergent reconstructions are retrospectively translated into the author’s preferred representation.
+- divergent reconstructions are retrospectively translated into the author’s preferred representation;
+- adjudicator consensus is treated as ground truth without recording alternatives;
+- unsupported-but-open possibilities are forced into accepted/rejected categories.
 
 Any material leakage must be included in interpretation.
 
 ---
 
-## 9. Scoped governance loss
+## 10. Scoped governance loss
 
 For each case, adjudicators record a family of plausible losses:
 
@@ -323,11 +421,12 @@ Report:
 - which actions change under different plausible stakeholder weights;
 - whether participants make the weights visible;
 - whether representations permit loss revision without rebuilding the entire record;
-- whether the representation hides value judgments inside technical confidence.
+- whether the representation hides value judgments inside technical confidence;
+- whether disagreements classified as factual are actually loss disagreements.
 
 ---
 
-## 10. Descriptive go/no-go criteria
+## 11. Descriptive go/no-go criteria
 
 Exact thresholds must be frozen in the preregistration after independent review.
 
@@ -338,6 +437,8 @@ Candidate go signals:
 - clarification requests cluster around fixable manual ambiguities;
 - reconstruction entropy is interpretable rather than chaotic;
 - repair convergence improves after later evidence;
+- unsupported-open states are preserved without unauthorized action;
+- material disagreements can be localized with acceptable coder agreement;
 - consequence scores can be assigned without framework vocabulary;
 - comparator stewards judge their manuals faithful;
 - translation burden is measurable and not prohibitive.
@@ -346,15 +447,17 @@ Candidate no-go signals:
 
 - completion depends on inventor mediation;
 - high entropy produces incompatible actions with no case-based resolution;
-- adjudicators cannot agree on consequence regions;
+- adjudicators cannot distinguish contested, unsupported-open, and underidentified regions;
+- disagreement becomes legible only through retrospective author translation;
 - one condition receives hidden extra information;
 - framework terms are required to score success;
 - participants use generalized abstention to avoid every error;
+- participants or adjudicators convert every unsupported possibility into rejection;
 - minimal method-native augmentations erase the apparent distinction.
 
 ---
 
-## 11. Reporting format
+## 12. Reporting format
 
 For each condition and case report:
 
@@ -364,6 +467,9 @@ For each condition and case report:
 - reconstruction clusters;
 - repair trajectories;
 - consequence scores with panel uncertainty;
+- unsupported-open preservation;
+- disagreement-source maps;
+- disagreement-legibility coverage and coder agreement;
 - complexity and translation burden;
 - leakage incidents;
 - manual revisions required;
