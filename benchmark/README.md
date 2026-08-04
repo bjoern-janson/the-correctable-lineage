@@ -33,6 +33,8 @@ Question:
 
 > Can an agent pay to challenge an apparently successful interface before deployment, while avoiding maximum skepticism?
 
+The first implementation is exploratory rather than independently preregistered. Its checks and generated result ledger are now frozen and replayed exactly in CI.
+
 Run:
 
 ```bash
