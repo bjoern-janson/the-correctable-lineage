@@ -150,11 +150,13 @@ The upstream authority constraint is therefore:
 
 \[
 \boxed{
-\Delta W(C)>0
+\Delta W^{(O,\mathcal F)}(C)>0
 \Longrightarrow
 C\text{ is invariant under the remaining observational ambiguity}.
 }
 \]
+
+Here \(\Delta W^{(O,\mathcal F)}\) denotes the authority increase attributable to the declared observation regime and model class.
 
 ---
 
@@ -164,9 +166,9 @@ The implication is asymmetric:
 
 \[
 \boxed{
-\text{not identified}
+\text{not identified under }(O,\mathcal F)
 \Longrightarrow
-\text{no authority for that exact claim},
+\text{no authority increase attributable to }O\text{ alone for that exact claim},
 }
 \]
 
@@ -174,7 +176,7 @@ but:
 
 \[
 \boxed{
-\text{identified}
+\text{identified under }(O,\mathcal F)
 \not\Longrightarrow
 \text{epistemically authorized}.
 }
