@@ -523,8 +523,7 @@ P(M_t=m).
 ### Selection without inheritance
 
 \[
-M_{t+1}^{\mathrm{selected}}
-\neq M_t
+M_{t+1}^{\mathrm{selected}}\neq M_t
 \]
 
 but after reset, reproduction, or a later episode:
@@ -619,6 +618,7 @@ R_t\rightarrow\Delta W_{t+1}
 \boxed{
 \text{selected correction}\rightarrow\text{future substrate}
 \text{ is inheritance.}
+}
 \]
 
 Together:
