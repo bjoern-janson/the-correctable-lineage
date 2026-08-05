@@ -83,12 +83,12 @@ where:
 
 - \(H\): claim or hypothesis;
 - \(W\): typed epistemic authority;
-- \(\Sigma\): validity scope;
+- \(\Sigma\): validity scope, including any action class to which the claim is relevant;
 - \(\Pi\): evidence provenance and shared dependencies;
 - \(\mathcal R\): reopening conditions;
 - \(\Gamma\): required response when reopening occurs.
 
-Decision authority is kept separate from epistemic authority and depends on a declared loss or consequence model \(\Lambda\). Action permissions are outputs of that separate decision process; they are not stored in \(W\) or \(\Sigma\).
+Decision authority is kept separate from epistemic authority and depends on a declared loss or consequence model \(\Lambda\). A reference to an action class inside \(\Sigma\) records where the claim may be decision-relevant; it does not itself authorize that action.
 
 ---
 
