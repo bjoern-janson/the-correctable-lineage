@@ -20,12 +20,12 @@ where:
 
 - \(H\): claim or hypothesis;
 - \(W\): typed epistemic authority;
-- \(\Sigma\): validity scope;
+- \(\Sigma\): validity scope, including any action class to which the claim is relevant;
 - \(\Pi\): provenance and shared evidence dependencies;
 - \(\mathcal R\): reopening conditions;
 - \(\Gamma\): required response when reopening occurs.
 
-Decision authority remains separate and depends on a declared consequence or loss model \(\Lambda\). Action permissions are outputs of that separate decision process; they are not stored in \(W\) or \(\Sigma\).
+Decision authority remains separate and depends on a declared consequence or loss model \(\Lambda\). A reference to an action class inside \(\Sigma\) records where the claim may be decision-relevant; it does not itself authorize that action.
 
 The upstream identifiability mathematics is established literature substrate. The open question is whether this downstream bookkeeping changes correction behavior relative to method-faithful alternatives after complexity cost.
 
