@@ -50,6 +50,17 @@ The authoritative introductory route is maintained in [`START-HERE.md`](START-HE
 4. [`external-reviewer-packet.md`](external-reviewer-packet.md) — hostile method-steward review questions.
 5. [`pilot-0/README.md`](pilot-0/README.md) — feasibility package for independent reconstruction and revision.
 
+## Repository layers
+
+The repository now exposes non-destructive directory indexes while keeping source documents at their established paths:
+
+- [`current/`](current/) — current claim surface and reader route.
+- [`evaluation/`](evaluation/) — external review, comparative evaluation, calibration, and synthetic evidence.
+- [`applications/`](applications/) — domain translations and stress tests.
+- [`history/`](history/) — broader developmental lineage and provenance.
+
+These indexes change routing authority, not document history.
+
 ## Evaluation and evidence
 
 - [`external-review-log.md`](external-review-log.md) — external corrections and resulting authority updates.
