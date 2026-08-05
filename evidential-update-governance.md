@@ -314,6 +314,7 @@ The balance is:
 \boxed{
 \text{expansion without contraction risks ontology inflation;}
 }
+\]
 
 \[
 \boxed{
