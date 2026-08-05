@@ -13,7 +13,9 @@ Before execution:
 - a framework-independent reviewer must compare information access and training burden;
 - word count, study time, examples, response fields, and software support must be matched as far as practical.
 
-Participants receive only the manual for their assigned condition plus the common response template.
+Before each native response is frozen, participants receive only the manual for their assigned condition, the neutral case stage, and the available action options.
+
+The secondary cross-method extraction template is introduced only after the native representation and recommendation are frozen.
 
 All conditions receive identical case evidence and action options.
 
@@ -31,6 +33,8 @@ At each evidence stage:
 6. preserve earlier conclusions that remain justified;
 7. record uncertainty and disagreement rather than forcing a unique answer.
 
+Produce this response entirely in the assigned method's native form. The native artifact and recommendation are frozen before any common extraction categories are shown.
+
 You are not required to produce one global verdict.
 
 ---
@@ -39,7 +43,7 @@ You are not required to produce one global verdict.
 
 ## Purpose
 
-Represent each material commitment as an auditable record containing content, authority, validity limits, evidence dependencies, and future revision conditions.
+Represent each material epistemic commitment as an auditable record containing content, epistemic authority, validity limits, evidence dependencies, and future revision conditions.
 
 ## Core record
 
@@ -61,11 +65,13 @@ Avoid combining:
 - action authorization;
 - desirability.
 
-### \(W_i\) — Current authority
+### \(W_i\) — Current epistemic authority
 
-State how strongly the current evidence supports using the claim for reasoning or action.
+State how strongly the current evidence supports using the claim in reasoning within its declared validity scope.
 
-Pilot 0 uses ordinal authority unless a participant has a justified numerical model:
+Do not encode action permission in \(W_i\).
+
+Pilot 0 uses ordinal epistemic authority unless a participant has a justified numerical model:
 
 - 0 — rejected or contradicted;
 - 1 — weak possibility;
@@ -75,7 +81,7 @@ Pilot 0 uses ordinal authority unless a participant has a justified numerical mo
 
 Authority is not required to sum to one across claims.
 
-### \(\Sigma_i\) — Validity and action scope
+### \(\Sigma_i\) — Validity scope
 
 Record:
 
@@ -83,8 +89,9 @@ Record:
 - target or outcome;
 - measurement conditions;
 - operating conditions;
-- time horizon;
-- permitted action.
+- time horizon.
+
+Do not encode permitted action in \(\Sigma_i\).
 
 ### \(\Pi_i\) — Evidence provenance and dependency
 
@@ -101,16 +108,15 @@ State realistically obtainable future evidence that would trigger re-examination
 
 A merely imaginable event is insufficient when it cannot be collected or reach decision-makers.
 
-### \(\Gamma_i\) — Revision response
+### \(\Gamma_i\) — Epistemic revision response
 
-State what should happen if a reopening condition occurs:
+State what should happen to the epistemic commitment if a reopening condition occurs:
 
 - reduce authority;
 - contract or expand scope;
-- suspend an action;
 - request a new hypothesis;
-- replace a component;
-- preserve unaffected local validity.
+- preserve unaffected local validity;
+- refer the changed epistemic state to the separate decision process.
 
 ### \(H_{?}\) — Unresolved state
 
@@ -118,20 +124,28 @@ Use an unresolved state when the represented alternatives do not explain the evi
 
 Do not invent a detailed explanation without discriminating evidence.
 
+## Separate decision recommendation
+
+After constructing the epistemic records, state the current action recommendation separately under declared stakeholder consequences, loss, reversibility, monitoring, and rollback assumptions.
+
+Action permissions are outputs of this decision step. They are not fields inside \(W_i\) or \(\Sigma_i\).
+
 ## Allowed operations
 
 At each stage you may:
 
-- promote authority;
-- contract authority;
+- promote epistemic authority;
+- contract epistemic authority;
 - rescope a claim;
 - add or split hypotheses;
 - alter reopening rules;
-- alter action permissions.
+- revise the separate decision recommendation after updating the epistemic record.
 
 ## Required output
 
-Use the common response template.
+Produce and freeze the native claim-contract records and separate decision recommendation first.
+
+Afterward, the secondary cross-method extraction template may be completed without changing the frozen native artifact.
 
 ---
 
@@ -225,7 +239,9 @@ These are not treated as claim-contract imports when they are expressed in Bayes
 
 ## Required output
 
-Use the common response template and include enough of \(B\) to explain your action.
+Produce and freeze the native Bayesian representation and decision recommendation first, including enough of \(B\) to explain the action.
+
+Afterward, the secondary cross-method extraction template may be completed without changing the frozen native artifact.
 
 ---
 
@@ -339,7 +355,9 @@ These are native assurance tools, not treated as claim-contract imports.
 
 ## Required output
 
-Use the common response template and include enough of the assurance structure to explain your action.
+Produce and freeze the native assurance argument and decision status first, including enough of the assurance structure to explain the action.
+
+Afterward, the secondary cross-method extraction template may be completed without changing the frozen native artifact.
 
 ---
 
@@ -383,4 +401,5 @@ A manual must be revised before a larger study when:
 - one comparator is prohibited from using mature native tools;
 - outcome scorers can identify the condition from decorative vocabulary alone;
 - training burden is not measured;
-- participants cannot distinguish the representation from the common response template.
+- the secondary extraction surface changes the native response or supplies distinctions absent from the frozen artifact;
+- participants cannot distinguish the assigned native representation from the secondary cross-method extraction surface.

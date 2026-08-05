@@ -73,7 +73,7 @@ is treated as a standard target/query identifiability criterion expressed in cor
 
 ## Proposed objects
 
-The project studies whether correction improves when commitments explicitly record:
+The project studies whether correction improves when epistemic commitments explicitly record:
 
 \[
 C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
@@ -82,13 +82,13 @@ C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
 where:
 
 - \(H\): claim or hypothesis;
-- \(W\): typed epistemic or operational authority;
-- \(\Sigma\): validity and action scope;
+- \(W\): typed epistemic authority;
+- \(\Sigma\): validity scope, including any action class to which the claim is relevant;
 - \(\Pi\): evidence provenance and shared dependencies;
 - \(\mathcal R\): reopening conditions;
 - \(\Gamma\): required response when reopening occurs.
 
-Decision authority is kept separate from epistemic authority and depends on a declared loss or consequence model \(\Lambda\).
+Decision authority is kept separate from epistemic authority and depends on a declared loss or consequence model \(\Lambda\). A reference to an action class inside \(\Sigma\) records where the claim may be decision-relevant; it does not itself authorize that action.
 
 ---
 
