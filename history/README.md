@@ -6,7 +6,6 @@ These materials may explain how the current research object developed, but they 
 
 ## Earlier boundaries and integrated formulations
 
-- [`../research-boundary.md`](../research-boundary.md)
 - [`../evidential-update-governance.md`](../evidential-update-governance.md)
 - [`../authority-allocation-invariant.md`](../authority-allocation-invariant.md)
 - [`../authority-acquisition-gate.md`](../authority-acquisition-gate.md)
