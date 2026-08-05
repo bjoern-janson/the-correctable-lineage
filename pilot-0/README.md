@@ -68,7 +68,7 @@ A representation may provide value through either:
 
 1. [`neutral-cases.md`](neutral-cases.md) — three staged cases from scientific replication, engineering assurance, and ML deployment.
 2. [`representation-manuals.md`](representation-manuals.md) — matched instructions for claim contracts, Bayesian workflow, and assurance arguments, plus method-native augmentation rules.
-3. [`participant-response-template.md`](participant-response-template.md) — common response surface used at every evidence stage, including unsupported-but-open status and material-disagreement records.
+3. [`participant-response-template.md`](participant-response-template.md) — secondary cross-method extraction surface used only after the native representation and recommendation are frozen.
 4. [`adjudication-template.md`](adjudication-template.md) — plural adjudication over permitted, prohibited, contested, unsupported-but-open, and underidentified consequence regions.
 5. [`scoring-rubric.md`](scoring-rubric.md) — consequence-based feasibility metrics, reconstruction entropy, repair convergence, disagreement legibility, open-status calibration, and translation burden.
 6. [`preregistration-draft.md`](preregistration-draft.md) — execution decisions that must be frozen before recruitment.
@@ -100,6 +100,16 @@ At minimum:
 
 Participants receive one representation manual only.
 
+At every evidence stage, administration is native-first:
+
+1. the participant constructs the assigned method's native representation and action recommendation;
+2. that artifact is frozen before any shared categories or fields are shown;
+3. the common response surface is completed afterward as a secondary extraction step, preferably by blinded independent coders;
+4. primary reconstruction and spontaneous-distinction measures are scored from the frozen native artifact;
+5. information appearing only after the common surface is introduced does not count as evidence that the assigned method preserved it unaided.
+
+This prevents the common template from installing the claim-contract distinctions in every condition or erasing the treatment contrast.
+
 The pilot is too small for a stable superiority claim. Condition comparisons are descriptive feasibility signals.
 
 ### Cases
@@ -112,18 +122,19 @@ Evidence is released sequentially.
 
 ### Primary feasibility endpoints
 
-1. representation completion rate;
-2. malformed-field rate;
-3. clarification requests;
-4. completion time;
+1. native representation completion rate;
+2. malformed native-object rate;
+3. clarification requests before the native artifact is frozen;
+4. native completion time;
 5. reconstruction entropy;
 6. repair convergence after later evidence;
 7. consequential action quality;
-8. unsupported-but-open preservation;
+8. unsupported-but-open preservation in the native artifact;
 9. disagreement-legibility coverage and coder agreement;
 10. adjudicator agreement and contested-region size;
 11. participant-reported translation burden;
-12. evidence of framework vocabulary leakage.
+12. native-to-common extraction loss and cost;
+13. evidence of framework vocabulary leakage.
 
 ---
 
@@ -252,7 +263,8 @@ When:
 - unsupported-open and prohibited states are frequently confused;
 - disagreement is visible but its source cannot be coded reliably;
 - one comparator is materially weakened;
-- participants need extensive inventor mediation.
+- participants need extensive inventor mediation;
+- the common extraction surface changes the participant's native conclusion or supplies distinctions absent from the frozen artifact.
 
 ### Stop or narrow the operational claim
 
@@ -312,4 +324,4 @@ It would not establish:
 \[
 \boxed{
 \text{A representation is not yet a public instrument until independent users can instantiate it, revise it, preserve open possibilities without premature authority, and obtain defensible consequences without inventor arbitration.}
-}
+\]
