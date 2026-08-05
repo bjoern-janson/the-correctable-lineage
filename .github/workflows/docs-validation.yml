@@ -14,6 +14,12 @@ on:
       - 'scripts/validate_markdown.py'
       - '.github/workflows/docs-validation.yml'
   workflow_dispatch:
+    inputs:
+      full_formatting_audit:
+        description: 'Audit formatting in every Markdown file, including historical debt'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -24,11 +30,38 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Validate Markdown links and formatting
-        run: python scripts/validate_markdown.py
+      - name: Select changed Markdown files for formatting checks
+        shell: bash
+        run: |
+          : > /tmp/markdown-format-paths.txt
+
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            git diff --name-only --diff-filter=ACMRT \
+              "${{ github.event.pull_request.base.sha }}" \
+              "${{ github.event.pull_request.head.sha }}" \
+              -- '*.md' | sort -u > /tmp/markdown-format-paths.txt
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            git diff --name-only --diff-filter=ACMRT \
+              "${{ github.event.before }}" \
+              "${{ github.sha }}" \
+              -- '*.md' | sort -u > /tmp/markdown-format-paths.txt
+          fi
+
+          echo "Markdown files selected for formatting validation:"
+          cat /tmp/markdown-format-paths.txt
+
+      - name: Validate repository-wide links and changed-file formatting
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.full_formatting_audit }}
+        run: python scripts/validate_markdown.py --format-paths-file /tmp/markdown-format-paths.txt
+
+      - name: Run full formatting audit
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_formatting_audit }}
+        run: python scripts/validate_markdown.py --all-formatting
