@@ -14,11 +14,11 @@ It is not:
 
 Its purpose is narrower:
 
-[
+\[
 \boxed{
 \text{Test whether independent readers can identify what the repository currently claims before evaluating whether that claim is valuable.}
 }
-]
+\]
 
 ---
 
@@ -31,29 +31,29 @@ The repository preserves both:
 
 This creates a reconstruction risk:
 
-[
+\[
 \text{repository}
 \rightarrow
 \text{historical or inflated interpretation}
-]
+\]
 
 rather than:
 
-[
+\[
 \text{repository}
 \rightarrow
 \text{current claim boundary}.
-]
+\]
 
 A reader may correctly understand many individual concepts while evaluating the wrong project.
 
 The primary reader-interface question is therefore:
 
-[
+\[
 \boxed{
 \text{Can a competent outsider reconstruct the current claim, evidence status, and open empirical question without author correction?}
 }
-]
+\]
 
 ---
 
@@ -128,15 +128,15 @@ Or did the reader reconstruct it primarily as:
 
 Did the reader preserve the modal and empirical boundary:
 
-[
+\[
 \text{may reduce invalid authority transfer}
-]
+\]
 
 rather than promoting it to:
 
-[
+\[
 \text{does prevent self-sealing or preserve corrigibility}?
-]
+\]
 
 ### Evidence status
 
@@ -184,30 +184,29 @@ Do not initially collapse reader failure into one scalar.
 
 Record:
 
-[
+\[
 \boxed{
 L_{\mathrm{reconstruct}}
-========================
-
-(
+=
+\left(
 L_{\mathrm{object}},
 L_{\mathrm{scope}},
 L_{\mathrm{evidence}},
 L_{\mathrm{novelty}},
 L_{\mathrm{phase}},
 L_{\mathrm{defeat}}
-).
+\right).
 }
-]
+\]
 
 Where:
 
-* (L_{\mathrm{object}}): reconstruction of the wrong research object;
-* (L_{\mathrm{scope}}): inflation or excessive contraction of the current claim;
-* (L_{\mathrm{evidence}}): promotion or omission of existing evidence;
-* (L_{\mathrm{novelty}}): attribution of established substrate to the project;
-* (L_{\mathrm{phase}}): confusion about the current research stage;
-* (L_{\mathrm{defeat}}): failure to preserve absorption, narrowing, or rejection conditions.
+* \(L_{\mathrm{object}}\): reconstruction of the wrong research object;
+* \(L_{\mathrm{scope}}\): inflation or excessive contraction of the current claim;
+* \(L_{\mathrm{evidence}}\): promotion or omission of existing evidence;
+* \(L_{\mathrm{novelty}}\): attribution of established substrate to the project;
+* \(L_{\mathrm{phase}}\): confusion about the current research stage;
+* \(L_{\mathrm{defeat}}\): failure to preserve absorption, narrowing, or rejection conditions.
 
 Any scalar summary requires declared weights and sensitivity analysis.
 
@@ -217,53 +216,53 @@ Any scalar summary requires declared weights and sensitivity analysis.
 
 ### Historical-state substitution
 
-[
+\[
 \text{current repository}
 \rightarrow
 \text{earlier corpus stage}.
-]
+\]
 
 The reader evaluates a real historical object, but not the current one.
 
 ### Scope inflation
 
-[
+\[
 \text{candidate governance representation}
 \rightarrow
 \text{validated adaptive-system architecture}.
-]
+\]
 
 ### Evidence inflation
 
-[
+\[
 \text{synthetic representational sufficiency}
 \rightarrow
 \text{demonstrated human or deployed utility}.
-]
+\]
 
 ### Novelty laundering
 
-[
+\[
 \text{established upstream method}
 \rightarrow
 \text{project contribution}.
-]
+\]
 
 ### Contribution inflation
 
-[
+\[
 \text{high-signal proposed distinction}
 \rightarrow
 \text{established scientific advance}.
-]
+\]
 
 ### Phase confusion
 
-[
+\[
 \text{external-evaluation preparation}
 \rightarrow
 \text{completed validation}.
-]
+\]
 
 ### Defeat-condition loss
 
@@ -296,19 +295,19 @@ It requires recovery of:
 
 If a reader initially reconstructs the wrong object but corrects it after explicit adjudication, the result supports:
 
-[
+\[
 \boxed{
 \text{repairability under supplied correction}.
 }
-]
+\]
 
 It does not support:
 
-[
+\[
 \boxed{
 \text{independent self-location reliability}.
 }
-]
+\]
 
 ### Persistent reconstruction drift
 
@@ -335,7 +334,7 @@ A reviewer who reconstructs the wrong object should not yet be treated as eviden
 
 The sequence is:
 
-[
+\[
 \boxed{
 \text{self-location}
 \rightarrow
@@ -343,7 +342,7 @@ The sequence is:
 \rightarrow
 \text{authority update}.
 }
-]
+\]
 
 This prevents a positive or negative evaluation of an inflated historical object from being mistaken for evaluation of the current project.
 
@@ -382,11 +381,11 @@ They must not be treated as controlled evidence because:
 
 Their legitimate use is hypothesis generation:
 
-[
+\[
 \boxed{
 \text{external reconstruction drift is a live evaluation risk.}
 }
-]
+\]
 
 ---
 
@@ -411,8 +410,8 @@ New conceptual structure is justified only when reconstruction failure reveals a
 
 ## Final criterion
 
-[
+\[
 \boxed{
 \text{The repository has not become a stable public research object until independent readers can identify its current claim, evidence boundary, defeat conditions, and next empirical question without inventor correction.}
 }
-]
+\]
