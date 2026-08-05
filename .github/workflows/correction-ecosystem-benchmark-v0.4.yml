@@ -2,9 +2,28 @@ name: Correction Ecosystem Benchmark v0.4
 
 on:
   pull_request:
+    paths:
+      - 'correction-ecosystem-benchmark-v0.4.md'
+      - 'benchmark/correction_ecosystem_v0_4.py'
+      - 'benchmark/test_correction_ecosystem_v0_4.py'
+      - 'benchmark/results/results-v0.4.json'
+      - 'benchmark/results/results-v0.4.md'
+      - 'benchmark/negative-result-ledger-v0.4.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/correction-ecosystem-benchmark-v0.4.yml'
   push:
     branches:
-      - agent/integrate-sidis-stress-test
+      - main
+    paths:
+      - 'correction-ecosystem-benchmark-v0.4.md'
+      - 'benchmark/correction_ecosystem_v0_4.py'
+      - 'benchmark/test_correction_ecosystem_v0_4.py'
+      - 'benchmark/results/results-v0.4.json'
+      - 'benchmark/results/results-v0.4.md'
+      - 'benchmark/negative-result-ledger-v0.4.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/correction-ecosystem-benchmark-v0.4.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read

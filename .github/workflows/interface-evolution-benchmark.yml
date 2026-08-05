@@ -2,9 +2,28 @@ name: Interface Evolution Benchmark v0.1
 
 on:
   pull_request:
+    paths:
+      - 'interface-evolution-benchmark-v0.1.md'
+      - 'benchmark/interface_evolution_v0_1.py'
+      - 'benchmark/test_interface_evolution_v0_1.py'
+      - 'benchmark/results/results-v0.1.json'
+      - 'benchmark/results/results-v0.1.md'
+      - 'benchmark/negative-result-ledger-v0.1.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/interface-evolution-benchmark.yml'
   push:
     branches:
-      - agent/integrate-sidis-stress-test
+      - main
+    paths:
+      - 'interface-evolution-benchmark-v0.1.md'
+      - 'benchmark/interface_evolution_v0_1.py'
+      - 'benchmark/test_interface_evolution_v0_1.py'
+      - 'benchmark/results/results-v0.1.json'
+      - 'benchmark/results/results-v0.1.md'
+      - 'benchmark/negative-result-ledger-v0.1.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/interface-evolution-benchmark.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read

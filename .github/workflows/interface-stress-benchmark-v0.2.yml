@@ -2,9 +2,26 @@ name: Interface Stress Benchmark v0.2
 
 on:
   pull_request:
+    paths:
+      - 'interface-stress-benchmark-v0.2.md'
+      - 'benchmark/interface_stress_v0_2.py'
+      - 'benchmark/test_interface_stress_v0_2.py'
+      - 'benchmark/results/results-v0.2.md'
+      - 'benchmark/negative-result-ledger-v0.2.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/interface-stress-benchmark-v0.2.yml'
   push:
     branches:
-      - agent/integrate-sidis-stress-test
+      - main
+    paths:
+      - 'interface-stress-benchmark-v0.2.md'
+      - 'benchmark/interface_stress_v0_2.py'
+      - 'benchmark/test_interface_stress_v0_2.py'
+      - 'benchmark/results/results-v0.2.md'
+      - 'benchmark/negative-result-ledger-v0.2.md'
+      - 'benchmark/README.md'
+      - '.github/workflows/interface-stress-benchmark-v0.2.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read
