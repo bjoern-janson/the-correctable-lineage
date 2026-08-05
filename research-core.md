@@ -717,3 +717,4 @@ And:
 \boxed{
 \text{A representation earns authority only if outsiders can use it and it improves correction more than it costs.}
 }
+\]
