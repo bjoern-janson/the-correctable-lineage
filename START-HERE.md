@@ -56,7 +56,9 @@ A legitimate evaluation outcome is that the proposal should be absorbed into exi
 
 The next information-bearing action is external review and pre-pilot translation.
 
-Do not add new conceptual structure unless hostile review or execution reveals a behaviorally important distinction that current methods cannot represent.
+Internal conceptual development is frozen at the current claim and authority boundary. Until hostile review, method-native translation, or execution reveals a behaviorally important missing distinction, do not add theory, primitives, benchmarks, cases, metrics, or governance layers.
+
+Maintenance may correct factual errors, broken links, formatting, routing, or reproducibility defects without changing the research object. External evidence may require narrowing, absorption, demotion, or removal.
 
 ## Historical material
 
