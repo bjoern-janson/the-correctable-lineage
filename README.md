@@ -10,7 +10,7 @@ The primary hypothesis is:
 
 > Explicit representation of identified content, typed authority, validity scope, evidence dependencies, and reopening conditions may reduce invalid authority transfer during sequential evidence updates.
 
-A candidate commitment record is:
+A candidate epistemic commitment record is:
 
 \[
 C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
@@ -19,13 +19,13 @@ C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
 where:
 
 - \(H\): claim or hypothesis;
-- \(W\): typed epistemic or operational authority;
-- \(\Sigma\): validity and action scope;
+- \(W\): typed epistemic authority;
+- \(\Sigma\): validity scope;
 - \(\Pi\): provenance and shared evidence dependencies;
 - \(\mathcal R\): reopening conditions;
 - \(\Gamma\): required response when reopening occurs.
 
-Decision authority remains separate and depends on a declared consequence or loss model \(\Lambda\).
+Decision authority remains separate and depends on a declared consequence or loss model \(\Lambda\). Action permissions are outputs of that separate decision process; they are not stored in \(W\) or \(\Sigma\).
 
 The upstream identifiability mathematics is established literature substrate. The open question is whether this downstream bookkeeping changes correction behavior relative to method-faithful alternatives after complexity cost.
 
