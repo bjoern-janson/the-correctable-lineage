@@ -1,5 +1,9 @@
 # Authority Acquisition Gate
 
+> **Historical formulation — superseded authority semantics**
+>
+> This document preserves an earlier corpus formulation in which \(W\) may combine epistemic authority with operational weighting, permissions, selection, or inheritance. For current canonical semantics, use [research-core.md](research-core.md) and [research-claim-boundary.md](research-claim-boundary.md): \(W\) is typed epistemic authority, \(\Sigma\) records validity scope and action-class relevance, and decision authority is determined separately under \(\Lambda\). Where this document conflicts, the current front-door documents control.
+
 ## Status
 
 This document refines the Sidis stress-test integration by separating evidence detection from operational authority change.
@@ -520,7 +524,7 @@ P(M_t=m).
 
 \[
 M_{t+1}^{\mathrm{selected}}
-eq M_t
+\neq M_t
 \]
 
 but after reset, reproduction, or a later episode:
@@ -615,7 +619,6 @@ R_t\rightarrow\Delta W_{t+1}
 \boxed{
 \text{selected correction}\rightarrow\text{future substrate}
 \text{ is inheritance.}
-}
 \]
 
 Together:
