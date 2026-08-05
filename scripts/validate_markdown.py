@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Validate local Markdown links and basic Markdown/LaTeX structure."""
+"""Validate repository-wide Markdown links and ratchet Markdown formatting."""
 
 from __future__ import annotations
 
+import argparse
 import re
 import sys
 from pathlib import Path
@@ -49,7 +50,7 @@ def visible_lines(text: str) -> list[tuple[int, str]]:
 def normalize_target(raw: str) -> str:
     raw = raw.strip()
     if raw.startswith("<") and ">" in raw:
-        return raw[1 : raw.index(">")] .strip()
+        return raw[1 : raw.index(">")].strip()
     return raw.split(maxsplit=1)[0].strip("\"'")
 
 
@@ -82,7 +83,19 @@ def validate_link(source: Path, line: int, raw_target: str, errors: list[str]) -
         )
 
 
-def validate_file(path: Path) -> list[str]:
+def validate_links(path: Path) -> list[str]:
+    errors: list[str] = []
+    text = path.read_text(encoding="utf-8")
+    for line_number, line in visible_lines(text):
+        for match in INLINE_LINK_RE.finditer(line):
+            validate_link(path, line_number, match.group(1), errors)
+        reference = REFERENCE_LINK_RE.match(line)
+        if reference:
+            validate_link(path, line_number, reference.group(1), errors)
+    return errors
+
+
+def validate_formatting(path: Path) -> list[str]:
     errors: list[str] = []
     text = path.read_text(encoding="utf-8")
     rel = path.relative_to(ROOT)
@@ -108,13 +121,6 @@ def validate_file(path: Path) -> list[str]:
                 errors.append(
                     f"{rel}:{line_number}: literal bracket appears to be a malformed math delimiter"
                 )
-
-        for match in INLINE_LINK_RE.finditer(line):
-            validate_link(path, line_number, match.group(1), errors)
-
-        reference = REFERENCE_LINK_RE.match(line)
-        if reference:
-            validate_link(path, line_number, reference.group(1), errors)
 
         for token in MATH_TOKEN_RE.findall(line):
             if token == r"\[":
@@ -159,11 +165,52 @@ def validate_file(path: Path) -> list[str]:
     return errors
 
 
+def format_paths(args: argparse.Namespace, all_files: list[Path]) -> list[Path]:
+    if args.all_formatting:
+        return all_files
+    if args.format_paths_file is None:
+        return all_files
+
+    selected: list[Path] = []
+    for raw in args.format_paths_file.read_text(encoding="utf-8").splitlines():
+        raw = raw.strip()
+        if not raw or not raw.endswith(".md"):
+            continue
+        candidate = (ROOT / raw).resolve()
+        try:
+            candidate.relative_to(ROOT.resolve())
+        except ValueError:
+            raise ValueError(f"format path escapes repository: {raw}") from None
+        if candidate.exists():
+            selected.append(candidate)
+    return sorted(set(selected))
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--format-paths-file",
+        type=Path,
+        help="newline-delimited repository paths whose formatting must be validated",
+    )
+    parser.add_argument(
+        "--all-formatting",
+        action="store_true",
+        help="validate formatting for every Markdown file, including historical debt",
+    )
+    return parser.parse_args()
+
+
 def main() -> int:
-    errors: list[str] = []
+    args = parse_args()
     files = markdown_files()
+    selected = format_paths(args, files)
+
+    errors: list[str] = []
     for path in files:
-        errors.extend(validate_file(path))
+        errors.extend(validate_links(path))
+    for path in selected:
+        errors.extend(validate_formatting(path))
 
     if errors:
         print("Markdown validation failed:", file=sys.stderr)
@@ -171,7 +218,10 @@ def main() -> int:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print(f"Validated {len(files)} Markdown files.")
+    print(
+        f"Validated local links in {len(files)} Markdown files "
+        f"and formatting in {len(selected)} Markdown files."
+    )
     return 0
 
 
