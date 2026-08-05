@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research and evaluation package, please cite it using the metadata below."
+title: "The Correctable Lineage"
+type: software
+authors:
+  - family-names: "Janson"
+    given-names: "Björn"
+repository-code: "https://github.com/bjoern-janson/the-correctable-lineage"
+url: "https://github.com/bjoern-janson/the-correctable-lineage"
+abstract: >-
+  A research and evaluation package for testing whether explicit
+  identification and authority records improve sequential correction.
+keywords:
+  - identifiability
+  - epistemic governance
+  - sequential correction
+  - provenance
+  - assurance
