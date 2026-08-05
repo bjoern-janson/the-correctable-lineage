@@ -216,7 +216,7 @@ Let:
 W=(W_1,\ldots,W_m)
 \]
 
-be a typed authority vector whose dimensions may include:
+be a typed epistemic authority vector whose dimensions may include:
 
 - predictive validity;
 - latent or causal mechanism;
@@ -284,11 +284,11 @@ C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
 where:
 
 - \(H\): claim or hypothesis content;
-- \(W\): typed authority;
-- \(\Sigma\): validity and action scope;
+- \(W\): typed epistemic authority;
+- \(\Sigma\): validity scope, including any action class to which the claim is relevant;
 - \(\Pi\): provenance and shared evidence dependencies;
 - \(\mathcal R\): conditions capable of reopening the commitment;
-- \(\Gamma\): required response if reopening occurs.
+- \(\Gamma\): required epistemic response if reopening occurs.
 
 The representation is intended to make explicit several distinctions that often remain scattered across different methods.
 
@@ -307,9 +307,11 @@ where:
 - \(O\): observation process;
 - \(C\): operating conditions;
 - \(\tau\): time horizon;
-- \(A\): permitted action class.
+- \(A\): action class to which the claim may be decision-relevant; it does not itself authorize that action.
 
 A local result should alter only the scope identified by the evidence.
+
+A reference to an action class inside \(\Sigma\) records where the claim may enter a separate decision process. Decision authority remains an output of the declared consequence or loss model \(\Lambda\).
 
 ### Provenance \(\Pi\)
 
@@ -327,19 +329,18 @@ The reopening evidence must be:
 2. preserved by measurement;
 3. able to reach the update process;
 4. capable of producing a material negative response;
-5. connected to revision, rollback, or replacement authority.
+5. connected to epistemic revision authority and, where action is affected, to the separate decision process.
 
 ### Response \(\Gamma\)
 
-When reopening occurs, the record should specify whether the response is:
+When reopening occurs, the record should specify the required epistemic response:
 
 - authority contraction;
 - scope contraction;
-- action suspension;
-- monitoring increase;
-- rollback;
-- replacement;
-- hypothesis expansion.
+- hypothesis expansion;
+- claim or model replacement.
+
+Any resulting action suspension, monitoring increase, rollback, or system replacement is determined separately under \(\Lambda\) from the revised epistemic state.
 
 Acknowledgment without consequential change is not a material update.
 
@@ -449,7 +450,6 @@ The prohibited collapses are:
 \text{observable}
 \neq
 \text{identified},
-}
 \]
 
 \[
@@ -457,7 +457,6 @@ The prohibited collapses are:
 \text{identified}
 \neq
 \text{epistemically authorized},
-}
 \]
 
 \[
@@ -567,7 +566,7 @@ F
 \rightarrow
 (\mathcal H,T,\Pi)
 \rightarrow
-U_\Lambda
+U_{\mathrm{epistemic}}
 \rightarrow
 (W,\Sigma,\mathcal R,\Gamma).
 \]
@@ -580,11 +579,13 @@ where:
 - \(\mathcal H\): competing hypotheses, including unresolved alternatives;
 - \(T\): discrimination contract;
 - \(\Pi\): provenance and shared dependency structure;
-- \(U_\Lambda\): update process under a declared governance loss;
-- \(W\): typed authority;
-- \(\Sigma\): earned scope;
+- \(U_{\mathrm{epistemic}}\): governed epistemic update process;
+- \(W\): typed epistemic authority;
+- \(\Sigma\): earned validity scope;
 - \(\mathcal R\): reopening conditions;
-- \(\Gamma\): revision response.
+- \(\Gamma\): epistemic revision response.
+
+Decision authority is computed separately from the revised epistemic state under a declared consequence or loss model \(\Lambda\), as in Section 7.
 
 This is a candidate engineering decomposition.
 
