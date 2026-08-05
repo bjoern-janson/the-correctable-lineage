@@ -97,3 +97,7 @@ Third-party quotations, trademarks, and referenced material remain subject to th
 The next information-bearing actions are hostile external review, method-native translation, and independent reconstruction.
 
 Do not add new conceptual structure unless review or execution reveals a behaviorally important distinction that current representations cannot preserve.
+
+## Archived release
+
+DOI: https://doi.org/10.5281/zenodo.21808779
