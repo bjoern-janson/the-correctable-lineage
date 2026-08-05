@@ -83,6 +83,15 @@ When documents appear to point in different directions, use this order:
 
 Repository vocabulary is governed by [`core-evolution-policy.md`](core-evolution-policy.md): use the weakest representation that preserves behaviorally necessary distinctions, keep new distinctions local until independent recurrence earns promotion, and preserve demotion or absorption paths.
 
+## License
+
+This mixed research-and-software repository uses two permissive licenses:
+
+- **Software, tests, scripts, workflows, configuration, and embedded code examples:** [Apache License 2.0](LICENSE).
+- **Documentation, research prose, benchmark specifications and result artifacts, diagrams, and evaluation materials:** [Creative Commons Attribution 4.0 International](LICENSE-DOCUMENTATION.md).
+
+Third-party quotations, trademarks, and referenced material remain subject to their respective rights.
+
 ## Current stop rule
 
 The next information-bearing actions are hostile external review, method-native translation, and independent reconstruction.
