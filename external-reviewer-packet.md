@@ -22,7 +22,7 @@ The project should be narrowed, absorbed, or rejected wherever established metho
 
 The project proposes:
 
-> Explicit representation of identified content, typed authority, validity scope, evidence dependencies, and reopening conditions may reduce invalid authority transfer during sequential evidence updates.
+> Explicit representation of identified content, typed epistemic authority, validity scope, evidence dependencies, and reopening conditions may reduce invalid authority transfer during sequential evidence updates.
 
 In compact form:
 
@@ -30,7 +30,7 @@ In compact form:
 \boxed{
 \text{identified content}
 \rightarrow
-\text{typed and scoped authority update}
+\text{typed and scoped epistemic authority update}
 }
 \]
 
@@ -56,11 +56,11 @@ The proposed downstream rule is:
 
 \[
 \boxed{
-\text{Authority may increase only over claims invariant under the remaining observational ambiguity.}
+\text{Authority attributable to the declared observation regime may increase only over claims invariant under its remaining ambiguity.}
 }
 \]
 
-Identification is necessary for the exact claim, but not sufficient for epistemic or decision authority.
+Identification under the declared regime is necessary for an authority increase attributable to that regime over the exact claim, but not sufficient for epistemic authorization or decision authority.
 
 ---
 
@@ -75,13 +75,13 @@ C=(H,W,\Sigma,\Pi,\mathcal R,\Gamma),
 where:
 
 - \(H\): claim or hypothesis;
-- \(W\): typed authority;
-- \(\Sigma\): validity and action scope;
+- \(W\): typed epistemic authority;
+- \(\Sigma\): validity scope, including any action class to which the claim is relevant;
 - \(\Pi\): provenance and shared evidence dependencies;
 - \(\mathcal R\): reopening conditions;
-- \(\Gamma\): required response when reopening occurs.
+- \(\Gamma\): required epistemic response when reopening occurs.
 
-Decision authority is separate and depends on a declared consequence or loss model \(\Lambda\).
+Decision authority is separate and depends on a declared consequence or loss model \(\Lambda\). An action class recorded in \(\Sigma\) marks decision relevance; it does not authorize the action.
 
 The representation is not claimed to be necessary, complete, or superior.
 
