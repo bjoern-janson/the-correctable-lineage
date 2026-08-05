@@ -450,6 +450,7 @@ The prohibited collapses are:
 \text{observable}
 \neq
 \text{identified},
+}
 \]
 
 \[
@@ -457,6 +458,7 @@ The prohibited collapses are:
 \text{identified}
 \neq
 \text{epistemically authorized},
+}
 \]
 
 \[
