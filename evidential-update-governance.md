@@ -1,5 +1,9 @@
 # Evidential Update Governance
 
+> **Historical formulation — superseded authority semantics**
+>
+> This document preserves an earlier corpus formulation in which \(W\), \(\Sigma\), and \(\Gamma\) may combine epistemic authority with operational trust, permission, deployment, rollback, or replacement. For current canonical semantics, use [research-core.md](research-core.md) and [research-claim-boundary.md](research-claim-boundary.md): \(W\) is typed epistemic authority, \(\Sigma\) records validity scope and action-class relevance, \(\Gamma\) records epistemic revision, and decision authority is determined separately under \(\Lambda\). Where this document conflicts, the current front-door documents control.
+
 ## Status
 
 This document states a methodological kernel shared by the corpus's interface, authority, provenance, correction-path, temporal, benchmark, and altered-state discussions.
@@ -310,6 +314,7 @@ The balance is:
 \boxed{
 \text{expansion without contraction risks ontology inflation;}
 }
+\]
 
 \[
 \boxed{
